@@ -1,0 +1,57 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+// bower:scss
+//bootstrap core libraries
+@import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
+
+// utilities
+@import 'utils/variables';
+@import 'utils/theme';
+@import 'utils/utilities';
+@import 'utils/mixins';
+@import 'utils/functions';
+
+//elements
+@import 'elements/alerts';
+@import 'elements/badges';
+@import 'elements/breadcrumbs';
+@import 'elements/button-groups';
+@import 'elements/buttons';
+@import 'elements/carousel';
+@import 'elements/close';
+@import 'elements/dropdowns';
+@import 'elements/forms';
+@import 'elements/jumbotron';
+@import 'elements/navs';
+@import 'elements/pager';
+@import 'elements/popovers';
+@import 'elements/pagination';
+@import 'elements/scaffolding';
+@import 'elements/tables';
+@import 'elements/tooltip';
+@import 'elements/type';
+
+//custom styles
+@import 'custom/index';
+
+//responsive styles
+@import 'resposive/max1200';
+@import 'resposive/max992';
+@import 'resposive/max768';
+@import 'resposive/max500';
+
+// endbower
+
+
+
+
+
+
+
+
+
+
+
+
+
+
