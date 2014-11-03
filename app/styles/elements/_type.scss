@@ -1,0 +1,38 @@
+
+@include text-emphasis-variant('.td-text-light-gray', $td-light-gray);
+@include text-emphasis-variant('.td-text-dark-gray', $td-dark-gray);
+@include text-emphasis-variant('.td-text-dark-brown', $td-dark-brown);
+@include text-emphasis-variant('.td-text-white', $td-white);
+@include text-emphasis-variant('.td-text-ash', $td-ash);
+@include text-emphasis-variant('.td-text-yellow', $td-yellow);
+@include text-emphasis-variant('.td-text-red', $td-red);
+@include text-emphasis-variant('.td-text-brown', $td-brown);
+@include text-emphasis-variant('.td-text-water-gray', $td-water-gray);
+@include text-emphasis-variant('.td-text-light-brown', $td-light-brown);
+
+
+
+h1, .h1 { font-size: $td-font-size-h1; }
+h2, .h2 { font-size: $td-font-size-h2; }
+h3, .h3 { font-size: $td-font-size-h3; }
+h4, .h4 { font-size: $td-font-size-h4; }
+h5, .h5 { font-size: $td-font-size-h5; }
+h6, .h6 { font-size: $td-font-size-h6; }
+
+
+
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $td-headings-font-family;
+  font-weight: $td-headings-font-weight;
+  line-height: $td-headings-line-height;
+  color: $td-headings-color;
+
+  small,
+  .small {
+    font-weight: normal;
+    line-height: 1;
+    color: $td-headings-small-color;
+  }
+}

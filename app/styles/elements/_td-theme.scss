@@ -1,0 +1,19 @@
+body{
+  font-size: $td-font-size-base;
+  background: url('../../images/background.png') repeat;
+  color: $td-dark-brown;
+}
+
+
+a {
+  color: $td-dark-brown;
+  font-size: 14px;
+  text-decoration: none; }
+a:hover, a:focus {
+  color: $td-dark-brown;
+  text-decoration: underline; }
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}

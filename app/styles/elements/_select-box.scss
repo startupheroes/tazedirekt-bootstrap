@@ -1,0 +1,31 @@
+.td-select-box {
+
+  position: relative;
+  background-color: $td-input-background;
+
+  a{
+    display: block;
+    padding: 10px;
+
+    span{
+      float: right;
+
+    }
+
+
+  }
+
+
+  ul {
+    position: absolute;
+    list-style-type: none;
+    display: block;
+    width: 100%;
+
+    li {
+
+    }
+
+  }
+
+}

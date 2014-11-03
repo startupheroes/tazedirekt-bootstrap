@@ -3,12 +3,14 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 // bower:scss
 //bootstrap core libraries
 @import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
+@import '../../bower_components/font-awesome/scss/font-awesome';
+
 
 // utilities
+@import 'utils/mixins';
 @import 'utils/variables';
 @import 'utils/theme';
 @import 'utils/utilities';
-@import 'utils/mixins';
 @import 'utils/functions';
 
 //elements
@@ -30,15 +32,12 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @import 'elements/tables';
 @import 'elements/tooltip';
 @import 'elements/type';
+@import 'elements/select-box';
+@import 'elements/td-theme';
 
 //custom styles
 @import 'custom/index';
 
-//responsive styles
-@import 'resposive/max1200';
-@import 'resposive/max992';
-@import 'resposive/max768';
-@import 'resposive/max500';
 
 // endbower
 

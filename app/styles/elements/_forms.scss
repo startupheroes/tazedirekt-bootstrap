@@ -1,0 +1,35 @@
+.form-control {
+  background-color: $td-input-background;
+  @include form-control-focus();
+  @include form-control-hover();
+
+
+  &[disabled],
+  &[readonly],
+  fieldset[disabled] & {
+    cursor: not-allowed;
+    background-color: $td-text-disabled;
+    opacity: 1; // iOS fix for unreadable disabled content
+  }
+}
+
+
+
+.form-control.input-error{
+  border: 1px solid $td-input-error;
+  background-color: $td-input-white-bg;
+  color: $td-input-error ;
+}
+
+
+
+.radio,
+.checkbox {
+font-size:$form-font-size;
+  label {
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+  }
+}

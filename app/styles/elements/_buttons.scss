@@ -1,0 +1,27 @@
+.td-btn-default {
+  @include button-variant($td-white, $td-light-gray, $td-none);
+}
+.td-btn-dark {
+  @include button-variant($td-white, $td-dark-gray, $td-none);
+}
+
+.td-btn-static {
+  @include button-variant($td-white, $td-ash, $td-none);
+}
+.td-btn-disabled {
+  @include button-variant($td-white, $td-ash, $td-none);
+}
+
+
+
+.btn-lg {
+  // line-height: ensure even-numbered height of button next to large input
+  @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-large, $td-border-radius-large);
+}
+.btn-sm {
+  // line-height: ensure proper height of button next to small input
+  @include button-size($padding-small-vertical, $padding-small-horizontal, $font-size-small, $line-height-small, $td-border-radius-small);
+}
+.btn-xs {
+  @include button-size($padding-xs-vertical, $padding-xs-horizontal, $font-size-small, $line-height-small, $td-border-radius-small);
+}

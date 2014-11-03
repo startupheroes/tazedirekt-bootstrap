@@ -1,21 +1,34 @@
-
-
 //== Colors
 //
-//## Gray and brand colors for use across Bootstrap.
+//## Gray and brand colors for use across Tazedirekt
 
-$gray-base:              #000 !default;
-$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
-$gray-dark:              lighten($gray-base, 20%) !default;   // #333
-$gray:                   lighten($gray-base, 33.5%) !default; // #555
-$gray-light:             lighten($gray-base, 46.7%) !default; // #777
-$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
-$brand-primary:         #428bca !default;
-$brand-success:         #5cb85c !default;
-$brand-info:            #5bc0de !default;
-$brand-warning:         #f0ad4e !default;
-$brand-danger:          #d9534f !default;
+//main brand colors
+$td-light-gray: #62a60a !default;
+$td-dark-gray: #0e7837 !default;
+
+
+
+//supporting colors
+$td-dark-brown : #5f544c !default;
+$td-white: #efeee8 !default;
+$td-ash: #90857d !default;
+$td-yellow:  #f3ac00 !default;
+$td-red: #ee6646 !default;
+$td-brown: #957859 !default;
+$td-water-gray: #38d2ac !default;
+$td-light-brown: #d29859 !default;
+
+
+$td-success:         #59c587 !default;
+$td-success-border:  #4bab74 !default;
+$td-warning:         #ece386 !default;
+$td-warning-border:  #e3d86b !default;
+$td-danger:          #f47c7d !default;
+$td-danger-border:   #f55d5a !default;
+$td-none: #fff;
+
+
 
 
 //== Scaffolding
@@ -23,64 +36,60 @@ $brand-danger:          #d9534f !default;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #fff !default;
+$td-body-bg:              $td-white;
+
 //** Global text color on `<body>`.
-$text-color:            $gray-dark !default;
+$td-text-color:            $td-dark-brown !default;
 
 //** Global textual link color.
-$link-color:            $brand-primary !default;
+$td-link-color:            $td-dark-brown !default;
+
 //** Link hover color set via `darken()` function.
-$link-hover-color:      darken($link-color, 15%) !default;
+$td-link-hover-color:     $td-dark-brown !default;
+
 //** Link hover decoration.
-$link-hover-decoration: underline !default;
+$td-link-hover-decoration: underline !default;
+
+
+
 
 
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
-
+//todo font-type degisecek
 $font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
-$font-size-base:          14px !default;
-$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
-$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
-$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
-$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-h5:            $font-size-base !default;
-$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+$td-font-size-base:          13px !default;
+$td-font-size-large:         ceil(($td-font-size-base * 1.35)) !default; // ~18px
+$td-font-size-small:         ceil(($td-font-size-base * 0.8)) !default; // ~11px
+
+$td-font-size-h1:            floor(($td-font-size-base * 3.31)) !default; // ~43px
+$td-font-size-h2:            floor(($td-font-size-base * 2.7)) !default; // ~35px
+$td-font-size-h3:            ceil(($td-font-size-base * 1.38)) !default; // ~18px
+$td-font-size-h4:            ceil(($td-font-size-base * 1.2)) !default; // ~16px
+$td-font-size-h5:            $td-font-size-base !default;  // 13px
+$td-font-size-h6:            ceil(($td-font-size-base * 0.8)) !default; // ~11px
+
+
 
 //** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.428571429 !default; // 20/14
+$td-line-height-base:        1.55 !default; // 20/14
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
-$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+$td-line-height-computed:    floor(($td-font-size-base * $line-height-base)) !default; // ~20px
+
 
 //** By default, this inherits from the `<body>`.
-$headings-font-family:    inherit !default;
-$headings-font-weight:    500 !default;
-$headings-line-height:    1.1 !default;
-$headings-color:          inherit !default;
+$td-headings-font-family:    inherit !default;
+$td-headings-font-weight:    300 !default;
+$td-headings-line-height:    1.1 !default;
+$td-headings-color:          $td-dark-brown !default;
 
-
-//== Iconography
-//
-//## Specify custom location and filename of the included Glyphicons icon font. Useful for those including Bootstrap via Bower.
-
-//** Load fonts from this directory.
-
-// [converter] Asset helpers such as Sprockets and Node.js Mincer do not resolve relative paths
-$icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../fonts/bootstrap/") !default;
-
-//** File name for all font files.
-$icon-font-name:          "glyphicons-halflings-regular" !default;
-//** Element ID within SVG icon file.
-$icon-font-svg-id:        "glyphicons_halflingsregular" !default;
 
 
 //== Components
@@ -102,9 +111,9 @@ $padding-xs-horizontal:     5px !default;
 $line-height-large:         1.33 !default;
 $line-height-small:         1.5 !default;
 
-$border-radius-base:        4px !default;
-$border-radius-large:       6px !default;
-$border-radius-small:       3px !default;
+$td-border-radius-base:        3px !default;
+$td-border-radius-large:       4px !default;
+$td-border-radius-small:       2px !default;
 
 //** Global color for active items (e.g., navs or dropdowns).
 $component-active-color:    #fff !default;
@@ -143,6 +152,16 @@ $table-border-color:            #ddd !default;
 //## For each of Bootstrap's buttons, define text, background and border color.
 
 $btn-font-weight:                normal !default;
+$td-input-white-bg: #fff !default;
+
+$td-text-hover: #dfdcd3 !default;
+$td-text-disabled: #ddd6d0 !default;
+$td-input-error: $td-red !default;
+$td-input-background: #e8e5de !default;
+
+
+$form-font-size: 14px !default;
+
 
 $btn-default-color:              #333 !default;
 $btn-default-bg:                 #fff !default;
@@ -187,7 +206,7 @@ $input-border:                   #ccc !default;
 
 // TODO: Rename `$input-border-radius` to `$input-border-radius-base` in v4
 //** Default `.form-control` border radius
-$input-border-radius:            $border-radius-base !default;
+$input-border-radius:            $td-border-radius-base !default;
 //** Large `.form-control` border radius
 $input-border-radius-large:      $border-radius-large !default;
 //** Small `.form-control` border radius
@@ -349,7 +368,7 @@ $container-lg:                 $container-large-desktop !default;
 // Basics of a navbar
 $navbar-height:                    50px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
-$navbar-border-radius:             $border-radius-base !default;
+$navbar-border-radius:             $td-border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
@@ -428,7 +447,7 @@ $nav-tabs-justified-link-border-color:            #ddd !default;
 $nav-tabs-justified-active-link-border-color:     $body-bg !default;
 
 //== Pills
-$nav-pills-border-radius:                   $border-radius-base !default;
+$nav-pills-border-radius:                   $td-border-radius-base !default;
 $nav-pills-active-link-hover-bg:            $component-active-bg !default;
 $nav-pills-active-link-hover-color:         $component-active-color !default;
 
@@ -610,7 +629,7 @@ $modal-sm:                    300px !default;
 //## Define alert colors, border radius, and padding.
 
 $alert-padding:               15px !default;
-$alert-border-radius:         $border-radius-base !default;
+$alert-border-radius:         $td-border-radius-base !default;
 $alert-link-font-weight:      bold !default;
 
 $alert-success-bg:            $state-success-bg !default;
@@ -639,7 +658,7 @@ $progress-bg:                 #f5f5f5 !default;
 //** Progress bar text color
 $progress-bar-color:          #fff !default;
 //** Variable for setting rounded corners on progress bar.
-$progress-border-radius:      $border-radius-base !default;
+$progress-border-radius:      $td-border-radius-base !default;
 
 //** Default progress bar color
 $progress-bar-bg:             $brand-primary !default;
@@ -662,7 +681,7 @@ $list-group-bg:                 #fff !default;
 //** `.list-group-item` border color
 $list-group-border:             #ddd !default;
 //** List group border radius
-$list-group-border-radius:      $border-radius-base !default;
+$list-group-border-radius:      $td-border-radius-base !default;
 
 //** Background color of single list items on hover
 $list-group-hover-bg:           #f5f5f5 !default;
@@ -695,7 +714,7 @@ $panel-bg:                    #fff !default;
 $panel-body-padding:          15px !default;
 $panel-heading-padding:       10px 15px !default;
 $panel-footer-padding:        $panel-heading-padding !default;
-$panel-border-radius:         $border-radius-base !default;
+$panel-border-radius:         $td-border-radius-base !default;
 
 //** Border color for elements within panels
 $panel-inner-border:          #ddd !default;
@@ -737,7 +756,7 @@ $thumbnail-bg:                $body-bg !default;
 //** Thumbnail border color
 $thumbnail-border:            #ddd !default;
 //** Thumbnail border radius
-$thumbnail-border-radius:     $border-radius-base !default;
+$thumbnail-border-radius:     $td-border-radius-base !default;
 
 //** Custom text color for thumbnail captions
 $thumbnail-caption-color:     $text-color !default;
@@ -841,7 +860,7 @@ $text-muted:                  $gray-light !default;
 //** Abbreviations and acronyms border color
 $abbr-border-color:           $gray-light !default;
 //** Headings small color
-$headings-small-color:        $gray-light !default;
+$td-headings-small-color:        $gray-light !default;
 //** Blockquote small color
 $blockquote-small-color:      $gray-light !default;
 //** Blockquote font size
