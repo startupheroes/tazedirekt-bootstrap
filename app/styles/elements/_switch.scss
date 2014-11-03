@@ -1,0 +1,23 @@
+.td-switch-button{
+
+  label{
+    width: 19px;
+    height: 18px;
+    background: url('../../images/switch.png');
+  }
+
+  &.on{
+    background-color: $td-light-gray;
+  }
+
+
+
+  &.off{
+
+    background-color: $td-red;
+
+
+
+  }
+
+}

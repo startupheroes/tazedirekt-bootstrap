@@ -1,31 +1,54 @@
 .td-select-box {
-
+  border: 1px solid $input-border;
   position: relative;
   background-color: $td-input-background;
-
-  a{
+  border-radius: $input-border-radius;
+  font-size: 14px;
+  a {
     display: block;
     padding: 10px;
-
-    span{
-      float: right;
-
+    &:hover {
+      text-decoration: none;
     }
-
-
+    span {
+      float: right;
+    }
   }
-
-
   ul {
     position: absolute;
     list-style-type: none;
     display: block;
     width: 100%;
+    padding: 0px;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: $btn-default-bg;
+    @include  border-bottom-radius(4px);
+    top: 40px;
+
 
     li {
+      border-bottom:1px solid $td-ash;
+      line-height: 20px;
+      cursor: pointer;
+      padding: 10px;
+
+
+      &:hover{
+
+        background-color:$td-text-disabled;
+
+
+      }
 
     }
 
   }
+
+}
+
+.td-select-box-disabled{
+
+  background-color:$td-text-disabled;
 
 }

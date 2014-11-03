@@ -1,0 +1,33 @@
+.td-counter {
+
+  input {
+    width: 40px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  a {
+    display: inline-block;
+    background-color: #ccc;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 22px;
+
+    &:hover {
+      background-color:  lighten($td-dark-brown , 10%);
+      color: $td-white-text;
+    }
+
+
+  }
+
+  a.more {
+    @include border-right-radius(2px);
+  }
+
+  a.less {
+    @include border-left-radius(2px);
+  }
+
+}

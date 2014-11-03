@@ -1,3 +1,9 @@
+@mixin form-control-hover($color: $td-text-hover) {
+  &:hover {
+    background-color: $color;
+  }
+}
+
 @mixin form-control-focus($color: $input-border) {
   $color-rgba: rgba(red($color), green($color), blue($color), .6);
   &:focus {
@@ -8,8 +14,3 @@
   }
 }
 
-@mixin form-control-hover($color: $td-text-hover) {
-  &:hover {
-    background-color: $color;
-  }
-}
