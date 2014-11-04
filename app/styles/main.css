@@ -5346,7 +5346,8 @@ button.close {
   border-radius: 2px; }
 
 .form-control {
-  background-color: #e8e5de; }
+  background-color: #e8e5de;
+  font-family: proxima_nova_rgregular; }
   .form-control:focus {
     border-color: #cccccc;
     outline: 0;
@@ -5507,6 +5508,12 @@ h1, h2, h3, h4, h5, h6,
     line-height: 1;
     color: #999999; }
 
+h1, h2 {
+  font-family: prelolight; }
+
+h3, h4, h5, h6 {
+  font-family: prelosemibold; }
+
 .td-select-box {
   border: 1px solid #cccccc;
   position: relative;
@@ -5546,7 +5553,8 @@ h1, h2, h3, h4, h5, h6,
 body {
   font-size: 13px;
   background: url("../../images/background.jpeg") repeat;
-  color: #5f544c; }
+  color: #5f544c;
+  font-family: proxima_nova_rgregular,"Times New Roman", Verdana; }
 
 @font-face {
   font-family: 'proxima_novalight';
@@ -5614,6 +5622,7 @@ body {
 a {
   color: #5f544c;
   font-size: 14px;
+  font-family: prelobook;
   text-decoration: none; }
 
 a:hover, a:focus {
@@ -5624,6 +5633,9 @@ a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
+
+nav a {
+  font-family: proxima_novalight; }
 
 footer {
   background-color: #edeff1;

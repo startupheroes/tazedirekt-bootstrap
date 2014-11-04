@@ -66,7 +66,7 @@
                 <div><h3>sed do eiusmod tempor incididunt ut labore<span>Header 3</span></h3></div>
                 <div><h4>et dolore magna aliqua<span>Header 4</span></h4></div>
                 <div><h5>Ut enim ad minim veniam<span>Header 5</span></h5></div>
-                <div><h6>quis nostrud exercitation ullamco laboris<span>Header 5</span></h6></div>
+                <div><h6>quis nostrud exercitation ullamco laboris<span>Header 6</span></h6></div>
                 <div><p>Lorem ipsum dolor <a href="#">Tazedirekt.com </a> sit amet, consectetur adipisicing elit.
                     Assumenda deleniti
                     eos inventore magni maxime provident quasi <span>Paragraph</span></p></div>
@@ -81,10 +81,20 @@
             <h2 class="heading-row">Button</h2>
 
             <div class="row">
-                <div class="col-md-3"><a class="btn btn-lg td-btn-default btn-block" href="#">Default</a></div>
-                <div class="col-md-3"><a class="btn btn-lg td-btn-dark btn-block" href="#">Dark</a></div>
-                <div class="col-md-3"><a class="btn btn-lg td-btn-static btn-block" href="#">Static</a></div>
-                <div class="col-md-3"><a class="btn btn-lg td-btn-disabled btn-block" href="#">Disable</a></div>
+                <div class="col-md-4"><a class="btn btn-lg td-btn-default btn-block" href="#">Default</a></div>
+                <div class="col-md-4"><a class="btn btn-lg td-btn-dark btn-block" href="#">Dark</a></div>
+                <div class="col-md-4"><a class="btn btn-lg td-btn-static btn-block" href="#">Static</a></div>
+            </div>
+            <div class="row-space"></div>
+            <div class="row">
+                <div class="col-md-4"><a class="btn btn-lg td-btn-default td-btn-disabled btn-block" href="#">Default
+                    Disabled</a></div>
+                <div class="col-md-4"><a class="btn btn-lg td-btn-dark td-btn-disabled btn-block" href="#">Dark
+                    Disabled</a></div>
+                <div class="col-md-4"><a class="btn btn-lg td-btn-static td-btn-disabled btn-block" href="#">Static
+                    Disabled</a></div>
+
+
             </div>
         </div>
     </div>
@@ -94,14 +104,49 @@
         <div class="col-lg-12">
             <h2 class="heading-row">TextBox</h2>
 
+
+            <div class="col-md-3">
+
+                <div class="form-group">
+                    <label class="control-label" for="inputSuccess1">Input with success</label>
+                    <input type="text" class="form-control" id="inputSuccess1">
+                </div>
+
+
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="form-group has-success">
+                    <label class="control-label" for="inputSuccess1">Input with success</label>
+                    <input type="text" class="form-control" id="inputSuccess1">
+                </div>
+
+
+            </div>
+
+
             <div class="row">
-                <div class="col-md-3"><input placeholder="Static" class="form-control" type="text"/></div>
-                <div class="col-md-3"><input placeholder="Error" value="Error Text" class="form-control input-error"
-                                             type="text"/></div>
-                <div class="col-md-3"><input placeholder="Readonly" class="form-control" type="text"
-                                             readonly="readonly"/></div>
-                <div class="col-md-3"><input placeholder="Disabled" class="form-control" type="text"
-                                             disabled="disabled"/></div>
+                <div class="col-md-3">
+
+                    <div class="form-group has-warning">
+                        <label class="control-label" for="inputWarning1">Input with warning</label>
+                        <input type="text" class="form-control" id="inputWarning1">
+                    </div>
+
+
+                </div>
+                <div class="col-md-3">
+
+                    <div class="form-group has-error">
+                        <label class="control-label" for="inputError1">Input with error</label>
+                        <input type="text" class="form-control" id="inputError1">
+                    </div>
+
+
+                </div>
+
+
             </div>
         </div>
     </div>
@@ -254,12 +299,20 @@
                 <div class="col-md-3">
 
                     <!--<div class="td-switch-button on">-->
-                        <!--<input id="switch-btn" type="checkbox"/>-->
-                        <!--<label class="switch-btn" for="switch-btn">Kapalı</label>-->
+                    <!--<input id="switch-btn" type="checkbox"/>-->
+                    <!--<label class="switch-btn" for="switch-btn">Kapalı</label>-->
                     <!--</div>-->
 
                 </div>
                 <div class="col-md-3">
+                    <a data-toggle="modal" data-target="#myModalSuccess" class="btn btn-sm td-btn-static btn-block"
+                       href="#">Success Modal</a>
+                    <a data-toggle="modal" data-target="#myModalError" class="btn btn-sm td-btn-static btn-block"
+                       href="#">Error Modal</a>
+                    <a data-toggle="modal" data-target="#myModalInfo" class="btn btn-sm td-btn-static btn-block"
+                       href="#">Info Modal</a>
+                    <a data-toggle="modal" data-target="#myModalPrimary" class="btn btn-sm td-btn-static btn-block"
+                       href="#">Primary Modal</a>
 
                 </div>
             </div>
@@ -313,6 +366,99 @@
         </div>
     </div>
 </footer>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalSuccessLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header td-modal-success">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalSuccessLabel">Tazedirekt'e Hoşgeldiniz</h4>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores delectus eligendi enim illum itaque
+                natus, nulla voluptatem. Culpa, cum cupiditate, delectus deleniti enim expedita ipsa mollitia, optio
+                placeat quis temporibus.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn td-btn-static" data-dismiss="modal">Tamam</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModalError" tabindex="-1" role="dialog" aria-labelledby="myModalErrorLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header td-modal-error">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalErrorLabel">İşleminiz Tamamlanamadı</h4>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci at, aut, consectetur deleniti
+                distinctio eius error facere facilis fugiat ipsum libero molestiae, nam nihil nulla omnis quidem
+                repellendus sed vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn td-btn-default" data-dismiss="modal">Evet</button>
+                <button type="button" class="btn td-btn-static">Hayır</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModalInfo" tabindex="-1" role="dialog" aria-labelledby="myModalInfoLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header td-modal-info">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalInfoLabel">Info Message</h4>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci at, aut, consectetur deleniti
+                distinctio eius error facere facilis fugiat ipsum libero molestiae, nam nihil nulla omnis quidem
+                repellendus sed vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn td-btn-static" data-dismiss="modal">Tamam</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModalPrimary" tabindex="-1" role="dialog" aria-labelledby="myModalPrimaryLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header td-modal-primary">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalPrimaryLabel">Info Message</h4>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci at, aut, consectetur deleniti
+                distinctio eius error facere facilis fugiat ipsum libero molestiae, nam nihil nulla omnis quidem
+                repellendus sed vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn td-btn-static" data-dismiss="modal">Tamam</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- build:js scripts/vendor.js -->

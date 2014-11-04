@@ -1,6 +1,7 @@
 @mixin form-control-hover($color: $td-text-hover) {
   &:hover {
-    background-color: $color;
+    //fixme tasarim hatasi var
+//    background-color: $color;
   }
 }
 

@@ -160,8 +160,16 @@ $td-text-disabled: #ddd6d0 !default;
 $td-input-error: $td-red !default;
 $td-input-background: #e8e5de !default;
 
-
 $form-font-size: 14px !default;
+
+$td-btn-lighter-delta:3% !default;
+$td-btn-darker-delta:15% !default;
+$td-btn-disabled-delta:30% !default;
+
+
+
+
+$td-btn-default-disabled: #d3e1be !default;
 
 
 $btn-default-color:              #333 !default;
@@ -598,6 +606,9 @@ $label-link-hover-color:      #fff !default;
 
 //** Padding applied to the modal body
 $modal-inner-padding:         15px !default;
+
+
+$td-modal-custom-font-size: 30px !default;
 
 //** Padding applied to the modal title
 $modal-title-padding:         15px !default;

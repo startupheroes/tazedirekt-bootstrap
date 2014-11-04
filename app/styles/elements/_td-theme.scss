@@ -2,6 +2,7 @@ body{
   font-size: $td-font-size-base;
   background: url('../../images/background.jpeg') repeat;
   color: $td-dark-brown;
+  font-family: proxima_nova_rgregular,"Times New Roman", Verdana;
 }
 
 
@@ -124,6 +125,7 @@ body{
 a {
   color: $td-dark-brown;
   font-size: 14px;
+  font-family: prelobook;
   text-decoration: none; }
 a:hover, a:focus {
   color: $td-dark-brown;
@@ -132,4 +134,16 @@ a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
+}
+
+
+
+
+nav a{
+
+  font-family: proxima_novalight;
+
+
+
+
 }

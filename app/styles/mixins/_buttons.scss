@@ -34,3 +34,28 @@
     background-color: $color;
   }
 }
+
+
+
+
+
+@mixin td-btn-generator($color,$background, $border, $disabled, $delta){
+
+  @include button-variant($color, $background, $border);
+
+  &:hover, &:active {
+    background-color: lighten($background, $delta);
+  }
+
+  &.td-btn-disabled {
+    background-color: $disabled;
+    color: $color;
+    &.td-btn-disabled:hover, &.td-btn-disabled:active {
+      background-color: $disabled;
+      outline: none;
+      border: $border;
+      @include box-shadow(none);
+    }
+  }
+
+}
