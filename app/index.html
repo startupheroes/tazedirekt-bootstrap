@@ -158,24 +158,21 @@
 
             <div class="row">
                 <div class="col-md-3">
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox"> Static Checkbox
-                        </label>
+                    <div class="checkbox td-checkbox-btn">
+                        <input id="checkbox-checked" type="checkbox">
+                        <label for="checkbox-checked">Checkbox Unhecked</label>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox" checked="checked"> Checked Checkbox
-                        </label>
+                    <div class="checkbox td-checkbox-btn">
+                        <input id="checkbox-unchecked" type="checkbox" checked="checked">
+                        <label for="checkbox-unchecked">Checkbox Checked</label>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox" disabled="disabled"> Disabled Checked
-                        </label>
+                    <div class="checkbox td-checkbox-btn td-checkbox-disabled">
+                        <input disabled="disabled" id="checkbox-disabled" type="checkbox">
+                        <label for="checkbox-disabled">Checkbox Disabled</label>
                     </div>
                 </div>
             </div>
@@ -189,24 +186,21 @@
 
             <div class="row">
                 <div class="col-md-3">
-                    <div class="radio">
-                        <label>
-                            <input type="radio"> Radio Button Off
-                        </label>
+                    <div class="radio td-radio-btn">
+                        <input id="radio-off" type="radio">
+                        <label for="radio-off">Radio Button Off </label>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="radio">
-                        <label>
-                            <input type="radio" checked="checked"> Radio Button On
-                        </label>
+                    <div class="radio td-radio-btn">
+                        <input id="radio-on" type="radio" checked="checked">
+                        <label for="radio-on">Radio Button On</label>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="radio">
-                        <label>
-                            <input type="radio" disabled="disabled"> Disabled Radio Button
-                        </label>
+                    <div class="radio td-radio-btn td-radio-btn-disabled">
+                        <input id="radio-disabled" type="radio" disabled="disabled">
+                        <label for="radio-disabled">Disabled Radio Button</label>
                     </div>
                 </div>
             </div>
@@ -305,11 +299,11 @@
 
                 </div>
                 <div class="col-md-3">
-                    <a data-toggle="modal" data-target="#myModalSuccess" class="btn btn-sm td-btn-static btn-block"
+                    <a data-toggle="modal" data-target="#myModalSuccess" class="btn btn-sm td-btn-default btn-block"
                        href="#">Success Modal</a>
-                    <a data-toggle="modal" data-target="#myModalError" class="btn btn-sm td-btn-static btn-block"
+                    <a data-toggle="modal" data-target="#myModalError" class="btn btn-sm td-btn-error btn-block"
                        href="#">Error Modal</a>
-                    <a data-toggle="modal" data-target="#myModalInfo" class="btn btn-sm td-btn-static btn-block"
+                    <a data-toggle="modal" data-target="#myModalInfo" class="btn btn-sm td-btn-info btn-block"
                        href="#">Info Modal</a>
                     <a data-toggle="modal" data-target="#myModalPrimary" class="btn btn-sm td-btn-static btn-block"
                        href="#">Primary Modal</a>
