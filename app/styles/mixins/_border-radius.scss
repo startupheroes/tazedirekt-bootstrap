@@ -1,0 +1,7 @@
+@mixin border-all-side-radius($param){
+
+  -webkit-border-radius: $param;
+  -moz-border-radius: $param;
+  border-radius: $param;
+
+}

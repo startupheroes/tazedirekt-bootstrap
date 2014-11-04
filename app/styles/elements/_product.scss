@@ -1,0 +1,159 @@
+.product-box {
+
+  width: 180px;
+  border: 1px solid rgba(144, 133, 125, 0.2);
+
+  background-color: $pure-white;
+  @include border-all-side-radius($td-border-radius-small);
+
+  &.product-box-active {
+
+    .product-top {
+      .product-status {
+        display: block;
+        @include background-color-rgba-mode($td-dark-gray, 0.8);
+        width: 100%;
+        height: 110px;
+        color: $pure-white;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+        padding-top: 10px;
+        span {
+          display: block;
+          font-size: 16px;
+          font-family: proxima_novalight;
+          line-height: 16px;
+        }
+
+        span.num{
+          font-family: preloextralight;
+          font-size: 60px;
+          line-height: 60px;
+
+        }
+      }
+
+    }
+    .product-action {
+
+      .td-plus{
+        display: none;
+      }
+
+      .td-minus{
+        display: block;
+        background-color: $td-dark-gray;
+
+        &:hover{
+
+          background-color: darken($td-dark-gray, 5%);
+
+        }
+      }
+
+
+    }
+
+  }
+
+  span {
+    display: block;
+  }
+
+  .product-top {
+    position: relative;
+    padding: 5px 10px 5px 10px;
+
+    img {
+      display: block;
+      width: 160px;
+    }
+    .product-status {
+      position: absolute;
+      display: none;
+    }
+
+  }
+
+  .product-details {
+    padding: 5px 10px 10px 10px;
+    border-bottom: 1px solid rgba(144, 133, 125, 0.2);
+
+    .product-description {
+    }
+
+    .product-owner {
+      font-size: 12px;
+      font-family: proxima_novalight_italic;
+    }
+
+  }
+
+  .product-price {
+
+    .old-price {
+      font-size: 14px;
+      font-family: proxima_nova_rgregular;
+      float: left;
+      padding: 10px 10px 5px 10px;
+      color: $td-text-disabled;
+      text-decoration: line-through;
+
+    }
+
+    .new-price {
+      float: right;
+      font-size: 16px;
+      font-family: proxima_nova_rgbold;
+      padding: 10px 10px 5px 10px;
+      color: $td-light-gray;
+
+    }
+
+  }
+
+  .product-action {
+    float: left;
+    width: 100%;
+    background-color: $td-light-gray;
+    color: $td-white;
+    cursor: pointer;
+
+    .product-action-one {
+      width: 30%;
+      float: left;
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      padding: 5px;
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+
+      &:hover {
+        background-color: darken($td-light-gray, 5%);
+      }
+
+    }
+
+    .product-action-two {
+      padding: 5px;
+      width: 70%;
+      float: left;
+      font-family: proxima_novalight;
+      font-size: 16px;
+      text-align: center;
+      line-height: 27px;
+
+    }
+
+    .td-plus{
+      display: block;
+    }
+
+    .td-minus{
+      display: none;
+    }
+
+  }
+
+}

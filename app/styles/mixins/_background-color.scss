@@ -1,3 +1,8 @@
 @mixin background-color($color){
   background-color: $color;
 }
+
+
+@mixin background-color-rgba-mode($color, $opacity){
+  background-color: rgba($color, $opacity);
+}

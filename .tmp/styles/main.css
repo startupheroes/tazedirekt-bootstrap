@@ -4709,10 +4709,49 @@ button.close {
     outline: 0;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     background-color: #fff; }
+  .form-control input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #90857d; }
+  .form-control input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #90857d; }
+  .form-control input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #90857d; }
+  .form-control input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #90857d; }
   .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
     cursor: not-allowed;
     background-color: #ddd6d0;
     opacity: 1; }
+
+.td-search-box {
+  color: #90857d; }
+  .td-search-box > div {
+    position: relative; }
+  .td-search-box .form-control {
+    background-color: #fff;
+    color: #90857d; }
+  .td-search-box a {
+    position: absolute;
+    right: 1px;
+    top: 24px;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    color: #90857d;
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    height: 32px;
+    line-height: 24px; }
+  .td-search-box .form-control:focus {
+    border: 1px solid #62a60a;
+    border-bottom: 3px solid #62a60a; }
+    .td-search-box .form-control:focus + a {
+      background-color: #62a60a;
+      color: #fff; }
 
 .form-group.has-error input {
   color: #ee6646; }
@@ -4769,17 +4808,110 @@ button.close {
   .modal-dialog {
     margin: 15% auto; } }
 
+.product-box {
+  width: 180px;
+  border: 1px solid rgba(144, 133, 125, 0.2);
+  background-color: #fff;
+  border-radius: 2px; }
+  .product-box.product-box-active .product-top .product-status {
+    display: block;
+    background-color: rgba(14, 120, 55, 0.8);
+    width: 100%;
+    height: 110px;
+    color: #fff;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    padding-top: 10px; }
+    .product-box.product-box-active .product-top .product-status span {
+      display: block;
+      font-size: 16px;
+      font-family: proxima_novalight;
+      line-height: 16px; }
+    .product-box.product-box-active .product-top .product-status span.num {
+      font-family: preloextralight;
+      font-size: 60px;
+      line-height: 60px; }
+  .product-box.product-box-active .product-action .td-plus {
+    display: none; }
+  .product-box.product-box-active .product-action .td-minus {
+    display: block;
+    background-color: #0e7837; }
+    .product-box.product-box-active .product-action .td-minus:hover {
+      background-color: #0b612c; }
+  .product-box span {
+    display: block; }
+  .product-box .product-top {
+    position: relative;
+    padding: 5px 10px 5px 10px; }
+    .product-box .product-top img {
+      display: block;
+      width: 160px; }
+    .product-box .product-top .product-status {
+      position: absolute;
+      display: none; }
+  .product-box .product-details {
+    padding: 5px 10px 10px 10px;
+    border-bottom: 1px solid rgba(144, 133, 125, 0.2); }
+    .product-box .product-details .product-owner {
+      font-size: 12px;
+      font-family: proxima_novalight_italic; }
+  .product-box .product-price .old-price {
+    font-size: 14px;
+    font-family: proxima_nova_rgregular;
+    float: left;
+    padding: 10px 10px 5px 10px;
+    color: #ddd6d0;
+    text-decoration: line-through; }
+  .product-box .product-price .new-price {
+    float: right;
+    font-size: 16px;
+    font-family: proxima_nova_rgbold;
+    padding: 10px 10px 5px 10px;
+    color: #62a60a; }
+  .product-box .product-action {
+    float: left;
+    width: 100%;
+    background-color: #62a60a;
+    color: #efeee8;
+    cursor: pointer; }
+    .product-box .product-action .product-action-one {
+      width: 30%;
+      float: left;
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      padding: 5px;
+      border-right: 1px solid rgba(0, 0, 0, 0.1); }
+      .product-box .product-action .product-action-one:hover {
+        background-color: #548e09; }
+    .product-box .product-action .product-action-two {
+      padding: 5px;
+      width: 70%;
+      float: left;
+      font-family: proxima_novalight;
+      font-size: 16px;
+      text-align: center;
+      line-height: 27px; }
+    .product-box .product-action .td-plus {
+      display: block; }
+    .product-box .product-action .td-minus {
+      display: none; }
+
 .td-counter input {
   width: 40px;
   text-align: center;
-  font-size: 12px; }
+  font-size: 12px;
+  display: inline-block;
+  float: left; }
 .td-counter a {
   display: inline-block;
   background-color: #ccc;
   font-size: 12px;
   padding-left: 8px;
   padding-right: 8px;
-  line-height: 22px; }
+  line-height: 22px;
+  float: left; }
   .td-counter a:hover {
     background-color: #7b6d63;
     color: #fff; }
@@ -4790,14 +4922,42 @@ button.close {
   border-bottom-left-radius: 2px;
   border-top-left-radius: 2px; }
 
-.td-switch-button label {
-  width: 19px;
-  height: 18px;
-  background: url('../../images/switch.png'); }
-.td-switch-button.on {
-  background-color: #62a60a; }
-.td-switch-button.off {
-  background-color: #ee6646; }
+.td-switch-button {
+  position: relative;
+  width: 70px;
+  border-radius: 3px;
+  color: #efeee8;
+  font-size: 12px; }
+  .td-switch-button label {
+    width: 75px;
+    height: 25px;
+    background: url('../../images/switch.png') no-repeat;
+    background-size: 19px 18px;
+    background-position: 4px 4px;
+    display: inline-block;
+    margin: 0px;
+    cursor: pointer;
+    text-indent: 27px;
+    line-height: 25px; }
+  .td-switch-button input {
+    position: absolute;
+    visibility: hidden;
+    z-index: -1; }
+  .td-switch-button.td-switch-btn-on {
+    background-color: #62a60a; }
+    .td-switch-button.td-switch-btn-on label {
+      background-position: 47px 4px;
+      text-indent: 11px; }
+    .td-switch-button.td-switch-btn-on.td-switch-btn-on:hover {
+      background-color: #71be0b; }
+  .td-switch-button.td-switch-btn-disabled {
+    background-color: #d6d2d0; }
+    .td-switch-button.td-switch-btn-disabled.td-switch-btn-disabled:hover {
+      background-color: #d6d2d0; }
+  .td-switch-button.td-switch-btn-off {
+    background-color: #f45656; }
+    .td-switch-button.td-switch-btn-off.td-switch-btn-off:hover {
+      background-color: #f23e3e; }
 
 .td-text-light-gray {
   color: #62a60a; }

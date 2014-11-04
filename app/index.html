@@ -81,21 +81,17 @@
             <h2 class="heading-row">Button</h2>
 
             <div class="row">
-                <div class="col-md-4"><a class="btn btn-lg td-btn-default btn-block" href="#">Default</a></div>
-                <div class="col-md-4"><a class="btn btn-lg td-btn-dark btn-block" href="#">Dark</a></div>
-                <div class="col-md-4"><a class="btn btn-lg td-btn-static btn-block" href="#">Static</a></div>
+                <div class="col-md-2"><a class="btn btn-lg td-btn-default btn-block" href="#">Default</a></div>
+                <div class="col-md-2"><a class="btn btn-lg td-btn-dark btn-block" href="#">Dark</a></div>
+                <div class="col-md-2"><a class="btn btn-lg td-btn-static btn-block" href="#">Static</a></div>
+                <div class="col-md-2"><a class="btn btn-lg td-btn-default td-btn-disabled btn-block" href="#">Default
+                    Disabled</a></div>
+                <div class="col-md-2"><a class="btn btn-lg td-btn-dark td-btn-disabled btn-block" href="#">Dark
+                    Disabled</a></div>
+                <div class="col-md-2"><a class="btn btn-lg td-btn-static td-btn-disabled btn-block" href="#">Static
+                    Disabled</a></div>
             </div>
-            <div class="row-space"></div>
-            <div class="row">
-                <div class="col-md-4"><a class="btn btn-lg td-btn-default td-btn-disabled btn-block" href="#">Default
-                    Disabled</a></div>
-                <div class="col-md-4"><a class="btn btn-lg td-btn-dark td-btn-disabled btn-block" href="#">Dark
-                    Disabled</a></div>
-                <div class="col-md-4"><a class="btn btn-lg td-btn-static td-btn-disabled btn-block" href="#">Static
-                    Disabled</a></div>
 
-
-            </div>
         </div>
     </div>
 
@@ -170,7 +166,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="checkbox td-checkbox-btn td-checkbox-disabled">
+                    <div class="checkbox td-checkbox-btn td-checkbox-btn-disabled">
                         <input disabled="disabled" id="checkbox-disabled" type="checkbox">
                         <label for="checkbox-disabled">Checkbox Disabled</label>
                     </div>
@@ -280,7 +276,7 @@
 
             <div class="row">
 
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <h4>Counter</h4>
 
                     <div class="td-counter">
@@ -290,15 +286,31 @@
                         <a class="more" href="#"><i class="fa fa-plus"></i></a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
+                    <h4>Switch Button</h4>
 
-                    <!--<div class="td-switch-button on">-->
-                    <!--<input id="switch-btn" type="checkbox"/>-->
-                    <!--<label class="switch-btn" for="switch-btn">Kapalı</label>-->
-                    <!--</div>-->
+                    <div class="td-switch-button td-switch-btn-on">
+                        <input id="switch-btn-on" type="checkbox"/>
+                        <label class="switch-btn" for="switch-btn-on">Açık</label>
+                    </div>
+
+                    <div class="row-space"></div>
+
+                    <div class="td-switch-button td-switch-btn-off">
+                        <input id="switch-btn-off" type="checkbox"/>
+                        <label class="switch-btn" for="switch-btn-off">Kapalı</label>
+                    </div>
+                    <div class="row-space"></div>
+
+                    <div class="td-switch-button td-switch-btn-disabled">
+                        <input id="switch-btn-disabled" type="checkbox" disabled/>
+                        <label class="switch-btn" for="switch-btn-disabled">Kapalı</label>
+                    </div>
+
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
+                    <h4>Tazedirekt Modal</h4>
                     <a data-toggle="modal" data-target="#myModalSuccess" class="btn btn-sm td-btn-default btn-block"
                        href="#">Success Modal</a>
                     <a data-toggle="modal" data-target="#myModalError" class="btn btn-sm td-btn-error btn-block"
@@ -307,8 +319,99 @@
                        href="#">Info Modal</a>
                     <a data-toggle="modal" data-target="#myModalPrimary" class="btn btn-sm td-btn-static btn-block"
                        href="#">Primary Modal</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row align-row">
+        <div class="col-lg-12">
+            <h2 class="heading-row">Cart Design</h2>
+
+            <div class="row">
+                <div class="col-md-2">
+
+                    <h4>Default</h4>
+                    <div class="product-box ">
+                        <div class="product-top">
+                            <img src="images/holder.png" alt=""/>
+
+                            <div class="product-status">
+                                <span>Sepete</span>
+                                <span class="num">2 </span>
+                                <span>Adet Eklendi</span>
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <span class="product-description">Dana Dilimli Kontrafile 750gr Biftek</span>
+                            <span class="product-owner">Boğazköy Çiftliği</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">13,44 TL</span>
+                            <span class="new-price">12,44 TL</span>
+                        </div>
+
+                        <div class="product-action">
+                            <span class="product-action-one"><i class="fa fa-plus"></i></span>
+                            <span class="product-action-two">Sepete Ekle</span>
+
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+
 
                 </div>
+                <div class="col-md-2">
+                    <h4>Active</h4>
+
+                    <div class="product-box product-box-active">
+                        <div class="product-top">
+                            <img src="images/holder.png" alt=""/>
+
+                            <div class="product-status">
+                                <span>Sepete</span>
+                                <span class="num">2 </span>
+                                <span>Adet Eklendi</span>
+                            </div>
+                        </div>
+                        <div class="product-details">
+                            <span class="product-description">Dana Dilimli Kontrafile 750gr Biftek</span>
+                            <span class="product-owner">Boğazköy Çiftliği</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">13,44 TL</span>
+                            <span class="new-price">12,44 TL</span>
+                        </div>
+
+                        <div class="product-action">
+                            <span class="product-action-one td-plus"><i class="fa fa-plus"></i></span>
+                            <span class="product-action-one td-minus"><i class="fa fa-minus"></i></span>
+                            <span class="product-action-two">Sepete Ekle</span>
+
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-md-offset-4">
+                    <h4>Search</h4>
+
+
+                    <div class="form-group td-search-box">
+                        <div>
+                        <label for="exampleInputEmail1">Search Box</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Search Tazedirekt...">
+                        <a><i class="fa fa-search td-search-btn"></i></a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
             </div>
         </div>
     </div>
