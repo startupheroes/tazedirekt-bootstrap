@@ -1,0 +1,38 @@
+.panel-group {
+  &.td-panel-group {
+    border-left: 4px solid #62a60a;
+    @include border-left-radius(5px);
+    .panel {
+      border: none;
+      & + .panel {
+        margin-top: 0px;
+      }
+    }
+    .panel-default {
+      & > .panel-heading {
+        background-color: $pure-white;
+        &.active {
+          background-color: $td-light-gray;
+          color: $pure-white;
+          a {
+            &:hover, &:active {
+              color: $pure-white;
+            }
+          }
+        }
+      }
+
+    }
+
+    .collapse-divider {
+        border-bottom: 1px solid $td-border-divider;
+    }
+
+  }
+
+}
+
+
+
+
+

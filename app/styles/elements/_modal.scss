@@ -1,5 +1,8 @@
-.fade.in {
-  background: rgba(239, 238, 232, 0.8);
+
+.modal {
+  &.fade.in {
+    background: rgba(239, 238, 232, 0.8);
+  }
 }
 
 .modal-title {
@@ -30,7 +33,7 @@ button.close {
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   padding-left: 15px;
 
-  &:focus{
+  &:focus {
     outline: none;
   }
 
@@ -43,14 +46,16 @@ button.close {
 .modal-header.td-modal-success {
   background-color: $td-light-gray;
 }
+
 .modal-header.td-modal-info {
   background-color: $td-yellow;
 }
+
 .modal-header.td-modal-primary {
   background-color: $td-light-brown;
 }
-//todo degisecek primary ve diger renkler
 
+//todo degisecek primary ve diger renkler
 
 .modal-footer {
   border-top: none;

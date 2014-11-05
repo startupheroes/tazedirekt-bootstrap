@@ -53,8 +53,10 @@
   }
 
   &.td-radio-btn-disabled {
-    background: url('../../images/radio_disabled.png') no-repeat;
 
+    label {
+      background: url('../../images/radio_disabled.png') no-repeat;
+    }
   }
 
 }
@@ -80,9 +82,12 @@
   }
 
   &.td-checkbox-btn-disabled {
-    background: url('../../images/checkbox_disabled.png') no-repeat;
 
+    label {
+
+      background: url('../../images/checkbox_disabled.png') no-repeat;
+
+    }
   }
-
 }
 

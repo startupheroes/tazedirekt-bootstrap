@@ -1,12 +1,26 @@
 .td-alert-success {
   @include alert-variant($td-success, $td-success-border, $td-white);
 }
+
 .td-alert-info {
   @include alert-variant($td-warning-border, $td-warning-border, $td-dark-brown);
 }
+
 .td-alert-warning {
   @include alert-variant($td-warning-border, $td-warning-border, $td-dark-brown);
 }
+
 .td-alert-danger {
   @include alert-variant($td-danger, $td-danger-border, $td-white);
+}
+
+.alert-dismissible {
+
+  .close {
+    position: relative;
+    top: -12px;
+    right: -2px;
+    color: inherit;
+
+  }
 }

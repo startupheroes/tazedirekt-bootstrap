@@ -23,7 +23,6 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @import 'elements/dropdowns';
 @import 'elements/forms';
 @import 'elements/jumbotron';
-@import 'elements/navs';
 @import 'elements/pager';
 @import 'elements/popovers';
 @import 'elements/pagination';
@@ -36,7 +35,9 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @import 'elements/switch';
 @import 'elements/type';
 @import 'elements/select-box';
+@import 'elements/panels';
 @import 'elements/td-theme';
+@import 'elements/navs';
 
 //custom styles
 @import 'custom/index';

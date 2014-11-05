@@ -1,0 +1,16 @@
+.pagination {
+
+  > li {
+    > a,
+    > span {
+      color: $td-light-gray;
+
+      &:hover, &:focus {
+
+        background-color: $td-white;
+
+      }
+
+    }
+  }
+}

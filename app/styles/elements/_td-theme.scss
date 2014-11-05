@@ -1,11 +1,9 @@
-body{
+body {
   font-size: $td-font-size-base;
   background: url('../../images/background.jpeg') repeat;
   color: $td-dark-brown;
-  font-family: proxima_nova_rgregular,"Times New Roman", Verdana;
+  font-family: proxima_nova_rgregular, "Times New Roman", Verdana;
 }
-
-
 
 @font-face {
   font-family: 'proxima_novalight';
@@ -17,7 +15,6 @@ body{
   font-weight: normal;
   font-style: normal;
 }
-
 
 @font-face {
   font-family: 'proxima_nova_rgregular';
@@ -42,7 +39,6 @@ body{
 
 }
 
-
 @font-face {
   font-family: 'prelosemibold';
   src: url('../../fonts/preloslab_semibold-webfont.eot');
@@ -54,7 +50,6 @@ body{
   font-style: normal;
 }
 
-
 @font-face {
   font-family: 'prelobook';
   src: url('../../fonts/preloslab_book-webfont.eot');
@@ -65,8 +60,6 @@ body{
   font-weight: normal;
   font-style: normal;
 }
-
-
 
 @font-face {
   font-family: 'prelolight';
@@ -92,8 +85,6 @@ body{
 
 }
 
-
-
 @font-face {
   font-family: 'proxima_novasemibold';
   src: url('../../fonts/proximanova-sbold-webfont.eot');
@@ -105,9 +96,6 @@ body{
   font-style: normal;
 
 }
-
-
-
 
 @font-face {
   font-family: 'preloextralight';
@@ -121,29 +109,30 @@ body{
 
 }
 
-
 a {
   color: $td-dark-brown;
   font-size: 14px;
   font-family: prelobook;
-  text-decoration: none; }
-a:hover, a:focus {
-  color: $td-dark-brown;
-  text-decoration: underline; }
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+  text-decoration: none;
+
+  &.btn {
+    font-family: proxima_novalight;
+  }
+
+  &:hover, &:focus {
+    color: $td-dark-brown;
+    text-decoration: underline;
+  }
+  &:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
 }
 
-
-
-
-nav a{
+nav a {
 
   font-family: proxima_novalight;
-
-
-
 
 }

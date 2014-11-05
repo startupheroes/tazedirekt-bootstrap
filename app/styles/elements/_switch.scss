@@ -2,7 +2,7 @@
 
   position: relative;
   width: 70px;
-  @include border-all-side-radius($input-border-radius-small);
+  @include border-all-side-radius($td-border-radius-small);
   color: $td-white;
   font-size: 12px;
 

@@ -57,17 +57,109 @@
 
 
     <div class="row align-row">
+
+        <div class="col-lg-8 ">
+            <h4>Carousel</h4>
+
+
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img data-src="holder.js/900x500/auto/#777:#555/text:First slide" alt="First slide [900x500]"
+                             src="images/slider1.svg" data-holder-rendered="true">
+                    </div>
+                    <div class="item">
+                        <img data-src="holder.js/900x500/auto/#666:#444/text:Second slide" alt="Second slide [900x500]"
+                             src="images/slider2.svg" data-holder-rendered="true">
+                    </div>
+                    <div class="item">
+                        <img data-src="holder.js/900x500/auto/#555:#333/text:Third slide" alt="Third slide [900x500]"
+                             src="images/slider3.svg" data-holder-rendered="true">
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="col-lg-3 col-lg-offset-1">
+            <h4>Dropdown</h4>
+
+
+            <ul class="nav navbar-nav">
+                <li class="dropdown open">
+                    <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false">
+                        Tazedirekt Dropdown
+                        <i class="fa fa-angle-down td-dropdown-caret"></i>
+                        <i class="fa fa-angle-up td-dropdown-caret"></i> </a>
+
+
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1"
+                                                   href="#">Action</a></li>
+                        <li role="presentation" class="divider"></li>
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another
+                            action</a></li>
+
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated
+                            link</a></li>
+                        <li role="presentation" class="divider"></li>
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another
+                            action</a></li>
+
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated
+                            link</a></li>
+                        <li role="presentation" class="divider"></li>
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another
+                            action</a></li>
+
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated
+                            link</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <div class="row align-row">
         <div class="col-lg-12">
-            <h2 class="heading-row">Typography</h2>
 
             <div class="typing">
-                <div><h1>Lorem ipsum dolor sit amet<span>Header 1</span></h1></div>
-                <div><h2>consectetur adipiscing eli<span>Header 2</span></h2></div>
-                <div><h3>sed do eiusmod tempor incididunt ut labore<span>Header 3</span></h3></div>
-                <div><h4>et dolore magna aliqua<span>Header 4</span></h4></div>
-                <div><h5>Ut enim ad minim veniam<span>Header 5</span></h5></div>
-                <div><h6>quis nostrud exercitation ullamco laboris<span>Header 6</span></h6></div>
-                <div><p>Lorem ipsum dolor <a href="#">Tazedirekt.com </a> sit amet, consectetur adipisicing elit.
+                <div><h1>Typography Lorem ipsum dolor sit amet<span>Header 1</span></h1></div>
+                <div><h2>Typography adipiscing eli<span>Header 2</span></h2></div>
+                <div><h3>Typography do eiusmod tempor incididunt ut labore<span>Header 3</span></h3></div>
+                <div><h4>Typography dolore magna aliqua<span>Header 4</span></h4></div>
+                <div><h5>Typography enim ad minim veniam<span>Header 5</span></h5></div>
+                <div><h6>Typography nostrud exercitation ullamco laboris<span>Header 6</span></h6></div>
+                <div><p>Typography ipsum dolor <a href="#">Tazedirekt.com </a> sit amet, consectetur adipisicing elit.
                     Assumenda deleniti
                     eos inventore magni maxime provident quasi <span>Paragraph</span></p></div>
             </div>
@@ -78,18 +170,35 @@
 
     <div class="row align-row">
         <div class="col-lg-12">
-            <h2 class="heading-row">Button</h2>
+            <h2 class="heading-row">Form Elements</h2>
 
             <div class="row">
-                <div class="col-md-2"><a class="btn btn-lg td-btn-default btn-block" href="#">Default</a></div>
-                <div class="col-md-2"><a class="btn btn-lg td-btn-dark btn-block" href="#">Dark</a></div>
-                <div class="col-md-2"><a class="btn btn-lg td-btn-static btn-block" href="#">Static</a></div>
-                <div class="col-md-2"><a class="btn btn-lg td-btn-default td-btn-disabled btn-block" href="#">Default
-                    Disabled</a></div>
-                <div class="col-md-2"><a class="btn btn-lg td-btn-dark td-btn-disabled btn-block" href="#">Dark
-                    Disabled</a></div>
-                <div class="col-md-2"><a class="btn btn-lg td-btn-static td-btn-disabled btn-block" href="#">Static
-                    Disabled</a></div>
+                <div class="col-md-2">
+                    <a class="btn btn-lg td-btn-default btn-block" href="#">Default</a>
+                </div>
+                <div class="col-md-2">
+                    <a class="btn btn-lg td-btn-dark btn-block" href="#">Dark</a>
+                </div>
+
+                <div class="col-md-2">
+                    <a class="btn btn-lg td-btn-static btn-block" href="#">Static</a>
+                </div>
+
+
+                <div class="col-md-2">
+                    <a class="btn btn-lg td-btn-default td-btn-disabled btn-block" href="#">Default
+                        Disabled</a>
+                </div>
+
+                <div class="col-md-2">
+                    <a class="btn btn-lg td-btn-dark td-btn-disabled btn-block" href="#">Dark
+                        Disabled</a>
+                </div>
+
+                <div class="col-md-2">
+                    <a class="btn btn-lg td-btn-static td-btn-disabled btn-block" href="#">Static
+                        Disabled</a>
+                </div>
             </div>
 
         </div>
@@ -98,31 +207,31 @@
 
     <div class="row align-row">
         <div class="col-lg-12">
-            <h2 class="heading-row">TextBox</h2>
-
-
-            <div class="col-md-3">
-
-                <div class="form-group">
-                    <label class="control-label" for="inputSuccess1">Input with success</label>
-                    <input type="text" class="form-control" id="inputSuccess1">
-                </div>
-
-
-            </div>
-
-
-            <div class="col-md-3">
-                <div class="form-group has-success">
-                    <label class="control-label" for="inputSuccess1">Input with success</label>
-                    <input type="text" class="form-control" id="inputSuccess1">
-                </div>
-
-
-            </div>
 
 
             <div class="row">
+
+                <div class="col-md-3">
+
+                    <div class="form-group">
+                        <label class="control-label" for="inputSuccess1">Default Input</label>
+                        <input type="text" class="form-control" id="defaultInput">
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="form-group has-success">
+                        <label class="control-label" for="inputSuccess1">Input with success</label>
+                        <input type="text" class="form-control" id="inputSuccess1">
+                    </div>
+
+
+                </div>
+
+
                 <div class="col-md-3">
 
                     <div class="form-group has-warning">
@@ -139,33 +248,29 @@
                         <input type="text" class="form-control" id="inputError1">
                     </div>
 
-
                 </div>
-
-
             </div>
         </div>
     </div>
 
 
     <div class="row align-row">
-        <div class="col-lg-12">
-            <h2 class="heading-row">Checkbox</h2>
+        <div class="col-lg-3">
 
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-12">
                     <div class="checkbox td-checkbox-btn">
                         <input id="checkbox-checked" type="checkbox">
                         <label for="checkbox-checked">Checkbox Unhecked</label>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-12">
                     <div class="checkbox td-checkbox-btn">
                         <input id="checkbox-unchecked" type="checkbox" checked="checked">
                         <label for="checkbox-unchecked">Checkbox Checked</label>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-12">
                     <div class="checkbox td-checkbox-btn td-checkbox-btn-disabled">
                         <input disabled="disabled" id="checkbox-disabled" type="checkbox">
                         <label for="checkbox-disabled">Checkbox Disabled</label>
@@ -173,27 +278,22 @@
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <div class="row align-row">
-        <div class="col-lg-12">
-            <h2 class="heading-row">Radio Button</h2>
+        <div class="col-lg-3">
 
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-12">
                     <div class="radio td-radio-btn">
                         <input id="radio-off" type="radio">
                         <label for="radio-off">Radio Button Off </label>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-12">
                     <div class="radio td-radio-btn">
                         <input id="radio-on" type="radio" checked="checked">
                         <label for="radio-on">Radio Button On</label>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-12">
                     <div class="radio td-radio-btn td-radio-btn-disabled">
                         <input id="radio-disabled" type="radio" disabled="disabled">
                         <label for="radio-disabled">Disabled Radio Button</label>
@@ -201,21 +301,102 @@
                 </div>
             </div>
         </div>
-    </div>
 
+        <div class="col-lg-3">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <span>Item counter</span>
+
+                    <div class="td-counter">
+                        <a class="less" href="#">
+                            <i class="fa fa-minus"></i></a>
+                        <input value="1" type="text" readonly/>
+                        <a class="more" href="#"><i class="fa fa-plus"></i></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+
+                    <nav>
+                        <ul class="pagination">
+                            <li><a href="#">«</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">»</a></li>
+                        </ul>
+                    </nav>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="col-lg-3">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+
+                    <span>Switch on</span>
+
+                    <div class="td-switch-button td-switch-btn-on">
+                        <input id="switch-btn-on" type="checkbox"/>
+                        <label class="switch-btn" for="switch-btn-on">Açık</label>
+                    </div>
+
+                    <div class="row-space"></div>
+
+                    <span>Switch off</span>
+
+                    <div class="td-switch-button td-switch-btn-off">
+                        <input id="switch-btn-off" type="checkbox"/>
+                        <label class="switch-btn" for="switch-btn-off">Kapalı</label>
+                    </div>
+
+                    <div class="row-space"></div>
+                    <span>Switch disabled</span>
+
+                    <div class="td-switch-button td-switch-btn-disabled">
+                        <input id="switch-btn-disabled" type="checkbox" disabled/>
+                        <label class="switch-btn" for="switch-btn-disabled">Kapalı</label>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
 
     <div class="row align-row-select">
         <div class="col-lg-12">
-            <h2 class="heading-row">Select</h2>
 
             <div class="row">
                 <div class="col-md-4">
+                    <label>Select Default</label>
+
                     <div class="td-select-box">
                         <a href="#" class="td-select-box-selector">Select Box Default <span><i
                                 class="fa fa-chevron-down"></i></span></a>
                     </div>
                 </div>
                 <div class="col-md-4">
+                    <label>Select Active</label>
 
                     <div class="td-select-box">
                         <a href="#" class="td-select-box-selector">Select Box Default <span><i
@@ -231,10 +412,90 @@
                     </div>
                 </div>
                 <div class="col-md-4">
+                    <label>Select Disabled</label>
+
                     <div class="td-select-box">
-                        <a href="#" class="td-select-box-selector td-select-box-disabled">Select Box Default <span><i
-                                class="fa fa-chevron-down"></i></span></a>
+                        <a href="#" class="td-select-box-selector td-select-box-disabled">Select Box
+                            Default <span><i
+                                    class="fa fa-chevron-down"></i></span></a>
                     </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row align-row">
+        <div class="col-lg-12">
+            <h2 class="heading-row"></h2>
+
+            <div class="row">
+
+                <div class="col-md-5 ">
+                    <h4>Image</h4>
+
+
+                    <img src="images/tazedirekt-img.png" class="img-responsive img-rounded td-image"
+                         alt="Responsive image">
+
+
+                </div>
+
+
+                <div class="col-md-3 col-md-offset-1">
+
+                    <h4>Button Sizes</h4>
+
+                    <p>
+                        <button type="button" class="btn td-btn-default btn-lg">Large button</button>
+                        <button type="button" class="btn td-btn-static btn-lg">Large button</button>
+                    </p>
+                    <div class="row-space clearfix"></div>
+                    <p>
+                        <button type="button" class="btn td-btn-default">Default button</button>
+                        <button type="button" class="btn td-btn-static">Default button</button>
+                    </p>
+                    <div class="row-space clearfix"></div>
+
+                    <p>
+                        <button type="button" class="btn td-btn-default btn-sm">Small button</button>
+                        <button type="button" class="btn td-btn-static btn-sm">Small button</button>
+                    </p>
+                    <div class="row-space clearfix"></div>
+
+                    <p>
+                        <button type="button" class="btn td-btn-default btn-xs">Extra small button</button>
+                        <button type="button" class="btn td-btn-static btn-xs">Extra small button</button>
+                    </p>
+
+                </div>
+
+
+                <div class="col-md-3">
+                    <h4>Search Box</h4>
+
+
+                    <div class="form-group td-search-box">
+                        <div>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                   placeholder="Search Tazedirekt...">
+                            <a><i class="fa fa-search td-search-btn"></i></a>
+                        </div>
+                    </div>
+
+                    <h4>Tazedirekt Modal</h4>
+                    <a data-toggle="modal" data-target="#myModalSuccess" class="btn btn-sm td-btn-default btn-block"
+                       href="#">Success Modal</a>
+                    <a data-toggle="modal" data-target="#myModalError" class="btn btn-sm td-btn-error btn-block"
+                       href="#">Error Modal</a>
+                    <a data-toggle="modal" data-target="#myModalInfo" class="btn btn-sm td-btn-info btn-block"
+                       href="#">Info Modal</a>
+                    <a data-toggle="modal" data-target="#myModalPrimary" class="btn btn-sm td-btn-static btn-block"
+                       href="#">Primary Modal</a>
+
+
                 </div>
 
             </div>
@@ -247,92 +508,135 @@
             <h2 class="heading-row">Alerts</h2>
 
             <div class="row">
+
                 <div class="col-md-6">
+                    <h4>Static Success Alert</h4>
+
                     <div class="alert td-alert-success ">Holy guacamole! Best check yo self, you're not looking too
                         good.
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="alert td-alert-danger ">Holy guacamole! Best check yo self, you're not looking too good.
+                    <h4>Static Error Alert</h4>
+
+                    <div class="alert td-alert-danger ">Holy guacamole! Best check yo self, you're not looking too
+                        good.
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="alert td-alert-info ">Holy guacamole! Best check yo self, you're not looking too good.
+                    <h4>Static Info Alert</h4>
+
+                    <div class="alert td-alert-info ">Holy guacamole! Best check yo self, you're not looking too
+                        good.
                     </div>
                 </div>
                 <div class="col-md-6">
+                    <h4>Static Warning Alert</h4>
+
                     <div class="alert td-alert-warning ">Holy guacamole! Best check yo self, you're not looking too
                         good.
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <div class="row align-row">
         <div class="col-lg-12">
-            <h2 class="heading-row">Custom Input Items</h2>
 
             <div class="row">
 
-                <div class="col-md-4">
-                    <h4>Counter</h4>
+                <div class="col-md-6">
+                    <h4>Dismissible Success Alert</h4>
 
-                    <div class="td-counter">
-                        <a class="less" href="#">
-                            <i class="fa fa-minus"></i></a>
-                        <input value="1" type="text" readonly/>
-                        <a class="more" href="#"><i class="fa fa-plus"></i></a>
+                    <div class="alert td-alert-success alert-dismissible fade in" role="alert">
+                        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span
+                                class="sr-only">Close</span></button>
+                        Best check yo self, you're not looking too good.
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <h4>Switch Button</h4>
-
-                    <div class="td-switch-button td-switch-btn-on">
-                        <input id="switch-btn-on" type="checkbox"/>
-                        <label class="switch-btn" for="switch-btn-on">Açık</label>
-                    </div>
-
-                    <div class="row-space"></div>
-
-                    <div class="td-switch-button td-switch-btn-off">
-                        <input id="switch-btn-off" type="checkbox"/>
-                        <label class="switch-btn" for="switch-btn-off">Kapalı</label>
-                    </div>
-                    <div class="row-space"></div>
-
-                    <div class="td-switch-button td-switch-btn-disabled">
-                        <input id="switch-btn-disabled" type="checkbox" disabled/>
-                        <label class="switch-btn" for="switch-btn-disabled">Kapalı</label>
-                    </div>
-
 
                 </div>
-                <div class="col-md-4">
-                    <h4>Tazedirekt Modal</h4>
-                    <a data-toggle="modal" data-target="#myModalSuccess" class="btn btn-sm td-btn-default btn-block"
-                       href="#">Success Modal</a>
-                    <a data-toggle="modal" data-target="#myModalError" class="btn btn-sm td-btn-error btn-block"
-                       href="#">Error Modal</a>
-                    <a data-toggle="modal" data-target="#myModalInfo" class="btn btn-sm td-btn-info btn-block"
-                       href="#">Info Modal</a>
-                    <a data-toggle="modal" data-target="#myModalPrimary" class="btn btn-sm td-btn-static btn-block"
-                       href="#">Primary Modal</a>
+                <div class="col-md-6">
+                    <h4>Dismissible Error Alert</h4>
+
+                    <div class="alert td-alert-danger alert-dismissible fade in" role="alert">
+                        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span
+                                class="sr-only">Close</span></button>
+                        Best check yo self, you're not looking too good.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Dismissible Info Alert</h4>
+
+                    <div class="alert td-alert-info alert-dismissible fade in" role="alert">
+                        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span
+                                class="sr-only">Close</span></button>
+                        Best check yo self, you're not looking too good.
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Dismissible Warning Alert</h4>
+
+                    <div class="alert td-alert-warning alert-dismissible fade in" role="alert">
+                        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span
+                                class="sr-only">Close</span></button>
+                        Best check yo self, you're not looking too good.
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
+
+    </div>
 
     <div class="row align-row">
         <div class="col-lg-12">
-            <h2 class="heading-row">Cart Design</h2>
+            <h2 class="heading-row">Tazedirekt Utility</h2>
 
             <div class="row">
+                <div class="col-md-6">
+                    <h4>Table</h4>
+
+
+                    <table class="table table-hover td-table-white">
+                        <thead class="td-table-header">
+                        <tr>
+                            <th>PRODUCT</th>
+                            <th>FIRST NAME</th>
+                            <th>LAST NAME</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="td-title">
+                            <td colspan="4">Title Box</td>
+                        </tr>
+                        <tr>
+                            <td>Thornton</td>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                        </tr>
+                        <tr>
+                            <td>Thornton</td>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                        </tr>
+                        <tr class="td-title">
+                            <td colspan="3">Title Box</td>
+                        </tr>
+                        <tr>
+                            <td>Thornton</td>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+
                 <div class="col-md-2">
 
                     <h4>Default</h4>
+
                     <div class="product-box ">
                         <div class="product-top">
                             <img src="images/holder.png" alt=""/>
@@ -396,23 +700,273 @@
                     </div>
 
                 </div>
-                <div class="col-md-4 col-md-offset-4">
-                    <h4>Search</h4>
+                <div class="col-md-2">
+                    <h4>Active</h4>
 
+                    <div class="product-box product-box-active">
+                        <div class="product-top">
+                            <img src="images/holder.png" alt=""/>
 
-                    <div class="form-group td-search-box">
-                        <div>
-                        <label for="exampleInputEmail1">Search Box</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Search Tazedirekt...">
-                        <a><i class="fa fa-search td-search-btn"></i></a>
+                            <div class="product-status">
+                                <span>Sepete</span>
+                                <span class="num">2 </span>
+                                <span>Adet Eklendi</span>
+                            </div>
                         </div>
+                        <div class="product-details">
+                            <span class="product-description">Dana Dilimli Kontrafile 750gr Biftek</span>
+                            <span class="product-owner">Boğazköy Çiftliği</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">13,44 TL</span>
+                            <span class="new-price">12,44 TL</span>
+                        </div>
+
+                        <div class="product-action">
+                            <span class="product-action-one td-plus"><i class="fa fa-plus"></i></span>
+                            <span class="product-action-one td-minus"><i class="fa fa-minus"></i></span>
+                            <span class="product-action-two">Sepete Ekle</span>
+
+                        </div>
+
+                        <div class="clearfix"></div>
                     </div>
-
-
 
                 </div>
 
             </div>
+
+        </div>
+    </div>
+
+
+    <div class="row align-row">
+        <div class="col-lg-12">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Togglable Tabs
+                    </h4>
+
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">Home</a>
+                        </li>
+                        <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+                        <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">Messages</a></li>
+                        <li role="presentation"><a href="#settings" role="tab" data-toggle="tab">Settings</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="home">
+
+                            <p>Home Tab Page Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci,
+                                asperiores deserunt
+                                dignissimos eveniet, exercitationem fugit ipsum labore molestias nam neque nihil odio
+                                odit perferendis possimus quia quidem reiciendis repellat temporibus.</p>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, asperiores deserunt
+                                dignissimos eveniet, exercitationem fugit ipsum labore molestias nam neque nihil odio
+                                odit perferendis possimus quia quidem reiciendis repellat temporibus.</p>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, asperiores deserunt
+                                dignissimos eveniet, exercitationem fugit ipsum labore molestias nam neque nihil odio
+                                odit perferendis possimus quia quidem reiciendis repellat temporibus.</p>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, asperiores deserunt
+                                dignissimos eveniet, exercitationem fugit ipsum labore molestias nam neque nihil odio
+                                odit perferendis possimus quia quidem reiciendis repellat temporibus.</p>
+
+
+                        </div>
+
+
+                        <div role="tabpanel" class="tab-pane" id="profile">
+
+                            <p>Profile Tab Page Lorem ipsum dolor sit
+                                amet, consectetur adipisicing elit. Asperiores eos fuga harum ipsam laborum magnam nobis
+                                magni minus nostrum, optio quas, rem? Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit. Aliquam dolorem eveniet excepturi illo ipsa ipsam nemo quidem temporibus ut,
+                                voluptatem!
+                                porro quibusdam similique! Animi architecto deleniti error quo quos rem rerum sunt velit
+                                vero.
+                            </p>
+
+                            <p> amet, consectetur adipisicing elit. Excepturi inventore laboriosam odit tempora
+                                unde?
+                                Accusantium adipisci animi assumenda atque consequatur, consequuntur eius facilis
+                                libero </p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="messages">
+                            <p>Message Tab Page Lorem ipsum dolor sit </p>
+
+                            <p>
+                                amet, consectetur adipisicing elit. Aliquid deserunt dolore enim et exercitationem fuga
+                                iste
+                                iure laudantium, magnam maiores molestias natus neque nesciunt obcaecati odit
+                                porro,
+                                voluptas. Cupiditate, mollitia. </p> amet, consectetur adipisicing elit. Excepturi
+                            inventore laboriosam odit tempora
+                            unde?
+                            Accusantium adipisci animi assumenda atque consequatur, consequuntur eius facilis
+                            libero <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Aliquid amet deserunt eligendi et impedit numquam obcaecati quaerat quos veritatis,
+                            voluptas!
+                        </p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="settings">
+                            <p>Settings Tab Page Lorem ipsum dolor sit
+                            </p> amet, consectetur adipisicing elit. Alias aliquam aliquid asperiores aspernatur
+                            doloribus
+                            eaque error esse expedita fugiat iste nemo numquam obcaecati quisquam, quos
+                            reprehenderit <p>
+
+                        </p> amet, consectetur adipisicing elit. Excepturi inventore laboriosam odit tempora
+                            unde?
+                            Accusantium adipisci animi assumenda atque consequatur, consequuntur eius facilis
+                            libero <p>
+                            saepe unde ut voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                            consectetur debitis deserunt distinctio est facilis mollitia nemo quam, reiciendis
+                            sequi?
+                        </p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-md-5 col-md-offset-1">
+                    <h4>Collapse</h4>
+
+                    <div class="panel-group td-panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading td-panel-heading active" role="tab"
+                                 id="headingOne">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                       aria-expanded="true" aria-controls="collapseOne">
+                                        Collapsible Group Item #1
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                                 aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                    sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                                    et.
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="collapse-divider"></div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading td-panel-heading " role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Collapsible Group Item #2
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                    sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                                    et.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse-divider"></div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading td-panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Collapsible Group Item #3
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                    sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                                    et.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse-divider"></div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading td-panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                        Collapsible Group Item #4
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 4 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                    sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                                    et.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse-divider"></div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading td-panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                       href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                        Collapsible Group Item #4
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+                                 aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 4 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                    sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                                    et.
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
     </div>
 
@@ -471,12 +1025,14 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header td-modal-success">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                <button type="button" class="close" data-dismiss="modal"><span
+                        aria-hidden="true">&times;</span><span
                         class="sr-only">Close</span></button>
                 <h4 class="modal-title" id="myModalSuccessLabel">Tazedirekt'e Hoşgeldiniz</h4>
             </div>
             <div class="modal-body">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores delectus eligendi enim illum itaque
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores delectus eligendi enim illum
+                itaque
                 natus, nulla voluptatem. Culpa, cum cupiditate, delectus deleniti enim expedita ipsa mollitia, optio
                 placeat quis temporibus.
             </div>
@@ -494,7 +1050,8 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header td-modal-error">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                <button type="button" class="close" data-dismiss="modal"><span
+                        aria-hidden="true">&times;</span><span
                         class="sr-only">Close</span></button>
                 <h4 class="modal-title" id="myModalErrorLabel">İşleminiz Tamamlanamadı</h4>
             </div>
@@ -518,7 +1075,8 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header td-modal-info">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                <button type="button" class="close" data-dismiss="modal"><span
+                        aria-hidden="true">&times;</span><span
                         class="sr-only">Close</span></button>
                 <h4 class="modal-title" id="myModalInfoLabel">Info Message</h4>
             </div>
@@ -541,7 +1099,8 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header td-modal-primary">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+                <button type="button" class="close" data-dismiss="modal"><span
+                        aria-hidden="true">&times;</span><span
                         class="sr-only">Close</span></button>
                 <h4 class="modal-title" id="myModalPrimaryLabel">Info Message</h4>
             </div>
@@ -561,6 +1120,8 @@
 <!-- build:js scripts/vendor.js -->
 <!-- bower:js -->
 <script src="../bower_components/jquery/dist/jquery.js"></script>
+
+
 <!-- endbower -->
 <!-- endbuild -->
 
@@ -578,6 +1139,8 @@
 <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
 <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
 <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+
+
 <!-- endbuild -->
 
 <!-- build:js({app,.tmp}) scripts/main.js -->
