@@ -77,3 +77,23 @@
     cursor: pointer;
   }
 }
+
+.form-group {
+
+  &.voucher-group {
+
+    input {
+      font-family: proxima_novalight_italic;
+      width: 180px;
+      height: 25px;
+      font-size: 12px;
+
+      &:focus {
+        font-family: proxima_nova_rgregular;
+      }
+
+    }
+
+  }
+
+}

@@ -5462,6 +5462,45 @@ button.close {
   .checkbox.td-checkbox-btn.td-checkbox-btn-disabled label {
     background: url("../../images/checkbox_disabled.png") no-repeat; }
 
+.td-carousel .item .td-carousel-overlay {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(239, 238, 232, 0.9);
+  padding: 50px 0px 0px 40px;
+  color: #5f544c; }
+  .td-carousel .item .td-carousel-overlay h1 {
+    font-size: 36px;
+    font-family: prelosemibold; }
+  .td-carousel .item .td-carousel-overlay p {
+    font-size: 18px; }
+.td-carousel .carousel-indicators {
+  bottom: -12px;
+  left: auto;
+  right: 0px;
+  width: 20%;
+  min-height: 35px; }
+  .td-carousel .carousel-indicators li {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    width: 20px;
+    height: 20px;
+    text-indent: 0px;
+    background-color: white; }
+  .td-carousel .carousel-indicators .active {
+    margin: 1px;
+    height: 25px;
+    background-color: white; }
+.td-carousel .carousel-inner {
+  border: 8px solid white; }
+  .td-carousel .carousel-inner .item a img {
+    width: 100%; }
+  .td-carousel .carousel-inner .item img {
+    width: 100%; }
+
 .nav .dropdown > a {
   color: #3f3e3a; }
 .nav .dropdown.open > a.dropdown-toggle, .nav .dropdown.open > a.dropdown-toggle:hover, .nav .dropdown.open > a.dropdown-toggle:active {
@@ -5561,6 +5600,14 @@ button.close {
     margin-bottom: 0;
     font-weight: normal;
     cursor: pointer; }
+
+.form-group.voucher-group input {
+  font-family: proxima_novalight_italic;
+  width: 180px;
+  height: 25px;
+  font-size: 12px; }
+  .form-group.voucher-group input:focus {
+    font-family: proxima_nova_rgregular; }
 
 .pagination > li > a,
 .pagination > li > span {
@@ -5946,7 +5993,8 @@ h3, h4, h5, h6 {
         background-color: #eeece7; }
 
 .td-select-box-disabled {
-  background-color: #ddd6d0; }
+  background-color: #ddd6d0;
+  cursor: not-allowed; }
 
 .panel-group.td-panel-group {
   border-left: 4px solid #62a60a;
@@ -6107,7 +6155,7 @@ footer {
   margin-bottom: 50px; }
 
 .align-row-select {
-  margin-bottom: 150px; }
+  margin-bottom: 50px; }
 
 .color-box {
   height: 80px;
