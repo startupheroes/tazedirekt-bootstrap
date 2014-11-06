@@ -35,7 +35,7 @@
   position: relative;
 
   label {
-    background: url('../../images/radio_unselected.png') no-repeat;
+    background: url('../images/radio_unselected.png') no-repeat;
     height: 20px;
     background-size: 20px 20px;
     padding-left: 25px;
@@ -49,13 +49,13 @@
   }
 
   input[type="radio"]:checked + label {
-    background: url('../../images/radio_selected.png') no-repeat;
+    background: url('../images/radio_selected.png') no-repeat;
   }
 
   &.td-radio-btn-disabled {
 
     label {
-      background: url('../../images/radio_disabled.png') no-repeat;
+      background: url('../images/radio_disabled.png') no-repeat;
     }
   }
 
@@ -65,7 +65,7 @@
   position: relative;
 
   label {
-    background: url('../../images/checkbox_unchecked.png') no-repeat;
+    background: url('../images/checkbox_unchecked.png') no-repeat;
     height: 20px;
     background-size: 20px 20px;
     padding-left: 25px;
@@ -78,14 +78,14 @@
     left: 23px;
   }
   input[type="checkbox"]:checked + label {
-    background: url('../../images/checkbox_checked.png') no-repeat;
+    background: url('../images/checkbox_checked.png') no-repeat;
   }
 
   &.td-checkbox-btn-disabled {
 
     label {
 
-      background: url('../../images/checkbox_disabled.png') no-repeat;
+      background: url('../images/checkbox_disabled.png') no-repeat;
 
     }
   }

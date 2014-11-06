@@ -185,8 +185,8 @@ td, th {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot');
-  src: url('/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); }
+  src: url('bootstrap/glyphicons-halflings-regular.eot');
+  src: url('bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); }
 
 .glyphicon {
   position: relative;
@@ -4674,7 +4674,7 @@ button.close {
 .radio.td-radio-btn {
   position: relative; }
   .radio.td-radio-btn label {
-    background: url('../../images/radio_unselected.png') no-repeat;
+    background: url('../images/radio_unselected.png') no-repeat;
     height: 20px;
     background-size: 20px 20px;
     padding-left: 25px;
@@ -4685,14 +4685,14 @@ button.close {
     position: absolute;
     left: 23px; }
   .radio.td-radio-btn input[type="radio"]:checked + label {
-    background: url('../../images/radio_selected.png') no-repeat; }
+    background: url('../images/radio_selected.png') no-repeat; }
   .radio.td-radio-btn.td-radio-btn-disabled label {
-    background: url('../../images/radio_disabled.png') no-repeat; }
+    background: url('../images/radio_disabled.png') no-repeat; }
 
 .checkbox.td-checkbox-btn {
   position: relative; }
   .checkbox.td-checkbox-btn label {
-    background: url('../../images/checkbox_unchecked.png') no-repeat;
+    background: url('../images/checkbox_unchecked.png') no-repeat;
     height: 20px;
     background-size: 20px 20px;
     padding-left: 25px;
@@ -4703,9 +4703,9 @@ button.close {
     position: absolute;
     left: 23px; }
   .checkbox.td-checkbox-btn input[type="checkbox"]:checked + label {
-    background: url('../../images/checkbox_checked.png') no-repeat; }
+    background: url('../images/checkbox_checked.png') no-repeat; }
   .checkbox.td-checkbox-btn.td-checkbox-btn-disabled label {
-    background: url('../../images/checkbox_disabled.png') no-repeat; }
+    background: url('../images/checkbox_disabled.png') no-repeat; }
 
 .td-carousel .item .td-carousel-overlay {
   position: absolute;
@@ -5043,7 +5043,7 @@ button.close {
   .td-switch-button label {
     width: 75px;
     height: 25px;
-    background: url('../../images/switch.png') no-repeat;
+    background: url('../images/switch.png') no-repeat;
     background-size: 19px 18px;
     background-position: 4px 4px;
     display: inline-block;
@@ -5227,70 +5227,70 @@ h3, h4, h5, h6 {
 
 body {
   font-size: 13px;
-  background: url('../../images/background.jpeg') repeat;
+  background: url('../images/back.jpeg') repeat;
   color: #5f544c;
   font-family: proxima_nova_rgregular, "Times New Roman", Verdana; }
 
 @font-face {
   font-family: 'proxima_novalight';
-  src: url('../../fonts/proximanova-light-webfont.eot');
-  src: url('../../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/proximanova-light-webfont.woff2') format('woff2'), url('../../fonts/proximanova-light-webfont.woff') format('woff'), url('../../fonts/proximanova-light-webfont.ttf') format('truetype');
+  src: url('../fonts/proximanova-light-webfont.eot');
+  src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-light-webfont.woff2') format('woff2'), url('../fonts/proximanova-light-webfont.woff') format('woff'), url('../fonts/proximanova-light-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'proxima_nova_rgregular';
-  src: url('../../fonts/proximanova-reg-webfont.eot');
-  src: url('../../fonts/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/proximanova-reg-webfont.woff2') format('woff2'), url('../../fonts/proximanova-reg-webfont.woff') format('woff'), url('../../fonts/proximanova-reg-webfont.ttf') format('truetype');
+  src: url('../fonts/proximanova-reg-webfont.eot');
+  src: url('../fonts/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-reg-webfont.woff2') format('woff2'), url('../fonts/proximanova-reg-webfont.woff') format('woff'), url('../fonts/proximanova-reg-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'proxima_novalight_italic';
-  src: url('../../fonts/proximanova-lightitalic-webfont.eot');
-  src: url('../../fonts/proximanova-lightitalic-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/proximanova-lightitalic-webfont.woff2') format('woff2'), url('../../fonts/proximanova-lightitalic-webfont.woff') format('woff'), url('../../fonts/proximanova-lightitalic-webfont.ttf') format('truetype');
+  src: url('../fonts/proximanova-lightitalic-webfont.eot');
+  src: url('../fonts/proximanova-lightitalic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-lightitalic-webfont.woff2') format('woff2'), url('../fonts/proximanova-lightitalic-webfont.woff') format('woff'), url('../fonts/proximanova-lightitalic-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'prelosemibold';
-  src: url('../../fonts/preloslab_semibold-webfont.eot');
-  src: url('../../fonts/preloslab_semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/preloslab_semibold-webfont.woff2') format('woff2'), url('../../fonts/preloslab_semibold-webfont.woff') format('woff'), url('../../fonts/preloslab_semibold-webfont.ttf') format('truetype');
+  src: url('../fonts/preloslab_semibold-webfont.eot');
+  src: url('../fonts/preloslab_semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/preloslab_semibold-webfont.woff2') format('woff2'), url('../fonts/preloslab_semibold-webfont.woff') format('woff'), url('../fonts/preloslab_semibold-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'prelobook';
-  src: url('../../fonts/preloslab_book-webfont.eot');
-  src: url('../../fonts/preloslab_book-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/preloslab_book-webfont.woff2') format('woff2'), url('../../fonts/preloslab_book-webfont.woff') format('woff'), url('../../fonts/preloslab_book-webfont.ttf') format('truetype');
+  src: url('../fonts/preloslab_book-webfont.eot');
+  src: url('../fonts/preloslab_book-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/preloslab_book-webfont.woff2') format('woff2'), url('../fonts/preloslab_book-webfont.woff') format('woff'), url('../fonts/preloslab_book-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'prelolight';
-  src: url('../../fonts/preloslab_light-webfont.eot');
-  src: url('../../fonts/preloslab_light-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/preloslab_light-webfont.woff2') format('woff2'), url('../../fonts/preloslab_light-webfont.woff') format('woff'), url('../../fonts/preloslab_light-webfont.ttf') format('truetype');
+  src: url('../fonts/preloslab_light-webfont.eot');
+  src: url('../fonts/preloslab_light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/preloslab_light-webfont.woff2') format('woff2'), url('../fonts/preloslab_light-webfont.woff') format('woff'), url('../fonts/preloslab_light-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'proxima_nova_rgbold';
-  src: url('../../fonts/proximanova-bold-webfont.eot');
-  src: url('../../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/proximanova-bold-webfont.woff2') format('woff2'), url('../../fonts/proximanova-bold-webfont.woff') format('woff'), url('../../fonts/proximanova-bold-webfont.ttf') format('truetype');
+  src: url('../fonts/proximanova-bold-webfont.eot');
+  src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-bold-webfont.woff2') format('woff2'), url('../fonts/proximanova-bold-webfont.woff') format('woff'), url('../fonts/proximanova-bold-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'proxima_novasemibold';
-  src: url('../../fonts/proximanova-sbold-webfont.eot');
-  src: url('../../fonts/proximanova-sbold-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/proximanova-sbold-webfont.woff2') format('woff2'), url('../../fonts/proximanova-sbold-webfont.woff') format('woff'), url('../../fonts/proximanova-sbold-webfont.ttf') format('truetype');
+  src: url('../fonts/proximanova-sbold-webfont.eot');
+  src: url('../fonts/proximanova-sbold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/proximanova-sbold-webfont.woff2') format('woff2'), url('../fonts/proximanova-sbold-webfont.woff') format('woff'), url('../fonts/proximanova-sbold-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'preloextralight';
-  src: url('../../fonts/preloslab_extralight-webfont.eot');
-  src: url('../../fonts/preloslab_extralight-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/preloslab_extralight-webfont.woff2') format('woff2'), url('../../fonts/preloslab_extralight-webfont.woff') format('woff'), url('../../fonts/preloslab_extralight-webfont.ttf') format('truetype');
+  src: url('../fonts/preloslab_extralight-webfont.eot');
+  src: url('../fonts/preloslab_extralight-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/preloslab_extralight-webfont.woff2') format('woff2'), url('../fonts/preloslab_extralight-webfont.woff') format('woff'), url('../fonts/preloslab_extralight-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal; }
 

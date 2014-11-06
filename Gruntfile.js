@@ -78,7 +78,7 @@ module.exports = function (grunt) {
             },
             livereload: {
                 options: {
-                    middleware: function(connect) {
+                    middleware: function (connect) {
                         return [
                             connect.static('.tmp'),
                             connect().use('/bower_components', connect.static('./bower_components')),
@@ -91,7 +91,7 @@ module.exports = function (grunt) {
                 options: {
                     open: false,
                     port: 9001,
-                    middleware: function(connect) {
+                    middleware: function (connect) {
                         return [
                             connect.static('.tmp'),
                             connect.static('test'),
@@ -207,6 +207,7 @@ module.exports = function (grunt) {
                 files: {
                     src: [
                         '<%= config.dist %>/scripts/{,*/}*.js',
+                        '<%= config.dist %>fonts/{,*/}*.*',
                         '<%= config.dist %>/styles/{,*/}*.css',
                         '<%= config.dist %>/images/{,*/}*.*',
                         '<%= config.dist %>/styles/fonts/{,*/}*.*',
@@ -308,25 +309,22 @@ module.exports = function (grunt) {
         // Copies remaining files to places other tasks can use
         copy: {
             dist: {
-                files: [{
-                    expand: true,
-                    dot: true,
-                    cwd: '<%= config.app %>',
-                    dest: '<%= config.dist %>',
-                    src: [
-                        '*.{ico,png,txt}',
-                        '.htaccess',
-                        'images/{,*/}*.webp',
-                        '{,*/}*.html',
-                        'styles/fonts/{,*/}*.*'
-                    ]
-                }, {
-                    expand: true,
-                    dot: true,
-                    cwd: '.',
-                    src: ['bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/*.*'],
-                    dest: '<%= config.dist %>'
-                }]
+
+                files: [
+
+                    {
+                        expand: true,
+                        dot: true,
+                        cwd: '<%= config.app %>',
+                        dest: '<%= config.dist %>',
+                        src: [
+                            '*.{ico,png,txt}',
+                            '.htaccess',
+                            'images/{,*/}*.webp',
+                            '{,*/}*.html'
+                        ]
+                    }
+                ]
             },
             styles: {
                 expand: true,
@@ -334,6 +332,20 @@ module.exports = function (grunt) {
                 cwd: '<%= config.app %>/styles',
                 dest: '.tmp/styles/',
                 src: '{,*/}*.css'
+            },
+            fonts: {
+                expand: true,
+                dot: true,
+                cwd: '<%= config.app%>/styles/fonts',
+                dest: '<%= config.dist%>/fonts',
+                src: ['*.*']
+            },
+            cssImages:{
+                expand: true,
+                dot: true,
+                cwd: '<%= config.app%>/styles/images',
+                dest: '<%= config.dist%>/images',
+                src: ['*.*']
             }
         },
 
@@ -364,6 +376,8 @@ module.exports = function (grunt) {
                 'copy:styles'
             ],
             dist: [
+                'copy:cssImages',
+                'copy:fonts',
                 'sass',
                 'copy:styles',
                 'imagemin',
@@ -417,13 +431,13 @@ module.exports = function (grunt) {
         'uglify',
         'copy:dist',
         'modernizr',
-        'rev',
+        //'rev',
         'usemin',
         'htmlmin'
     ]);
 
     grunt.registerTask('default', [
-        'newer:jshint',
+        //'newer:jshint',
         'test',
         'build'
     ]);
