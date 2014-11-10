@@ -153,7 +153,8 @@ module.exports = function (grunt) {
             options: {
                 includePaths: [
                     'bower_components'
-                ]
+                ],
+                compass: true
             },
             dist: {
                 files: [{
@@ -225,6 +226,7 @@ module.exports = function (grunt) {
                 dest: '<%= config.dist %>'
             },
             html: '<%= config.app %>/index.html'
+
         },
 
         // Performs rewrites based on rev and the useminPrepare configuration
@@ -336,7 +338,7 @@ module.exports = function (grunt) {
             fonts: {
                 expand: true,
                 dot: true,
-                cwd: '<%= config.app%>/styles/fonts',
+                cwd: '<%= config.app%>/fonts',
                 dest: '<%= config.dist%>/fonts',
                 src: ['*.*']
             },
@@ -366,11 +368,14 @@ module.exports = function (grunt) {
             }
         },
 
+
+
         // Run some tasks in parallel to speed up build process
         concurrent: {
             server: [
                 'sass:server',
-                'copy:styles'
+                'copy:styles',
+
             ],
             test: [
                 'copy:styles'
@@ -384,6 +389,8 @@ module.exports = function (grunt) {
                 'svgmin'
             ]
         }
+
+
     });
 
 
@@ -398,6 +405,7 @@ module.exports = function (grunt) {
             'autoprefixer',
             'connect:livereload',
             'watch'
+
         ]);
     });
 

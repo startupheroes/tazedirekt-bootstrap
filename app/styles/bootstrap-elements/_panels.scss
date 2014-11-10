@@ -1,6 +1,6 @@
 .panel-group {
   &.td-panel-group {
-    border-left: 4px solid #62a60a;
+    border-left: $td-panel-border-left;
     @include border-all-side-radius($td-border-radius-base);
     .panel {
       border: none;

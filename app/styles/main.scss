@@ -1,9 +1,14 @@
+$icon-font-path: "../../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+//@import "compass";
+
+
 // bower:scss
 //bootstrap core libraries
 @import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
 
 
 // utilities
+@import "utils/compass-config";
 @import 'utils/mixins';
 @import 'utils/utilities';
 @import 'utils/functions';
@@ -40,6 +45,7 @@
 @import 'custom-elements/product';
 @import 'custom-elements/switch';
 @import 'custom-elements/counter';
+@import 'custom-elements/side-navigation';
 
 
 
