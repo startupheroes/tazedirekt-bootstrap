@@ -1,0 +1,35 @@
+.td-counter {
+
+  input {
+    width: 40px;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    float: left;
+  }
+
+  a {
+    display: inline-block;
+    background-color: $td-counter-background-color;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 22px;
+    float: left;
+
+    &:hover {
+      background-color:  $td-counter-background-hover-color;
+      color: $td-white-text;
+    }
+
+  }
+
+  a.more {
+    @include border-right-radius(2px);
+  }
+
+  a.less {
+    @include border-left-radius(2px);
+  }
+
+}

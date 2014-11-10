@@ -1,0 +1,16 @@
+.td-image {
+  border: 10px solid $solid-white;
+}
+
+.img-rounded {
+
+  @include border-all-side-radius($td-border-radius-base);
+
+}
+
+
+
+.embed-responsive{
+  @include border-all-side-radius($td-border-radius-base);
+
+}

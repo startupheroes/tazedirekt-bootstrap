@@ -1,0 +1,85 @@
+.panel-group {
+  &.td-panel-group {
+    border-left: 4px solid #62a60a;
+    @include border-all-side-radius($td-border-radius-base);
+    .panel {
+      border: none;
+      & + .panel {
+        margin-top: 0px;
+      }
+    }
+    .panel-default {
+      & > .panel-heading {
+        background-color: $solid-white;
+        @include border-left-radius(0px);
+        @include border-right-radius($td-border-radius-base);
+        &.active {
+          background-color: $td-light-gray;
+          color: $solid-white;
+
+          span {
+
+            i {
+
+              color: $solid-white;
+
+            }
+
+            i.fa-angle-up {
+              display: block;
+            }
+            i.fa-angle-down {
+              display: none;
+            }
+          }
+          a {
+            &:hover, &:active {
+              color: $solid-white;
+            }
+          }
+        }
+
+        span {
+          i {
+            color: $td-light-gray;
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .collapse-divider {
+      border-bottom: 1px solid $td-border-divider;
+    }
+
+  }
+
+}
+
+// Contextual variations
+.td-panel-primary {
+  @include panel-variant($td-light-gray, $solid-white, $td-light-gray, $td-light-gray);
+}
+
+.td-panel-success {
+  @include panel-variant($td-success, $solid-white, $td-success, $td-success);
+}
+
+.td-panel-dark {
+  @include panel-variant($td-dark-gray, $solid-white, $td-dark-gray, $td-dark-gray);
+}
+
+.td-panel-info {
+  @include panel-variant($td-yellow, $solid-white, $td-yellow, $td-yellow);
+}
+
+.td-panel-error {
+  @include panel-variant($td-danger, $solid-white, $td-danger, $td-danger);
+}
+
+
+
+

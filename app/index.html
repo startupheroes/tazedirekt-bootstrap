@@ -6,14 +6,16 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
-
     <!-- endbower -->
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+
     <!-- endbuild -->
+    <!--custom css-->
+    <link rel="stylesheet" href="styles/project.css">
+
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
@@ -29,12 +31,44 @@
 <![endif]-->
 
 
-<div class="container">
-    <div class="jumbotron">
+<nav class="navbar td-navbar-white navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Tazedirekt</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <form class="navbar-form navbar-right" role="form">
+                <a href="http://tazedirekt.com" class="btn btn-success">Tazedirekt</a>
+            </form>
+        </div>
+        <!--/.navbar-collapse -->
+    </div>
+</nav>
 
-        <img class="tazedirekt-logo" src="images/td_logo.svg" alt=""/>
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <div class="container">
+        <p>
+            <img class="tazedirekt-logo" src="images/td_logo.svg" alt=""/>
+        </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet asperiores debitis ducimus expedita illum
+            incidunt ipsum odio pariatur, quibusdam repellendus repudiandae sequi vero. Blanditiis enim et molestiae
+            nulla officiis sapiente, voluptatum. Animi atque blanditiis debitis deserunt eius et expedita itaque nemo
+            nihil optio possimus quam quis sed, temporibus totam.</p>
 
     </div>
+</div>
+
+
+<div class="container">
 
     <div class="row align-row">
         <div class="col-lg-12">
@@ -78,14 +112,10 @@
                              data-holder-rendered="true">
 
                         <div class="td-carousel-overlay">
-
-
                             <h1>Lorem ipsum dolor</h1>
 
-                            <div></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptate!</p>
-
-
+                            <div class="td-point-border"></div>
+                            <div class="td-point-border">........................</div>
                             <a class="btn td-btn-static" href="#">Devamı</a>
 
                         </div>
@@ -100,7 +130,7 @@
 
                             <h1>Lorem ipsum dolor</h1>
 
-                            <div></div>
+                            <div class="td-point-border">........................</div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptate!</p>
 
 
@@ -119,7 +149,7 @@
 
                             <h1>Lorem ipsum dolor</h1>
 
-                            <div></div>
+                            <div class="td-point-border">........................</div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, voluptate!</p>
 
 
@@ -208,86 +238,140 @@
 
 
     <div class="row align-row">
-        <div class="col-lg-12">
+
+        <div class="col-md-12">
             <h2 class="heading-row">Form Elements</h2>
-
-            <div class="row">
-                <div class="col-md-2">
-                    <a class="btn btn-lg td-btn-default btn-block" href="#">Default</a>
-                </div>
-                <div class="col-md-2">
-                    <a class="btn btn-lg td-btn-dark btn-block" href="#">Dark</a>
-                </div>
-
-                <div class="col-md-2">
-                    <a class="btn btn-lg td-btn-static btn-block" href="#">Static</a>
-                </div>
-
-
-                <div class="col-md-2">
-                    <a class="btn btn-lg td-btn-default td-btn-disabled btn-block" href="#">Default
-                        Disabled</a>
-                </div>
-
-                <div class="col-md-2">
-                    <a class="btn btn-lg td-btn-dark td-btn-disabled btn-block" href="#">Dark
-                        Disabled</a>
-                </div>
-
-                <div class="col-md-2">
-                    <a class="btn btn-lg td-btn-static td-btn-disabled btn-block" href="#">Static
-                        Disabled</a>
-                </div>
-            </div>
-
         </div>
-    </div>
 
 
-    <div class="row align-row">
         <div class="col-lg-12">
-
-
             <div class="row">
 
-                <div class="col-md-3">
+                <div class="col-md-8">
+                    <span>Default Block Buttons</span>
 
-                    <div class="form-group">
-                        <label class="control-label" for="inputSuccess1">Default Input</label>
-                        <input type="text" class="form-control" id="defaultInput">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a class="btn btn-lg td-btn-primary btn-block" href="#">Primary</a>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="btn btn-lg td-btn-dark btn-block" href="#">Dark</a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a class="btn btn-lg td-btn-static btn-block" href="#">Static</a>
+                        </div>
+
+                    </div>
+                    <div class="row-space"></div>
+
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <a class="btn btn-lg td-btn-info btn-block" href="#">Static</a>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <a class="btn btn-lg td-btn-error btn-block" href="#">Static</a>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <a class="btn btn-lg td-btn-success btn-block" href="#">Static</a>
+                        </div>
+
                     </div>
 
 
-                </div>
+                    <div class="row-space"></div>
+
+                    <span>Disabled Block Buttons</span>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a class="btn btn-lg td-btn-primary td-btn-disabled btn-block" href="#">Default
+                                Disabled</a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a class="btn btn-lg td-btn-dark td-btn-disabled btn-block" href="#">Dark
+                                Disabled</a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a class="btn btn-lg td-btn-static td-btn-disabled btn-block" href="#">Static
+                                Disabled</a>
+                        </div>
+
+                    </div>
+                    <div class="row-space"></div>
 
 
-                <div class="col-md-3">
-                    <div class="form-group has-success">
-                        <label class="control-label" for="inputSuccess1">Input with success</label>
-                        <input type="text" class="form-control" id="inputSuccess1">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <a class="btn btn-lg td-btn-info btn-block td-btn-disabled" href="#">Info Disabled</a>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <a class="btn btn-lg td-btn-error btn-block td-btn-disabled" href="#">Error Disabled</a>
+                        </div>
+
+
+                        <div class="col-md-4">
+                            <a class="btn btn-lg td-btn-success btn-block td-btn-disabled" href="#">Success Disabled</a>
+                        </div>
+
                     </div>
 
-
                 </div>
 
+                <div class="col-md-4">
+                    <div class="row">
 
-                <div class="col-md-3">
 
-                    <div class="form-group has-warning">
-                        <label class="control-label" for="inputWarning1">Input with warning</label>
-                        <input type="text" class="form-control" id="inputWarning1">
+                        <div class="col-md-12">
+                            <span>Button Sizes</span>
+
+                            <p>
+                                <button type="button" class="btn td-btn-primary btn-lg">Large button</button>
+                                <button type="button" class="btn td-btn-static btn-lg">Large button</button>
+                            </p>
+                            <p>
+                                <button type="button" class="btn td-btn-primary">Default button</button>
+                                <button type="button" class="btn td-btn-static">Default button</button>
+                            </p>
+
+                            <p>
+                                <button type="button" class="btn td-btn-primary btn-sm">Small button</button>
+                                <button type="button" class="btn td-btn-static btn-sm">Small button</button>
+                            </p>
+
+                            <p>
+                                <button type="button" class="btn td-btn-primary btn-xs">Extra small button</button>
+                                <button type="button" class="btn td-btn-static btn-xs">Extra small button</button>
+                            </p>
+
+
+                            <p>
+                                <span class="label td-label-dark"> Primary Label</span>
+                                <span class="label td-label-primary"> Dark Label</span>
+                                <span class="label td-label-static"> Static Label</span>
+
+                            <div class="clearfix"></div>
+
+                            <span class="label td-label-success"> Success Label</span>
+                            <span class="label td-label-info"> Info Label</span>
+                            <span class="label td-label-error"> Error Label</span>
+                            </p>
+                        </div>
+
                     </div>
-
-
                 </div>
-                <div class="col-md-3">
 
-                    <div class="form-group has-error">
-                        <label class="control-label" for="inputError1">Input with error</label>
-                        <input type="text" class="form-control" id="inputError1">
-                    </div>
 
-                </div>
             </div>
         </div>
     </div>
@@ -343,37 +427,26 @@
 
         <div class="col-lg-3">
 
-            <div class="row">
 
-                <div class="col-md-12">
-
-                    <span>Item counter</span>
-
-                    <div class="td-counter">
-                        <a class="less" href="#">
-                            <i class="fa fa-minus"></i></a>
-                        <input value="1" type="text" readonly/>
-                        <a class="more" href="#"><i class="fa fa-plus"></i></a>
-                    </div>
-
-                    <div class="clearfix"></div>
+            <div class="form-group">
+                <label class="control-label" for="defaultInput">Default Input</label>
+                <input type="text" class="form-control" id="defaultInput">
+            </div>
 
 
-                    <nav>
-                        <ul class="pagination">
-                            <li><a href="#">«</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#">»</a></li>
-                        </ul>
-                    </nav>
+            <div class="form-group has-error">
+                <label class="control-label" for="inputError1">Input with error</label>
+                <input type="text" class="form-control" id="inputError1">
+            </div>
 
 
-                </div>
+            <span>Item counter</span>
 
+            <div class="td-counter">
+                <a class="less" href="#">
+                    <i class="fa fa-minus"></i></a>
+                <input value="1" type="text" readonly/>
+                <a class="more" href="#"><i class="fa fa-plus"></i></a>
             </div>
 
 
@@ -436,6 +509,7 @@
 
                     <div class="row-space"></div>
 
+
                     <label>Select Disabled</label>
 
                     <div class="td-select-box">
@@ -444,49 +518,83 @@
                                     class="fa fa-chevron-down"></i></span></a>
                     </div>
 
-
+                    <!--<div class="td-select-box">-->
+                    <!--<a href="#" class="td-select-box-selector">Select Box Default <span><i-->
+                    <!--class="fa fa-chevron-down"></i></span></a>-->
+                    <!--<ul>-->
+                    <!--<li>Select One</li>-->
+                    <!--<li>Select Two</li>-->
+                    <!--<li>Select Three</li>-->
+                    <!--<li>Select One</li>-->
+                    <!--<li>Select Two</li>-->
+                    <!--<li>Select Three</li>-->
+                    <!--</ul>-->
+                    <!--</div>-->
                 </div>
-                <div class="col-md-4">
-                    <label>Select Active</label>
+            </div>
+        </div>
+    </div>
 
-                    <div class="td-select-box">
-                        <a href="#" class="td-select-box-selector">Select Box Default <span><i
-                                class="fa fa-chevron-down"></i></span></a>
-                        <ul>
-                            <li>Select One</li>
-                            <li>Select Two</li>
-                            <li>Select Three</li>
-                            <li>Select One</li>
-                            <li>Select Two</li>
-                            <li>Select Three</li>
-                        </ul>
+
+    <div class="row align-row-select">
+        <div class="col-lg-12">
+
+            <div class="row">
+
+
+                <div class="col-md-4">
+
+                    <div class="panel td-panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Primary Panel title</h3>
+                        </div>
+                        <div class="panel-body">
+                            Panel content
+                        </div>
                     </div>
+
+                    <div class="panel td-panel-dark">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Dark Panel title</h3>
+                        </div>
+                        <div class="panel-body">
+                            Panel content
+                        </div>
+                    </div>
+
+
+                    <div class="panel td-panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Success Panel title</h3>
+                        </div>
+                        <div class="panel-body">
+                            Panel content
+                        </div>
+                    </div>
+
                 </div>
+
+
                 <div class="col-md-4">
-                    <h4>Button Sizes</h4>
+                    <div class="panel td-panel-info">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Info Panel title</h3>
+                        </div>
+                        <div class="panel-body">
+                            Panel content
+                        </div>
+                    </div>
+                    <div class="panel td-panel-error">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Error Panel title</h3>
+                        </div>
+                        <div class="panel-body">
+                            Panel content
+                        </div>
+                    </div>
 
-                    <p>
-                        <button type="button" class="btn td-btn-default btn-lg">Large button</button>
-                        <button type="button" class="btn td-btn-static btn-lg">Large button</button>
-                    </p>
-                    <div class="row-space clearfix"></div>
-                    <p>
-                        <button type="button" class="btn td-btn-default">Default button</button>
-                        <button type="button" class="btn td-btn-static">Default button</button>
-                    </p>
-                    <div class="row-space clearfix"></div>
-
-                    <p>
-                        <button type="button" class="btn td-btn-default btn-sm">Small button</button>
-                        <button type="button" class="btn td-btn-static btn-sm">Small button</button>
-                    </p>
-                    <div class="row-space "></div>
-
-                    <p>
-                        <button type="button" class="btn td-btn-default btn-xs">Extra small button</button>
-                        <button type="button" class="btn td-btn-static btn-xs">Extra small button</button>
-                    </p>
                 </div>
+
 
             </div>
         </div>
@@ -499,11 +607,40 @@
             <div class="row">
 
                 <div class="col-md-6 ">
-                    <h4>Image</h4>
+                    <h4>Pagination</h4>
 
-
-                    <img src="images/tazedirekt-img.png" class="img-responsive img-rounded td-image"
-                         alt="Responsive image">
+                    <span>Default pagination</span>
+                    <nav>
+                        <ul class="pagination">
+                            <li><a href="#"><i class="fa fa-chevron-left"></i>
+                            </a></li>
+                            <li class="first-holder"></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li class="last-holder"></li>
+                            <li>
+                                <a href="#"><i class="fa fa-chevron-right"></i></a></li>
+                        </ul>
+                    </nav>
+                    <span>Disabled Pagination</span>
+                    <nav>
+                        <ul class="pagination">
+                            <li class="disabled"><a href="#"><i class="fa fa-chevron-left"></i>
+                            </a></li>
+                            <li class="first-holder"></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li class="last-holder"></li>
+                            <li class="disabled">
+                                <a href="#"><i class="fa fa-chevron-right"></i></a></li>
+                        </ul>
+                    </nav>
 
 
                 </div>
@@ -528,28 +665,33 @@
                         <div class="col-md-6">
 
                             <h4>Tazedirekt Modal</h4>
-                            <a data-toggle="modal" data-target="#myModalSuccess"
-                               class="btn btn-sm td-btn-default btn-block"
-                               href="#">Success Modal</a>
-                            <a data-toggle="modal" data-target="#myModalError" class="btn btn-sm td-btn-error btn-block"
-                               href="#">Error Modal</a>
-                            <a data-toggle="modal" data-target="#myModalInfo" class="btn btn-sm td-btn-info btn-block"
-                               href="#">Info Modal</a>
                             <a data-toggle="modal" data-target="#myModalPrimary"
-                               class="btn btn-sm td-btn-static btn-block"
+                               class="btn btn-sm td-btn-primary btn-block"
                                href="#">Primary Modal</a>
+                            <a data-toggle="modal" data-target="#myModalError"
+                               class="btn btn-sm td-btn-error btn-block"
+                               href="#">Error Modal</a>
+                            <a data-toggle="modal" data-target="#myModalInfo"
+                               class="btn btn-sm td-btn-info btn-block"
+                               href="#">Info Modal</a>
+                            <a data-toggle="modal" data-target="#myModalDark"
+                               class="btn btn-sm td-btn-dark btn-block"
+                               href="#">Dark Modal</a>
+                            <a data-toggle="modal" data-target="#myModalSuccess"
+                               class="btn btn-sm td-btn-success btn-block"
+                               href="#">Success Modal</a>
 
                         </div>
                         <div class="col-md-6">
                             <h4>Voucher Inputs</h4>
 
                             <div class="form-group voucher-group">
-                                <label class="control-label" for="inputSuccess1">Voucher Static Input</label>
+                                <label class="control-label" for="vInput1">Voucher Static Input</label>
                                 <input type="text" placeholder="Coupon Code" class="form-control" id="vInput1">
                             </div>
 
                             <div class="form-group voucher-group">
-                                <label class="control-label" for="inputSuccess1">Voucher Disabled Input</label>
+                                <label class="control-label" for="vInput3">Voucher Disabled Input</label>
                                 <input type="text" disabled="disabled" placeholder="Coupon Code Disabled"
                                        class="form-control" id="vInput3">
                             </div>
@@ -594,9 +736,9 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h4>Static Warning Alert</h4>
+                    <h4>Static Primary Alert</h4>
 
-                    <div class="alert td-alert-warning ">Holy guacamole! Best check yo self, you're not looking too
+                    <div class="alert td-alert-primary ">Holy guacamole! Best check yo self, you're not looking too
                         good.
                     </div>
                 </div>
@@ -637,9 +779,9 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h4>Dismissible Warning Alert</h4>
+                    <h4>Dismissible Primary Alert</h4>
 
-                    <div class="alert td-alert-warning alert-dismissible fade in" role="alert">
+                    <div class="alert td-alert-primary alert-dismissible fade in" role="alert">
                         <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span
                                 class="sr-only">Close</span></button>
                         Best check yo self, you're not looking too good.
@@ -660,7 +802,7 @@
                     <h4>Table</h4>
 
 
-                    <table class="table table-hover td-table-white">
+                    <table class="table  td-table-white">
                         <thead class="td-table-header">
                         <tr>
                             <th>PRODUCT</th>
@@ -899,7 +1041,7 @@
                 </div>
 
 
-                <div class="col-md-5 ">
+                <div class="col-md-6">
                     <h4>Collapse</h4>
 
                     <div class="panel-group td-panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -910,6 +1052,11 @@
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
                                        aria-expanded="true" aria-controls="collapseOne">
                                         Collapsible Group Item #1
+                                        <span class="pull-right">
+                                            <i class="fa fa-angle-down td-dropdown-caret"> </i>
+                                            <i class="fa fa-angle-up td-dropdown-caret"></i>
+                                        </span>
+
                                     </a>
                                 </h4>
                             </div>
@@ -935,6 +1082,9 @@
                                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
                                        href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         Collapsible Group Item #2
+                                            <span class="pull-right">
+                                            <i class="fa fa-angle-down td-dropdown-caret"> </i>
+                                        </span>
                                     </a>
                                 </h4>
                             </div>
@@ -959,6 +1109,9 @@
                                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
                                        href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         Collapsible Group Item #3
+                                                 <span class="pull-right">
+                                            <i class="fa fa-angle-down td-dropdown-caret"> </i>
+                                        </span>
                                     </a>
                                 </h4>
                             </div>
@@ -983,6 +1136,9 @@
                                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
                                        href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
                                         Collapsible Group Item #4
+                                                 <span class="pull-right">
+                                            <i class="fa fa-angle-down td-dropdown-caret"> </i>
+                                        </span>
                                     </a>
                                 </h4>
                             </div>
@@ -1007,6 +1163,9 @@
                                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
                                        href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
                                         Collapsible Group Item #4
+                                                 <span class="pull-right">
+                                            <i class="fa fa-angle-down td-dropdown-caret"> </i>
+                                        </span>
                                     </a>
                                 </h4>
                             </div>
@@ -1029,6 +1188,77 @@
                 </div>
 
             </div>
+
+        </div>
+    </div>
+
+
+    <div class="col-lg-12">
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <div class="embed-responsive embed-responsive-4by3">
+
+
+                    <iframe class="embed-responsive-item" id="youtube-video" width="560" height="315"
+                            allowscriptaccess="always"
+                            src="https://www.youtube.com/embed/LG-bGxjUbBM?enablejsapi=1&amp;version=3&amp;playerapiid=ytplayer"
+                            frameborder="0" allowfullscreen=""></iframe>
+                </div>
+
+
+            </div>
+            <div class="col-md-6">
+
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">
+                        <h4 class="list-group-item-heading">List group item heading</h4>
+
+                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                            diam eget risus varius blandit.</p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">List group item heading</h4>
+
+                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                            diam eget risus varius blandit.</p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">List group item heading</h4>
+
+                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                            diam eget risus varius blandit.</p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">List group item heading</h4>
+
+                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                            diam eget risus varius blandit.</p>
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">List group item heading</h4>
+
+                        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                            diam eget risus varius blandit.</p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+
+            </div>
+            <div class="col-md-6">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-lg-12">
+
+        <div class="row">
 
         </div>
     </div>
@@ -1145,6 +1375,30 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn td-btn-static" data-dismiss="modal">Tamam</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModalDark" tabindex="-1" role="dialog" aria-labelledby="myModalDarkLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header td-modal-dark">
+                <button type="button" class="close" data-dismiss="modal"><span
+                        aria-hidden="true">&times;</span><span
+                        class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="mmyModalDarkLabel">Info Message</h4>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci at, aut, consectetur deleniti
+                distinctio eius error facere facilis fugiat ipsum libero molestiae, nam nihil nulla omnis quidem
+                repellendus sed vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, beatae!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn td-btn-dark" data-dismiss="modal">Tamam</button>
             </div>
         </div>
     </div>

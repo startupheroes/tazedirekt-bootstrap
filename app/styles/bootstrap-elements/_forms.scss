@@ -1,0 +1,109 @@
+.form-control {
+  background-color: $td-input-background;
+  @include border-all-side-radius($td-border-radius-base);
+  @include form-control-focus();
+  @include form-control-hover();
+  font-family: $td-proxima-regular;
+  @include placeholder-color($td-ash);
+
+  &[disabled],
+  &[readonly],
+  fieldset[disabled] & {
+    cursor: not-allowed;
+    background-color: $td-text-disabled;
+    opacity: 1;
+  }
+}
+
+.td-search-box {
+  color: $td-ash;
+
+  & > div {
+
+    position: relative;
+  }
+
+  .form-control {
+    background-color: $solid-white;
+    color: $td-ash;
+  }
+
+  a {
+    position: absolute;
+    right: 1px;
+    top: 0px;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    color: #90857d;
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    height: 32px;
+    line-height: 24px;
+
+  }
+  .form-control:focus {
+
+    border: 1px solid $td-light-gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 44px;
+    & + a {
+      top: 6px;
+      color: $td-light-gray;
+    }
+  }
+
+}
+
+.form-group {
+
+  &.has-error {
+
+    input {
+      color: $td-input-error;
+      border-color: rgb(245, 86, 86);
+      box-shadow: none;
+
+      &:focus {
+        box-shadow: none;
+        border-color: rgb(245, 86, 86);
+      }
+
+    }
+
+  }
+
+}
+
+.radio,
+.checkbox {
+  font-size: $form-font-size;
+  label {
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+  }
+}
+
+.form-group {
+
+  &.voucher-group {
+
+    input {
+      font-family: proxima_novalight_italic;
+      width: 180px;
+      height: 25px;
+      font-size: 12px;
+
+      &:focus {
+        font-family: proxima_nova_rgregular;
+      }
+
+    }
+
+  }
+
+}

@@ -1,0 +1,64 @@
+.td-switch-button {
+  position: relative;
+  width: 70px;
+  @include border-all-side-radius($td-border-radius-small);
+  color: $td-white;
+  font-size: 12px;
+
+  label {
+    width: 75px;
+    height: 25px;
+    background: url('../../images/switch.png') no-repeat;
+    background-size: 19px 18px;
+    background-position: 4px 4px;
+    display: inline-block;
+    margin: 0px;
+    cursor: pointer;
+    text-indent: 27px;
+    line-height: 25px;
+  }
+
+  input {
+    position: absolute;
+    visibility: hidden;
+    z-index: -1;
+  }
+
+  &.td-switch-btn-on {
+    background-color: $td-light-gray;
+
+    label {
+      background-position: 47px 4px;
+      text-indent: 11px;
+
+    }
+
+    &.td-switch-btn-on:hover {
+      background-color: lighten($td-light-gray, $td-switch-btn-delta);
+
+    }
+  }
+
+  &.td-switch-btn-disabled {
+    background-color: lighten($td-ash, $td-btn-disabled-delta);
+
+    &.td-switch-btn-disabled:hover {
+      background-color: lighten($td-ash, $td-btn-disabled-delta);
+
+    }
+  }
+
+  &.td-switch-btn-off {
+    background-color: $td-switch-btn-red;
+
+    label {
+
+    }
+    &.td-switch-btn-off:hover {
+      background-color: darken($td-switch-btn-red, $td-switch-btn-delta);
+
+    }
+
+  }
+
+}

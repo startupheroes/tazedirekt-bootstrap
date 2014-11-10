@@ -2,10 +2,125 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31734ff-77e9-43d3-bff8-9d5c6ea44072" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/preloslab_black-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/preloslab_black-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/preloslab_black-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/preloslab_black-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/styles/tazedirekt-theme/_td-theme.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/concat/scripts/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/concat/scripts/plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/concat/scripts/vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/concat/scripts/vendor/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/concat/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.tmp/concat/styles/vendor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/elements/_button-groups.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/elements/_close.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/elements/_jumbotron.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/elements/_pager.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/elements/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/elements/_td-theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/images/tazedirekt-img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/utils/_theme.scss" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/custom/_index.scss" afterPath="$PROJECT_DIR$/app/styles/project.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_alerts.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_alerts.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_badges.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_badges.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_breadcrumbs.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_navbar.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_buttons.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_carousel.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_counter.scss" afterPath="$PROJECT_DIR$/app/styles/custom-elements/_counter.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_dropdowns.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_dropdowns.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_forms.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_forms.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_modal.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_modal.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_navs.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_navs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_panels.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_panels.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_popovers.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_popovers.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_product.scss" afterPath="$PROJECT_DIR$/app/styles/custom-elements/_product.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_scaffolding.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_scaffolding.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_select-box.scss" afterPath="$PROJECT_DIR$/app/styles/custom-elements/_select-box.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_switch.scss" afterPath="$PROJECT_DIR$/app/styles/custom-elements/_switch.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_tables.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_tables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_tooltip.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_tooltip.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/elements/_type.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_type.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_Black.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_Black.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_Black_italic.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_Black_italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_Bold.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_Bold_italic.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_Bold_italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_Book.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_Book.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_Book_italic.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_Book_italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_ExtraBold.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_ExtraBold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_ExtraBold_italic.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_ExtraBold_italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_ExtraLight.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_ExtraLight.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_ExtraLight_italic.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_ExtraLight_italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_Hairline.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_Hairline.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_Hairline_italic.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_Hairline_italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_Light.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_Light.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_Light_italic.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_Light_italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_Medium.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_Medium.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_Medium_italic.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_Medium_italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_SemiBold.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_SemiBold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/PreloSlab_SemiBold_italic.ttf" afterPath="$PROJECT_DIR$/app/fonts/PreloSlab_SemiBold_italic.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/ProximaNova-Black.otf" afterPath="$PROJECT_DIR$/app/fonts/ProximaNova-Black.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/ProximaNova-Bold.otf" afterPath="$PROJECT_DIR$/app/fonts/ProximaNova-Bold.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/ProximaNova-Extrabold.otf" afterPath="$PROJECT_DIR$/app/fonts/ProximaNova-Extrabold.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/ProximaNova-Light.otf" afterPath="$PROJECT_DIR$/app/fonts/ProximaNova-Light.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/ProximaNova-LightItalic.otf" afterPath="$PROJECT_DIR$/app/fonts/ProximaNova-LightItalic.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/ProximaNova-Reg.otf" afterPath="$PROJECT_DIR$/app/fonts/ProximaNova-Reg.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/ProximaNova-RegItalic.otf" afterPath="$PROJECT_DIR$/app/fonts/ProximaNova-RegItalic.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/ProximaNova-Sbold.otf" afterPath="$PROJECT_DIR$/app/fonts/ProximaNova-Sbold.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_book-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/preloslab_book-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_book-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/preloslab_book-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_book-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/preloslab_book-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_book-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/preloslab_book-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_extralight-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/preloslab_extralight-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_extralight-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/preloslab_extralight-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_extralight-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/preloslab_extralight-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_extralight-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/preloslab_extralight-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_light-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/preloslab_light-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_light-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/preloslab_light-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_light-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/preloslab_light-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_light-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/preloslab_light-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_semibold-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/preloslab_semibold-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_semibold-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/preloslab_semibold-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_semibold-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/preloslab_semibold-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/preloslab_semibold-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/preloslab_semibold-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-bold-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/proximanova-bold-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-bold-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/proximanova-bold-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-bold-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/proximanova-bold-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-bold-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/proximanova-bold-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-light-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/proximanova-light-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-light-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/proximanova-light-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-light-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/proximanova-light-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-light-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/proximanova-light-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-lightitalic-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/proximanova-lightitalic-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-lightitalic-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/proximanova-lightitalic-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-lightitalic-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/proximanova-lightitalic-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-lightitalic-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/proximanova-lightitalic-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-reg-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/proximanova-reg-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-reg-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/proximanova-reg-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-reg-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/proximanova-reg-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-reg-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/proximanova-reg-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-sbold-webfont.eot" afterPath="$PROJECT_DIR$/app/fonts/proximanova-sbold-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-sbold-webfont.ttf" afterPath="$PROJECT_DIR$/app/fonts/proximanova-sbold-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-sbold-webfont.woff" afterPath="$PROJECT_DIR$/app/fonts/proximanova-sbold-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/fonts/proximanova-sbold-webfont.woff2" afterPath="$PROJECT_DIR$/app/fonts/proximanova-sbold-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/images/back.jpeg" afterPath="$PROJECT_DIR$/app/images/back.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/images/checkbox_checked.png" afterPath="$PROJECT_DIR$/app/images/checkbox_checked.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/images/checkbox_disabled.png" afterPath="$PROJECT_DIR$/app/images/checkbox_disabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/images/checkbox_unchecked.png" afterPath="$PROJECT_DIR$/app/images/checkbox_unchecked.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/images/radio_disabled.png" afterPath="$PROJECT_DIR$/app/images/radio_disabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/images/radio_selected.png" afterPath="$PROJECT_DIR$/app/images/radio_selected.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/images/radio_unselected.png" afterPath="$PROJECT_DIR$/app/images/radio_unselected.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/images/switch.png" afterPath="$PROJECT_DIR$/app/images/switch.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/styles/utils/_variables.scss" afterPath="$PROJECT_DIR$/app/styles/tazedirekt-theme/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/styles/main.css" afterPath="$PROJECT_DIR$/.tmp/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tazedirekt-bootstrap.iws" />
@@ -30,11 +145,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5453" max-vertical-offset="6750">
-              <caret line="380" column="21" selection-start-line="380" selection-start-column="21" selection-end-line="380" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.68421054" vertical-offset="7315" max-vertical-offset="22020">
+              <caret line="531" column="33" selection-start-line="531" selection-start-column="33" selection-end-line="531" selection-end-column="33" />
+              <folding>
+                <marker date="1415373366000" expanded="true" signature="934:1087" placeholder="..." />
+                <marker date="1415373366000" expanded="true" signature="1027:1055" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_carousel.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-30.166666" vertical-offset="236" max-vertical-offset="1290">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_buttons.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_buttons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="1605">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -43,41 +181,68 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.625" vertical-offset="0" max-vertical-offset="960">
-              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            <state vertical-scroll-proportion="-26.25" vertical-offset="0" max-vertical-offset="945">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name="_counter.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/custom-elements/_counter.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="18210">
-              <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
-              <folding>
-                <marker date="1415266486000" expanded="true" signature="875:1028" placeholder="..." />
-                <marker date="1415266486000" expanded="true" signature="968:996" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68640643" vertical-offset="0" max-vertical-offset="743">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="600">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/.htaccess">
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/tazedirekt-theme/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10035">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.3" vertical-offset="0" max-vertical-offset="3945">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_dropdowns.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_dropdowns.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.06" vertical-offset="247" max-vertical-offset="1215">
+              <caret line="50" column="8" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_product.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/custom-elements/_product.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.96" vertical-offset="1417" max-vertical-offset="2430">
+              <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_panels.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_panels.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.8" vertical-offset="105" max-vertical-offset="1365">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_labels.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_labels.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="465">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -91,13 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/styles/utils/_theme.scss" />
-        <option value="$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables.scss" />
-        <option value="$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/mixins/_forms.scss" />
-        <option value="$PROJECT_DIR$/app/styles/elements/_type.scss" />
-        <option value="$PROJECT_DIR$/.tmp/styles/main.css" />
-        <option value="$PROJECT_DIR$/app/styles/mixins/_buttons.scss" />
-        <option value="$PROJECT_DIR$/app/styles/mixins/_forms.scss" />
         <option value="$PROJECT_DIR$/app/styles/elements/_counter.scss" />
         <option value="$PROJECT_DIR$/app/styles/mixins/_border-radius.scss" />
         <option value="$PROJECT_DIR$/app/styles/mixins/_background-color.scss" />
@@ -106,27 +264,49 @@
         <option value="$PROJECT_DIR$/app/styles/mixins/_type.scss" />
         <option value="$PROJECT_DIR$/app/styles/elements/_dropdowns.scss" />
         <option value="$PROJECT_DIR$/app/styles/elements/_navs.scss" />
-        <option value="$PROJECT_DIR$/app/styles/elements/_pagination.scss" />
         <option value="$PROJECT_DIR$/app/styles/elements/_modal.scss" />
         <option value="$PROJECT_DIR$/app/styles/elements/_alerts.scss" />
         <option value="$PROJECT_DIR$/app/styles/elements/_scaffolding.scss" />
         <option value="$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss" />
         <option value="$PROJECT_DIR$/app/styles/elements/_panels.scss" />
-        <option value="$PROJECT_DIR$/app/styles/elements/_tables.scss" />
         <option value="$PROJECT_DIR$/app/styles/custom/_index.scss" />
         <option value="$PROJECT_DIR$/app/styles/elements/_forms.scss" />
         <option value="$PROJECT_DIR$/app/styles/elements/_select-box.scss" />
         <option value="$PROJECT_DIR$/app/styles/utils/_variables.scss" />
         <option value="$PROJECT_DIR$/app/styles/elements/_carousel.scss" />
         <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/app/styles/elements/_td-theme.scss" />
         <option value="$PROJECT_DIR$/app/styles/elements/_switch.scss" />
-        <option value="$PROJECT_DIR$/app/styles/elements/_buttons.scss" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/app/styles/main.scss" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/styles/elements/_pager.scss" />
+        <option value="$PROJECT_DIR$/app/styles/elements/_td-theme.scss" />
+        <option value="$PROJECT_DIR$/app/styles/elements/_pagination.scss" />
+        <option value="$PROJECT_DIR$/app/styles/elements/_tables.scss" />
+        <option value="$PROJECT_DIR$/app/styles/elements/_buttons.scss" />
+        <option value="$PROJECT_DIR$/app/styles/utils/_theme.scss" />
+        <option value="$PROJECT_DIR$/app/styles/custom-elements/_select-box.scss" />
+        <option value="$PROJECT_DIR$/app/styles/tazedirekt-theme/_td-theme.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_navbar.scss" />
+        <option value="$PROJECT_DIR$/app/styles/project.css" />
+        <option value="$PROJECT_DIR$/app/styles/custom-elements/_switch.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_tables.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_pagination.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_scaffolding.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_list-group.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_navs.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_modal.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_alerts.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_forms.scss" />
+        <option value="$PROJECT_DIR$/app/styles/custom-elements/_product.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_panels.scss" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
+        <option value="$PROJECT_DIR$/app/styles/custom-elements/_counter.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss" />
+        <option value="$PROJECT_DIR$/app/styles/tazedirekt-theme/_variables.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_buttons.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_labels.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -291,10 +471,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="23" />
     <option name="y" value="23" />
-    <option name="width" value="1928" />
-    <option name="height" value="1134" />
+    <option name="width" value="1873" />
+    <option name="height" value="1136" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -319,7 +499,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -348,12 +527,255 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-sass-official" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-sass-official" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-sass-official" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-sass-official" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mixins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom-elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".tmp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,16 +804,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/styles/bootstrap-elements" />
+      <recent name="$PROJECT_DIR$/app/images" />
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/styles" />
       <recent name="$PROJECT_DIR$/dist" />
-      <recent name="$PROJECT_DIR$/app/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/styles/custom-elements" />
+      <recent name="$PROJECT_DIR$/app/styles/tazedirekt-theme" />
+      <recent name="$PROJECT_DIR$/app/styles/utils" />
+      <recent name="$PROJECT_DIR$/app/styles/custom" />
       <recent name="$PROJECT_DIR$/app/styles" />
-      <recent name="$PROJECT_DIR$/app/images" />
-      <recent name="$PROJECT_DIR$/app/styles/images" />
-      <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/app/fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -461,19 +885,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="23" width="1928" height="1134" extended-state="0" />
-    <editor active="false" />
+    <frame x="23" y="23" width="1873" height="1136" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24278972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23850575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32791588" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23804972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32791588" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -483,31 +908,30 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="120" y="139" width="1655" height="934" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854405" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917467" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="120" y="139" width="1655" height="934" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917467" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32821497" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917467" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25261998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="120" y="139" width="1655" height="934" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854405" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32791588" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23804972" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917467" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32791588" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -534,138 +958,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="18210">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-          <folding>
-            <marker date="1415266486000" expanded="true" signature="875:1028" placeholder="..." />
-            <marker date="1415266486000" expanded="true" signature="968:996" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10035">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_tables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="885">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5910" max-vertical-offset="6540">
-          <caret line="420" column="14" selection-start-line="420" selection-start-column="14" selection-end-line="420" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_modals.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-38.7" vertical-offset="0" max-vertical-offset="2295">
-          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="142" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.64" vertical-offset="1588" max-vertical-offset="3630">
-          <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/mixins/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.583333" vertical-offset="289" max-vertical-offset="990">
-          <caret line="41" column="70" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5301391" vertical-offset="2447" max-vertical-offset="3450">
-          <caret line="186" column="17" selection-start-line="186" selection-start-column="7" selection-end-line="186" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-37.5" vertical-offset="600" max-vertical-offset="2475">
-          <caret line="100" column="12" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/mixins/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1350">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6" vertical-offset="4450" max-vertical-offset="7260">
-          <caret line="312" column="18" selection-start-line="311" selection-start-column="0" selection-end-line="313" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_counter.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/mixins/_border-radius.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/mixins/_background-color.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="210">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_product.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.625" vertical-offset="330" max-vertical-offset="2460">
-          <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_jumbotron.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_type.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.125" vertical-offset="183" max-vertical-offset="855">
-          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/utils/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/mixins/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="345">
@@ -694,101 +986,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_dropdowns.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64615387" vertical-offset="390" max-vertical-offset="1215">
-          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6476923" vertical-offset="2354" max-vertical-offset="3300">
-          <caret line="185" column="25" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_navs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_pagination.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="1410">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_pagination.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="315">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_modal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="1095">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_alerts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="465">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_scaffolding.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="3690">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_panels.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="660">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.958332" vertical-offset="433" max-vertical-offset="1560">
-          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_select-box.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-33.75" vertical-offset="0" max-vertical-offset="930">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51602566" vertical-offset="1478" max-vertical-offset="3585">
           <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="127" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_carousel.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="1305">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -799,67 +1000,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/utils/_theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="390">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/custom/_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1440">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_tables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="885">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="767">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_td-theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="2145">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_switch.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="75" max-vertical-offset="1050">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/utils/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="5190">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/elements/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.756393" vertical-offset="0" max-vertical-offset="1485">
-          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5453" max-vertical-offset="6750">
-          <caret line="380" column="21" selection-start-line="380" selection-start-column="21" selection-end-line="380" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,38 +1015,353 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.058670145" vertical-offset="0" max-vertical-offset="767">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68456376" vertical-offset="0" max-vertical-offset="745">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_pager.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0671141" vertical-offset="0" max-vertical-offset="915">
+          <caret line="53" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_type.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.1" vertical-offset="0" max-vertical-offset="4500">
+          <caret line="97" column="7" selection-start-line="97" selection-start-column="2" selection-end-line="97" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5621" max-vertical-offset="6750">
+          <caret line="380" column="21" selection-start-line="380" selection-start-column="21" selection-end-line="380" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/mixins/_tab-focus.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="225">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_tooltip.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/font-awesome/scss/font-awesome.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18108653" vertical-offset="0" max-vertical-offset="994">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="994">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/font-awesome/scss/_bordered-pulled.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.075452715" vertical-offset="0" max-vertical-offset="994">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_type.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.694165" vertical-offset="0" max-vertical-offset="994">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2115">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1740">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4336016" vertical-offset="356" max-vertical-offset="3300">
+          <caret line="185" column="25" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/custom-elements/_select-box.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="930">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_badges.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1018">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/tazedirekt-theme/_td-theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.6845639" vertical-offset="0" max-vertical-offset="3105">
+          <caret line="183" column="7" selection-start-line="183" selection-start-column="7" selection-end-line="183" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/project.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.423077" vertical-offset="405" max-vertical-offset="1470">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/custom-elements/_switch.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1035">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.44" vertical-offset="7568" max-vertical-offset="9960">
+          <caret line="526" column="0" selection-start-line="526" selection-start-column="0" selection-end-line="528" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="165">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_tables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43762577" vertical-offset="0" max-vertical-offset="994">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_pagination.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="1410">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.791666" vertical-offset="2696" max-vertical-offset="3690">
+          <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_pagination.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38016528" vertical-offset="142" max-vertical-offset="1110">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_navs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="555">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_list-group.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75929755" vertical-offset="0" max-vertical-offset="968">
+          <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.642562" vertical-offset="1057" max-vertical-offset="2025">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53512394" vertical-offset="1507" max-vertical-offset="2475">
+          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_scaffolding.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_alerts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="585">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.041666" vertical-offset="251" max-vertical-offset="1710">
+          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.916666" vertical-offset="116" max-vertical-offset="1155">
+          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/custom-elements/_product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.96" vertical-offset="1417" max-vertical-offset="2430">
+          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_panels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8" vertical-offset="105" max-vertical-offset="1365">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.625" vertical-offset="0" max-vertical-offset="960">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        <state vertical-scroll-proportion="-26.25" vertical-offset="0" max-vertical-offset="945">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_dropdowns.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.06" vertical-offset="247" max-vertical-offset="1215">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/custom-elements/_counter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="600">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.166666" vertical-offset="236" max-vertical-offset="1290">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/tazedirekt-theme/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3" vertical-offset="0" max-vertical-offset="3945">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="1605">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_labels.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="465">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="18210">
-          <caret line="8" column="107" selection-start-line="8" selection-start-column="107" selection-end-line="8" selection-end-column="107" />
+        <state vertical-scroll-proportion="0.68421054" vertical-offset="7315" max-vertical-offset="22020">
+          <caret line="531" column="33" selection-start-line="531" selection-start-column="33" selection-end-line="531" selection-end-column="33" />
           <folding>
-            <marker date="1415266486000" expanded="true" signature="875:1028" placeholder="..." />
-            <marker date="1415266486000" expanded="true" signature="968:996" placeholder="..." />
+            <marker date="1415373366000" expanded="true" signature="934:1087" placeholder="..." />
+            <marker date="1415373366000" expanded="true" signature="1027:1055" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.058670145" vertical-offset="0" max-vertical-offset="767">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68640643" vertical-offset="0" max-vertical-offset="743">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

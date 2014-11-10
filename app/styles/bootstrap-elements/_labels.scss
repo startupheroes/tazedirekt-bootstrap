@@ -1,0 +1,25 @@
+// Colors
+
+.td-label-dark {
+  @include label-variant($td-light-gray);
+}
+
+.td-label-primary {
+  @include label-variant($td-light-gray);
+}
+
+.td-label-info {
+  @include label-variant($td-yellow);
+}
+
+.td-label-error {
+  @include label-variant($td-danger);
+}
+
+.td-label-success {
+  @include label-variant($td-success);
+}
+
+.td-label-static {
+  @include label-variant($td-ash);
+}

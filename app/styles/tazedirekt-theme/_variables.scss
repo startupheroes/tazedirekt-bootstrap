@@ -1,0 +1,258 @@
+//== Colors
+//
+//## Gray and brand colors for use across Tazedirekt
+
+//main brand colors
+$td-light-gray: #62a60a !default;
+$td-dark-gray: #0e7837 !default;
+
+//supporting colors
+$td-dark-brown: #5f544c !default;
+$td-white: #efeee8 !default;
+$td-ash: #90857d !default;
+$td-yellow: #f3ac00 !default;
+$td-red: #ee6646 !default;
+$td-brown: #957859 !default;
+$td-water-gray: #38d2ac !default;
+$td-light-brown: #d29859 !default;
+
+//additional colors
+$solid-white: #fff !default;
+$td-none: none;
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+//** Background color for `<body>`.
+$td-body-bg: $td-white;
+//** Global text color on `<body>`.
+$td-text-color: $td-dark-brown !default;
+//** Global textual link color.
+$td-link-color: $td-dark-brown !default;
+//** Link hover color set via `darken()` function.
+$td-link-hover-color: $td-dark-brown !default;
+//** Link hover decoration.
+$td-link-hover-decoration: underline !default;
+$td-border-divider: #ddd !default;
+
+$td-border-radius-small: 1px !default;
+$td-border-radius-base: 2px !default;
+$td-border-radius-large: 4px !default;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$td-font-family-base: Helvetica, Arial, sans-serif !default;
+$td-proxima-regular: proxima_nova_rgregular, $td-font-family-base !default;
+$td-proxima-nova-light: proxima_novalight, $td-font-family-base !default;
+$td-proxima-nova-italic: proxima_novalight_italic, $td-font-family-base !default;
+$td-prelo-semi-bold: prelosemibold, $td-font-family-base !default;
+$td-prelo-book: prelobook, $td-font-family-base !default;
+$td-prelo-black: prelo-black, $td-font-family-base !default;
+$td-prelo-light: prelolight, $td-font-family-base !default;
+$td-proxima-nova-rgbold: proxima_nova_rgbold, $td-font-family-base !default;
+$td-proxima-nova-semi-bold: proxima_novasemibold, $td-font-family-base !default;
+$td-prelo-extra-light: preloextralight, $td-font-family-base !default;
+
+$td-font-size-base: 13px !default;
+$td-font-size-large: ceil(($td-font-size-base * 1.35)) !default;
+// ~18px
+$td-font-size-medium: ceil(($td-font-size-base * 1.2)) !default;
+// ~16px
+$td-font-size-normal: floor(($td-font-size-base * 1.1)) !default;
+// ~14px
+$td-font-size-small: ceil(($td-font-size-base * 0.8)) !default;
+// ~11px
+
+$td-font-size-h1: floor(($td-font-size-base * 3.31)) !default;
+// ~43px
+$td-font-size-h2: floor(($td-font-size-base * 2.7)) !default;
+// ~35px
+$td-font-size-h3: ceil(($td-font-size-base * 1.38)) !default;
+// ~18px
+$td-font-size-h4: ceil(($td-font-size-base * 1.2)) !default;
+// ~16px
+$td-font-size-h5: $td-font-size-base !default;
+// 13px
+$td-font-size-h6: ceil(($td-font-size-base * 0.8)) !default;
+// ~11px
+
+$td-line-height-base: 1.55 !default;
+$td-line-height-computed: floor(($td-font-size-base * $line-height-base)) !default;
+
+$td-headings-font-family: inherit !default;
+$td-headings-font-weight: 300 !default;
+$td-headings-line-height: 1.1 !default;
+$td-headings-color: $td-dark-brown !default;
+$td-headings-small-color: $gray-light !default;
+
+$td-delta-min: 5% !default;
+$td-delta-medium: 15% !default;
+$td-delta-normal: 20% !default;
+$td-delta-max: 30% !default;
+
+//== Links
+//
+$td-bold-link-color: #3f3e3a !default;
+
+//== Components
+//
+//## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
+
+//== Tables
+//
+//## Customizes the `.table` component with basic values, each used across all table variations.
+$td-table-content-font-size: $td-font-size-normal !default;
+$td-table-cell-padding: 12px !default;
+$td-table-td-border: 1px solid #ddd;
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-font-weight: normal !default;
+$td-input-white-bg: $solid-white !default;
+$td-white-text: $solid-white !default;
+$td-text-hover: #dfdcd3 !default;
+$td-text-disabled: #ddd6d0 !default;
+$td-input-error: $td-red !default;
+$td-input-background: #fff !default;
+$form-font-size: $td-font-size-normal !default;
+
+$td-btn-lighter-delta: $td-delta-min !default;
+$td-btn-darker-delta: $td-delta-min !default;
+$td-btn-disabled-delta: $td-delta-medium !default;
+$td-btn-default-disabled: #d3e1be !default;
+$td-btn-link-disabled-color: $gray-light !default;
+
+//== Alerts
+//
+//## Define alert colors, border radius, and padding.
+$td-success: #59c587 !default;
+$td-success-border: #4bab74 !default;
+$td-warning: #ece386 !default;
+$td-warning-border: #e3d86b !default;
+$td-danger: #f47c7d !default;
+$td-danger-border: #f55d5a !default;
+
+//== Dropdowns
+//
+//## Dropdown menu container and contents.
+$td-dropdown-link-color: $td-bold-link-color !default;
+
+//== Modals
+//
+//##
+
+//** Padding applied to the modal body
+$td-modal-custom-font-size: 30px !default;
+
+//===Switch Button
+//##
+$td-switch-btn-red: #f45656 !default;
+$td-switch-btn-delta: $td-delta-min !default;
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+//== Grid system
+//
+//## Define your custom responsive grid.
+
+//== Navbar
+//
+//##
+
+//== Navs
+//
+//##
+
+//== Pills
+
+//== Pagination
+//
+//##
+
+//== Forms
+//
+//##
+
+//== Pager
+//
+//##
+
+//== Jumbotron
+//
+//##
+
+//== Form states and alerts
+//
+//## Define colors for form feedback states and, by default, alerts.
+
+//== Tooltips
+//
+//##
+
+//== Popovers
+//
+//##
+
+//== Labels
+//
+//##
+
+//== Progress bars
+//
+//##
+
+//== List group
+//
+//##
+
+//== Panels
+//
+//##
+
+//== Thumbnails
+//
+//##
+
+//== Wells
+//
+//##
+
+//== Badges
+//
+//##
+
+//== Breadcrumbs
+//
+//##
+
+//== Carousel
+//
+//##
+$td-carousel-h1: ceil(($td-font-size-base * 2.7)) !default;
+
+// ~36px
+
+//== Close
+//
+//##
+
+//== Code
+//
+//##
+
+//== Type
+//
+//##
+
+//== Checkbox
+//
+//##
+
+$td-counter-background-color: #dcd9cf;
+$td-counter-background-hover-color: #90857d;

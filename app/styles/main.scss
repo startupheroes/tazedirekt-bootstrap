@@ -1,4 +1,3 @@
-
 // bower:scss
 //bootstrap core libraries
 @import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
@@ -6,42 +5,42 @@
 
 // utilities
 @import 'utils/mixins';
-@import 'utils/variables';
-@import 'utils/theme';
 @import 'utils/utilities';
 @import 'utils/functions';
 
+
+//theme
+@import 'tazedirekt-theme/variables';
+@import 'tazedirekt-theme/td-theme';
+
+
 //elements
-@import 'elements/alerts';
-@import 'elements/badges';
-@import 'elements/breadcrumbs';
-@import 'elements/button-groups';
-@import 'elements/buttons';
-@import 'elements/carousel';
-@import 'elements/close';
-@import 'elements/dropdowns';
-@import 'elements/forms';
-@import 'elements/jumbotron';
-@import 'elements/pager';
-@import 'elements/popovers';
-@import 'elements/pagination';
-@import 'elements/scaffolding';
-@import 'elements/tables';
-@import 'elements/modal';
-@import 'elements/tooltip';
-@import 'elements/product';
-@import 'elements/counter';
-@import 'elements/switch';
-@import 'elements/type';
-@import 'elements/select-box';
-@import 'elements/panels';
-@import 'elements/td-theme';
-@import 'elements/navs';
+@import 'bootstrap-elements/alerts';
+@import 'bootstrap-elements/badges';
+@import 'bootstrap-elements/buttons';
+@import 'bootstrap-elements/carousel';
+@import 'bootstrap-elements/dropdowns';
+@import 'bootstrap-elements/forms';
+@import 'bootstrap-elements/popovers';
+@import 'bootstrap-elements/pagination';
+@import 'bootstrap-elements/scaffolding';
+@import 'bootstrap-elements/tables';
+@import 'bootstrap-elements/modal';
+@import 'bootstrap-elements/tooltip';
+@import 'bootstrap-elements/labels';
+@import 'bootstrap-elements/type';
+@import 'bootstrap-elements/panels';
+@import 'bootstrap-elements/list-group';
+@import 'bootstrap-elements/navs';
+@import  'bootstrap-elements/navbar';
 
-//custom styles
-@import 'custom/index';
 
-// endbower
+//Custom elements
+@import 'custom-elements/select-box';
+@import 'custom-elements/product';
+@import 'custom-elements/switch';
+@import 'custom-elements/counter';
+
 
 
 

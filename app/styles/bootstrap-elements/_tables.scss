@@ -1,0 +1,38 @@
+.table {
+  &.td-table-white {
+    background-color: $solid-white;
+    font-family: $td-proxima-nova-light;
+    @include border-all-side-radius($td-border-radius-base);
+  }
+  thead.td-table-header {
+    background-color: $td-light-gray;
+    color: $solid-white;
+  }
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        font-size: $td-table-content-font-size;
+        padding: $td-table-cell-padding;
+        border: $td-none;
+      }
+      &.td-title {
+        td {
+          color: $td-light-gray;
+          font-size: $td-font-size-large;
+          border-bottom: $td-table-td-border;
+        }
+      }
+    }
+  }
+}
+.table-hover {
+  > tbody > tr:hover {
+    > td,
+    > th {
+      background-color: $td-white;
+    }
+  }
+}

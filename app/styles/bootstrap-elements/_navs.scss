@@ -1,0 +1,31 @@
+.nav-tabs {
+  border-bottom: 5px solid $td-light-gray;
+
+  li {
+
+    &.active {
+      border-bottom: 1px solid $td-light-gray;
+      @include border-all-side-radius($td-border-radius-base);
+      & > a, & > a:hover, & > a:active {
+
+        background-color: $td-light-gray;
+        color: $solid-white;
+
+      }
+
+    }
+
+  }
+
+}
+
+.tab-content {
+
+  & > .tab-pane {
+    padding-top: 10px;
+  }
+}
+
+
+
+
