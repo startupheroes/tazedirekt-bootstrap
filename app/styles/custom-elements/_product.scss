@@ -3,8 +3,10 @@
   width: 180px;
   border: 1px solid rgba(144, 133, 125, 0.2);
 
-  &:hover {
+    &:hover {
     border: 1px solid #cdc2ba;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.14);
+
   }
 
   background-color: $solid-white;

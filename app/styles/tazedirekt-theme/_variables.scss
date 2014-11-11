@@ -1,3 +1,9 @@
+//path config
+$td-custom-font-path: "../fonts/";
+$td-custom-image-path: "../images/";
+
+
+
 //== Colors
 //
 //## Gray and brand colors for use across Tazedirekt
@@ -120,6 +126,8 @@ $td-input-error: $td-red !default;
 $td-input-background: #fff !default;
 $form-font-size: $td-font-size-normal !default;
 
+
+$td-primary-disabled-color: #b2e274 !default;
 $td-btn-lighter-delta: $td-delta-min !default;
 $td-btn-darker-delta: $td-delta-min !default;
 $td-btn-disabled-delta: $td-delta-medium !default;
@@ -144,6 +152,8 @@ $td-dropdown-link-color: $td-bold-link-color !default;
 //== Modals
 //
 //##
+$td-modal-error: #f55656 !default;
+
 
 //** Padding applied to the modal body
 $td-modal-custom-font-size: 30px !default;

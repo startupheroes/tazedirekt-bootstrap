@@ -8,21 +8,23 @@
       height: 100%;
       left: 0px;
       top: 0px;
-      @include background-color-rgba-mode($td-white, 0.9);
+      background-image: url('#{$td-custom-image-path}carousel-layer.png');
+      background-size: 100% 100%;
       color: $td-dark-brown;
       padding: 50px 20px 0px 20px;
 
       h1 {
         font-size: $td-carousel-h1;
-
         font-family: $td-prelo-semi-bold;
       }
       a {
+        position: absolute;
+        bottom: 20px;
 
       }
 
       p {
-        font-size: $td-font-size-large;
+        font-size: $td-font-size-base;
       }
 
     }
@@ -30,13 +32,14 @@
   }
 
   .carousel-indicators {
-    bottom: -12px;
+    bottom: -16px;
     left: auto;
     right: 0px;
     width: 20%;
     min-height: 35px;
     li {
       @include border-all-side-radius(0px);
+      @include border-top-radius($td-border-radius-base);
       width: 20px;
       height: 20px;
       text-indent: 0px;
@@ -44,8 +47,10 @@
     }
 
     .active {
+      position: relative;
       margin: 1px;
       height: 25px;
+      bottom: 5px;
       background-color: $solid-white;
     }
 
@@ -59,19 +64,26 @@
         img {
           width: 100%;
         }
-
       }
+      p {
+        position: absolute;
+        bottom: 70px;
 
-
-
-      img {
-        width: 100%;
       }
 
       .td-point-border {
-        width: 100%;
+        position: absolute;
         font-size: 43px;
-        line-height: 30px;
+        bottom: 134px;
+
+      }
+      h1 {
+        margin-bottom: 0px;
+        position: relative;
+      }
+
+      img {
+        width: 100%;
       }
 
     }

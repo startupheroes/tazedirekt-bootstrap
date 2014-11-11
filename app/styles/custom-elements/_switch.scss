@@ -8,9 +8,9 @@
   label {
     width: 75px;
     height: 25px;
-    background: url('../../images/switch.png') no-repeat;
-    background-size: 19px 18px;
+    background: url('#{$td-custom-image-path}switch.png') no-repeat;
     background-position: 4px 4px;
+    background-size: 19px 18px;
     display: inline-block;
     margin: 0px;
     cursor: pointer;

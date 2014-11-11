@@ -250,8 +250,8 @@ th {
     border: 1px solid #ddd !important; } }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 .glyphicon {
   position: relative;
   top: 1px;
@@ -5196,68 +5196,68 @@ button.close {
     display: none !important; } }
 body {
   font-size: 13px;
-  background: url("../../images/back.jpeg") repeat;
+  background: url("../images/back.jpeg") repeat;
   color: #5f544c;
   font-family: proxima_nova_rgregular, Helvetica, Arial, sans-serif; }
 
 @font-face {
   font-family: 'proxima_novalight';
-  src: url("../../fonts/proximanova-light-webfont.eot");
-  src: url("../../fonts/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/proximanova-light-webfont.woff2") format("woff2"), url("../../fonts/proximanova-light-webfont.woff") format("woff"), url("../../fonts/proximanova-light-webfont.ttf") format("truetype");
+  src: url("../fonts//proximanova-light-webfont.eot");
+  src: url("../fonts//proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts//proximanova-light-webfont.woff2") format("woff2"), url("../fonts//proximanova-light-webfont.woff") format("woff"), url("../fonts//proximanova-light-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'proxima_nova_rgregular';
-  src: url("../../fonts/proximanova-reg-webfont.eot");
-  src: url("../../fonts/proximanova-reg-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/proximanova-reg-webfont.woff2") format("woff2"), url("../../fonts/proximanova-reg-webfont.woff") format("woff"), url("../../fonts/proximanova-reg-webfont.ttf") format("truetype");
+  src: url("../fonts//proximanova-reg-webfont.eot");
+  src: url("../fonts//proximanova-reg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts//proximanova-reg-webfont.woff2") format("woff2"), url("../fonts//proximanova-reg-webfont.woff") format("woff"), url("../fonts//proximanova-reg-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'proxima_novalight_italic';
-  src: url("../../fonts/proximanova-lightitalic-webfont.eot");
-  src: url("../../fonts/proximanova-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/proximanova-lightitalic-webfont.woff2") format("woff2"), url("../../fonts/proximanova-lightitalic-webfont.woff") format("woff"), url("../../fonts/proximanova-lightitalic-webfont.ttf") format("truetype");
+  src: url("../fonts//proximanova-lightitalic-webfont.eot");
+  src: url("../fonts//proximanova-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts//proximanova-lightitalic-webfont.woff2") format("woff2"), url("../fonts//proximanova-lightitalic-webfont.woff") format("woff"), url("../fonts//proximanova-lightitalic-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'prelosemibold';
-  src: url("../../fonts/preloslab_semibold-webfont.eot");
-  src: url("../../fonts/preloslab_semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/preloslab_semibold-webfont.woff2") format("woff2"), url("../../fonts/preloslab_semibold-webfont.woff") format("woff"), url("../../fonts/preloslab_semibold-webfont.ttf") format("truetype");
+  src: url("../fonts//preloslab_semibold-webfont.eot");
+  src: url("../fonts//preloslab_semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts//preloslab_semibold-webfont.woff2") format("woff2"), url("../fonts//preloslab_semibold-webfont.woff") format("woff"), url("../fonts//preloslab_semibold-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'prelobook';
-  src: url("../../fonts/preloslab_book-webfont.eot");
-  src: url("../../fonts/preloslab_book-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/preloslab_book-webfont.woff2") format("woff2"), url("../../fonts/preloslab_book-webfont.woff") format("woff"), url("../../fonts/preloslab_book-webfont.ttf") format("truetype");
+  src: url("../fonts//preloslab_book-webfont.eot");
+  src: url("../fonts//preloslab_book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts//preloslab_book-webfont.woff2") format("woff2"), url("../fonts//preloslab_book-webfont.woff") format("woff"), url("../fonts//preloslab_book-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'preloblack';
-  src: url("../../fonts/preloslab_black-webfont.eot");
-  src: url("../../fonts/preloslab_black-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/preloslab_black-webfont.woff2") format("woff2"), url("../../fonts/preloslab_black-webfont.woff") format("woff"), url("../../fonts/preloslab_black-webfont.ttf") format("truetype");
+  src: url("../fonts//preloslab_black-webfont.eot");
+  src: url("../fonts//preloslab_black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts//preloslab_black-webfont.woff2") format("woff2"), url("../fonts//preloslab_black-webfont.woff") format("woff"), url("../fonts//preloslab_black-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'prelolight';
-  src: url("../../fonts/preloslab_light-webfont.eot");
-  src: url("../../fonts/preloslab_light-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/preloslab_light-webfont.woff2") format("woff2"), url("../../fonts/preloslab_light-webfont.woff") format("woff"), url("../../fonts/preloslab_light-webfont.ttf") format("truetype");
+  src: url("../fonts//preloslab_light-webfont.eot");
+  src: url("../fonts//preloslab_light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts//preloslab_light-webfont.woff2") format("woff2"), url("../fonts//preloslab_light-webfont.woff") format("woff"), url("../fonts//preloslab_light-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'proxima_nova_rgbold';
-  src: url("../../fonts/proximanova-bold-webfont.eot");
-  src: url("../../fonts/proximanova-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/proximanova-bold-webfont.woff2") format("woff2"), url("../../fonts/proximanova-bold-webfont.woff") format("woff"), url("../../fonts/proximanova-bold-webfont.ttf") format("truetype");
+  src: url("../fonts//proximanova-bold-webfont.eot");
+  src: url("../fonts//proximanova-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts//proximanova-bold-webfont.woff2") format("woff2"), url("../fonts//proximanova-bold-webfont.woff") format("woff"), url("../fonts//proximanova-bold-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'proxima_novasemibold';
-  src: url("../../fonts/proximanova-sbold-webfont.eot");
-  src: url("../../fonts/proximanova-sbold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/proximanova-sbold-webfont.woff2") format("woff2"), url("../../fonts/proximanova-sbold-webfont.woff") format("woff"), url("../../fonts/proximanova-sbold-webfont.ttf") format("truetype");
+  src: url("../fonts//proximanova-sbold-webfont.eot");
+  src: url("../fonts//proximanova-sbold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts//proximanova-sbold-webfont.woff2") format("woff2"), url("../fonts//proximanova-sbold-webfont.woff") format("woff"), url("../fonts//proximanova-sbold-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'preloextralight';
-  src: url("../../fonts/preloslab_extralight-webfont.eot");
-  src: url("../../fonts/preloslab_extralight-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/preloslab_extralight-webfont.woff2") format("woff2"), url("../../fonts/preloslab_extralight-webfont.woff") format("woff"), url("../../fonts/preloslab_extralight-webfont.ttf") format("truetype");
+  src: url("../fonts//preloslab_extralight-webfont.eot");
+  src: url("../fonts//preloslab_extralight-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts//preloslab_extralight-webfont.woff2") format("woff2"), url("../fonts//preloslab_extralight-webfont.woff") format("woff"), url("../fonts//preloslab_extralight-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 .td-bg-light-gray {
@@ -5358,9 +5358,11 @@ nav a {
 
 .alert-dismissible .close {
   position: relative;
-  top: -12px;
-  right: -2px;
-  color: inherit; }
+  color: inherit;
+  font-size: 21px;
+  line-height: 44px;
+  top: -13px;
+  right: -2px; }
 
 .td-btn-primary {
   color: #efeee8;
@@ -5380,10 +5382,10 @@ nav a {
   .td-btn-primary:hover, .td-btn-primary:active {
     background-color: #70be0b; }
   .td-btn-primary.td-btn-disabled {
-    background-color: #8dee0e;
+    background-color: #b2e274;
     color: #efeee8; }
     .td-btn-primary.td-btn-disabled.td-btn-disabled:hover, .td-btn-primary.td-btn-disabled.td-btn-disabled:active {
-      background-color: #8dee0e;
+      background-color: #b2e274;
       outline: none;
       border: none;
       -webkit-box-shadow: none;
@@ -5545,7 +5547,7 @@ nav a {
 .radio.td-radio-btn {
   position: relative; }
   .radio.td-radio-btn label {
-    background: url("../../images/radio_unselected.png") no-repeat;
+    background: url("../images/radio_unselected.png") no-repeat;
     height: 20px;
     background-size: 20px 20px;
     padding-left: 25px;
@@ -5558,14 +5560,14 @@ nav a {
     position: absolute;
     left: 23px; }
   .radio.td-radio-btn input[type="radio"]:checked + label {
-    background: url("../../images/radio_selected.png") no-repeat; }
+    background: url("../images/radio_selected.png") no-repeat; }
   .radio.td-radio-btn.td-radio-btn-disabled label {
-    background: url("../../images/radio_disabled.png") no-repeat; }
+    background: url("../images/radio_disabled.png") no-repeat; }
 
 .checkbox.td-checkbox-btn {
   position: relative; }
   .checkbox.td-checkbox-btn label {
-    background: url("../../images/checkbox_unchecked.png") no-repeat;
+    background: url("../images/checkbox_unchecked.png") no-repeat;
     height: 20px;
     background-size: 20px 20px;
     padding-left: 25px;
@@ -5578,9 +5580,9 @@ nav a {
     position: absolute;
     left: 23px; }
   .checkbox.td-checkbox-btn input[type="checkbox"]:checked + label {
-    background: url("../../images/checkbox_checked.png") no-repeat; }
+    background: url("../images/checkbox_checked.png") no-repeat; }
   .checkbox.td-checkbox-btn.td-checkbox-btn-disabled label {
-    background: url("../../images/checkbox_disabled.png") no-repeat; }
+    background: url("../images/checkbox_disabled.png") no-repeat; }
 
 .btn:active, .btn:focus {
   outline: none;
@@ -5592,16 +5594,20 @@ nav a {
   height: 100%;
   left: 0px;
   top: 0px;
-  background-color: rgba(239, 238, 232, 0.9);
+  background-image: url("../images/carousel-layer.png");
+  background-size: 100% 100%;
   color: #5f544c;
   padding: 50px 20px 0px 20px; }
   .td-carousel .item .td-carousel-overlay h1 {
     font-size: 36px;
     font-family: prelosemibold, Helvetica, Arial, sans-serif; }
+  .td-carousel .item .td-carousel-overlay a {
+    position: absolute;
+    bottom: 20px; }
   .td-carousel .item .td-carousel-overlay p {
-    font-size: 18px; }
+    font-size: 13px; }
 .td-carousel .carousel-indicators {
-  bottom: -12px;
+  bottom: -16px;
   left: auto;
   right: 0px;
   width: 20%;
@@ -5610,13 +5616,17 @@ nav a {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
     width: 20px;
     height: 20px;
     text-indent: 0px;
     background-color: #fff; }
   .td-carousel .carousel-indicators .active {
+    position: relative;
     margin: 1px;
     height: 25px;
+    bottom: 5px;
     background-color: #fff; }
 .td-carousel .carousel-inner {
   border: 8px solid #fff;
@@ -5625,37 +5635,46 @@ nav a {
   border-radius: 2px; }
   .td-carousel .carousel-inner .item a img {
     width: 100%; }
+  .td-carousel .carousel-inner .item p {
+    position: absolute;
+    bottom: 70px; }
+  .td-carousel .carousel-inner .item .td-point-border {
+    position: absolute;
+    font-size: 43px;
+    bottom: 134px; }
+  .td-carousel .carousel-inner .item h1 {
+    margin-bottom: 0px;
+    position: relative; }
   .td-carousel .carousel-inner .item img {
     width: 100%; }
-  .td-carousel .carousel-inner .item .td-point-border {
-    width: 100%;
-    font-size: 43px;
-    line-height: 30px; }
 
-.nav .dropdown > a {
+.nav.td-dropdown-navigation .dropdown > a {
   color: #3f3e3a; }
-.nav .dropdown.open > a.dropdown-toggle, .nav .dropdown.open > a.dropdown-toggle:hover, .nav .dropdown.open > a.dropdown-toggle:active {
+.nav.td-dropdown-navigation .dropdown.open > a.dropdown-toggle, .nav.td-dropdown-navigation .dropdown.open > a.dropdown-toggle:hover, .nav.td-dropdown-navigation .dropdown.open > a.dropdown-toggle:active {
   background-color: #62a60a;
   color: #fff; }
-.nav .dropdown.open .td-dropdown-caret {
+.nav.td-dropdown-navigation .dropdown.open .td-dropdown-caret {
   color: #fff; }
-  .nav .dropdown.open .td-dropdown-caret.fa-angle-down {
+  .nav.td-dropdown-navigation .dropdown.open .td-dropdown-caret.fa-angle-down {
     display: none; }
-  .nav .dropdown.open .td-dropdown-caret.fa-angle-up {
+  .nav.td-dropdown-navigation .dropdown.open .td-dropdown-caret.fa-angle-up {
     display: inline-block; }
-
-.dropdown-menu {
+.nav.td-dropdown-navigation .dropdown-menu {
   min-width: 260px;
   right: 0px;
   left: auto;
-  border-top: 5px solid #62a60a; }
-  .dropdown-menu .divider {
+  border-top: 4px solid #62a60a;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px; }
+  .nav.td-dropdown-navigation .dropdown-menu .divider {
     margin: 0px; }
-  .dropdown-menu li a {
+  .nav.td-dropdown-navigation .dropdown-menu li a {
     font-family: proxima_novalight;
     font-size: 16px;
     padding: 12px; }
-    .dropdown-menu li a:hover, .dropdown-menu li a:active {
+    .nav.td-dropdown-navigation .dropdown-menu li a:hover, .nav.td-dropdown-navigation .dropdown-menu li a:active {
       background-color: #efeee8; }
 
 .td-dropdown-caret {
@@ -5764,7 +5783,8 @@ nav a {
       border-radius: 0px;
       padding: 10px 20px 10px 20px;
       color: #5f544c;
-      font-family: prelobook, Helvetica, Arial, sans-serif; }
+      font-family: prelobook, Helvetica, Arial, sans-serif;
+      width: 50px; }
       .pagination > li > a:hover, .pagination > li > a:focus,
       .pagination > li > span:hover,
       .pagination > li > span:focus {
@@ -5793,7 +5813,7 @@ nav a {
         color: #aca098; }
     .pagination > li.first-holder, .pagination > li.last-holder {
       width: 100px;
-      min-height: 39px;
+      min-height: 38px;
       background-color: #fff; }
 
 .td-image {
@@ -5864,7 +5884,7 @@ button.close {
     outline: none; }
 
 .modal-header.td-modal-error {
-  background-color: #f47c7d; }
+  background-color: #f55656; }
 
 .modal-header.td-modal-success {
   background-color: #59c587; }
@@ -6133,12 +6153,11 @@ h3, h4, h5, h6 {
   border-bottom-left-radius: 2px; }
 
 .nav-tabs {
-  border-bottom: 5px solid #62a60a; }
+  border-bottom: 4px solid #62a60a; }
   .nav-tabs li.active {
     border-bottom: 1px solid #62a60a;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px; }
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
     .nav-tabs li.active > a, .nav-tabs li.active > a:hover, .nav-tabs li.active > a:active {
       background-color: #62a60a;
       color: #fff; }
@@ -6204,7 +6223,8 @@ h3, h4, h5, h6 {
   -moz-border-radius: 2px;
   border-radius: 2px; }
   .product-box:hover {
-    border: 1px solid #cdc2ba; }
+    border: 1px solid #cdc2ba;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.14); }
   .product-box.product-box-active .product-top .product-status {
     display: block;
     background-color: rgba(14, 120, 55, 0.8);
@@ -6301,9 +6321,9 @@ h3, h4, h5, h6 {
   .td-switch-button label {
     width: 75px;
     height: 25px;
-    background: url("../../images/switch.png") no-repeat;
-    background-size: 19px 18px;
+    background: url("../images/switch.png") no-repeat;
     background-position: 4px 4px;
+    background-size: 19px 18px;
     display: inline-block;
     margin: 0px;
     cursor: pointer;
@@ -6372,26 +6392,29 @@ h3, h4, h5, h6 {
     cursor: pointer;
     font-size: 16px;
     width: 100%; }
-    .td-side-navigation ul li:hover, .td-side-navigation ul li:active {
+    .td-side-navigation ul li:hover, .td-side-navigation ul li:active, .td-side-navigation ul li.active {
       background-color: #62a60a;
       color: #fff;
       width: 102%; }
-      .td-side-navigation ul li:hover div, .td-side-navigation ul li:active div {
+      .td-side-navigation ul li:hover div, .td-side-navigation ul li:active div, .td-side-navigation ul li.active div {
         display: block; }
     .td-side-navigation ul li div {
       display: none;
       position: absolute;
       color: #524840;
-      right: -410px;
+      right: -560px;
       top: 0;
-      width: 400px;
-      height: 2;
+      width: 550px;
+      padding: 10px;
+      height: 259px;
       background-color: #fff;
       border-left: 8px solid #62a60a;
       border-bottom-right-radius: 2px;
       border-top-right-radius: 2px;
       border-bottom-right-radius: 2px;
-      border-bottom-left-radius: 2px; }
+      border-bottom-left-radius: 2px;
+      box-shadow: 2px 3.464px 9px 0px rgba(0, 0, 0, 0.31);
+      font-size: 14px; }
     .td-side-navigation ul li:after {
       content: "\f105";
       color: #62a60a;

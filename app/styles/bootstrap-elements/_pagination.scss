@@ -10,11 +10,13 @@
       padding: 10px 20px 10px 20px;
       color: $td-dark-brown;
       font-family: $td-prelo-book;
+      width: 50px;
 
       &:hover, &:focus {
         font-family: $td-prelo-black;
         background-color: $solid-white;
         color: $td-light-gray;
+
       }
 
     }
@@ -60,7 +62,7 @@
 
     &.first-holder, &.last-holder {
       width: 100px;
-      min-height: 39px;
+      min-height: 38px;
       background-color: $solid-white;
     }
 
