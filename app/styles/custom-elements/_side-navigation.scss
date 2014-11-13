@@ -33,6 +33,7 @@
 
       div {
         display: none;
+        z-index: 2;
         position: absolute;
         color: $td-navigation-text-color;
         right: -560px;
