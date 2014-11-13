@@ -4,15 +4,11 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 // bower:scss
 //bootstrap core libraries
 @import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
-
-
 // utilities
 @import "utils/compass-config";
 @import 'utils/mixins';
 @import 'utils/utilities';
 @import 'utils/functions';
-
-
 //theme
 @import 'tazedirekt-theme/variables';
 @import 'tazedirekt-theme/td-theme';

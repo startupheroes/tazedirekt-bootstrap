@@ -1,9 +1,9 @@
 .product-box {
 
-  width: 180px;
+  width: 160px;
   border: 1px solid rgba(144, 133, 125, 0.2);
 
-    &:hover {
+  &:hover {
     border: 1px solid #cdc2ba;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.14);
 
@@ -19,7 +19,7 @@
         display: block;
         @include background-color-rgba-mode($td-dark-gray, 0.8);
         width: 100%;
-        height: 110px;
+        height: 100%;
         color: $solid-white;
         top: 0px;
         left: 0px;
@@ -65,11 +65,11 @@
 
   .product-top {
     position: relative;
-    padding: 5px 10px 5px 10px;
+    height: 105px;
 
     img {
       display: block;
-      width: 160px;
+      width: 100%;
     }
     .product-status {
       position: absolute;
@@ -79,7 +79,7 @@
   }
 
   .product-details {
-    padding: 5px 10px 10px 10px;
+    padding: 10px;
     border-bottom: 1px solid rgba(144, 133, 125, 0.2);
 
     .product-description {
@@ -98,7 +98,7 @@
       font-size: 14px;
       font-family: $td-proxima-regular;
       float: left;
-      padding: 10px 10px 5px 10px;
+      padding: 12px 10px 12px 10px;
       color: $td-text-disabled;
       text-decoration: line-through;
 
@@ -108,7 +108,7 @@
       float: right;
       font-size: 16px;
       font-family: $td-proxima-nova-rgbold;
-      padding: 10px 10px 5px 10px;
+      padding: 12px 10px 12px 10px;
       color: $td-light-gray;
 
     }

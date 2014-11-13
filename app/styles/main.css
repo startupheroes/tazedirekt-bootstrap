@@ -6216,7 +6216,7 @@ h3, h4, h5, h6 {
   cursor: not-allowed; }
 
 .product-box {
-  width: 180px;
+  width: 160px;
   border: 1px solid rgba(144, 133, 125, 0.2);
   background-color: #fff;
   -webkit-border-radius: 2px;
@@ -6229,7 +6229,7 @@ h3, h4, h5, h6 {
     display: block;
     background-color: rgba(14, 120, 55, 0.8);
     width: 100%;
-    height: 110px;
+    height: 100%;
     color: #fff;
     top: 0px;
     left: 0px;
@@ -6255,15 +6255,15 @@ h3, h4, h5, h6 {
     display: block; }
   .product-box .product-top {
     position: relative;
-    padding: 5px 10px 5px 10px; }
+    height: 105px; }
     .product-box .product-top img {
       display: block;
-      width: 160px; }
+      width: 100%; }
     .product-box .product-top .product-status {
       position: absolute;
       display: none; }
   .product-box .product-details {
-    padding: 5px 10px 10px 10px;
+    padding: 10px;
     border-bottom: 1px solid rgba(144, 133, 125, 0.2); }
     .product-box .product-details .product-owner {
       font-size: 12px;
@@ -6272,14 +6272,14 @@ h3, h4, h5, h6 {
     font-size: 14px;
     font-family: proxima_nova_rgregular, Helvetica, Arial, sans-serif;
     float: left;
-    padding: 10px 10px 5px 10px;
+    padding: 12px 10px 12px 10px;
     color: #ddd6d0;
     text-decoration: line-through; }
   .product-box .product-price .new-price {
     float: right;
     font-size: 16px;
     font-family: proxima_nova_rgbold, Helvetica, Arial, sans-serif;
-    padding: 10px 10px 5px 10px;
+    padding: 12px 10px 12px 10px;
     color: #62a60a; }
   .product-box .product-action {
     float: left;
