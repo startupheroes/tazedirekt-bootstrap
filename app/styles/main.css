@@ -5720,7 +5720,8 @@ nav a {
     position: relative; }
   .td-search-box .form-control {
     background-color: #fff;
-    color: #90857d; }
+    color: #90857d;
+    margin-bottom: 0px; }
   .td-search-box a {
     position: absolute;
     right: 1px;
