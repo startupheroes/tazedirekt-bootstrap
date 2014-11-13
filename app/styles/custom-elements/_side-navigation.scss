@@ -22,7 +22,7 @@
       &:hover, &:active, &.active {
         background-color: $td-light-gray;
         color: $solid-white;
-        width: 102%;
+        width: 105%;
 
         div {
           display: block;
@@ -40,7 +40,7 @@
         top: 0;
         width: 550px;
         padding: 10px;
-        height: 259px;
+        height: 100%;
         background-color: $solid-white;
         border-left: 8px solid $td-light-gray;
         @include border-right-radius($td-border-radius-base);

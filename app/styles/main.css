@@ -6395,18 +6395,19 @@ h3, h4, h5, h6 {
     .td-side-navigation ul li:hover, .td-side-navigation ul li:active, .td-side-navigation ul li.active {
       background-color: #62a60a;
       color: #fff;
-      width: 102%; }
+      width: 105%; }
       .td-side-navigation ul li:hover div, .td-side-navigation ul li:active div, .td-side-navigation ul li.active div {
         display: block; }
     .td-side-navigation ul li div {
       display: none;
+      z-index: 2;
       position: absolute;
       color: #524840;
       right: -560px;
       top: 0;
       width: 550px;
       padding: 10px;
-      height: 259px;
+      height: 100%;
       background-color: #fff;
       border-left: 8px solid #62a60a;
       border-bottom-right-radius: 2px;
