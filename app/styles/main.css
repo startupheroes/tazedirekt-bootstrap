@@ -5297,13 +5297,11 @@ body {
   background-color: #d29859; }
 
 a {
-  color: #5f544c;
   font-family: proxima_novalight, Helvetica, Arial, sans-serif;
   text-decoration: none; }
   a.btn {
     font-family: proxima_novalight, Helvetica, Arial, sans-serif; }
   a:hover, a:focus {
-    color: #5f544c;
     text-decoration: underline; }
   a:focus {
     outline: none;

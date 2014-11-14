@@ -178,7 +178,6 @@ body {
 }
 
 a {
-  color: $td-dark-brown;
   font-family: $td-proxima-nova-light;
   text-decoration: none;
 
@@ -187,7 +186,6 @@ a {
   }
 
   &:hover, &:focus {
-    color: $td-dark-brown;
     text-decoration: underline;
   }
   &:focus {
