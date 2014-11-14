@@ -5604,14 +5604,26 @@ nav a {
   background-size: 100% 100%;
   color: #5f544c;
   padding: 50px 20px 0px 20px; }
-  .td-carousel .item .td-carousel-overlay h1 {
-    font-size: 31px;
-    font-family: prelolight, Helvetica, Arial, sans-serif; }
+  .td-carousel .item .td-carousel-overlay .td-carousel-title-wrapper {
+    height: 78px;
+    display: table; }
+    .td-carousel .item .td-carousel-overlay .td-carousel-title-wrapper h1 {
+      display: table-cell;
+      vertical-align: bottom;
+      font-size: 36px;
+      font-family: prelolight, Helvetica, Arial, sans-serif;
+      position: relative;
+      margin: 0px; }
+  .td-carousel .item .td-carousel-overlay .td-point-border {
+    font-size: 30px;
+    line-height: 15px; }
   .td-carousel .item .td-carousel-overlay a {
     position: absolute;
-    bottom: 20px; }
+    bottom: 20px;
+    font-size: 16px; }
   .td-carousel .item .td-carousel-overlay p {
-    font-size: 13px; }
+    font-size: 13px;
+    margin-top: 15px; }
 .td-carousel .carousel-indicators {
   bottom: -16px;
   left: auto;
@@ -5641,16 +5653,6 @@ nav a {
   border-radius: 2px; }
   .td-carousel .carousel-inner .item a img {
     width: 100%; }
-  .td-carousel .carousel-inner .item p {
-    position: absolute;
-    bottom: 70px; }
-  .td-carousel .carousel-inner .item .td-point-border {
-    position: absolute;
-    font-size: 43px;
-    bottom: 134px; }
-  .td-carousel .carousel-inner .item h1 {
-    margin-bottom: 0px;
-    position: relative; }
   .td-carousel .carousel-inner .item img {
     width: 100%; }
 

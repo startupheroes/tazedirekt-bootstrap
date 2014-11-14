@@ -13,18 +13,32 @@
       color: $td-dark-brown;
       padding: 50px 20px 0px 20px;
 
-      h1 {
-        font-size: 31px;
-        font-family: $td-prelo-light;
+      .td-carousel-title-wrapper {
+        height: 78px;
+        display: table;
+        h1 {
+          display: table-cell;
+          vertical-align: bottom;
+          font-size: 36px;
+          font-family: $td-prelo-light;
+          position: relative;
+          margin: 0px;
+        }
+      }
+      .td-point-border {
+        font-size: 30px;
+        line-height: 15px;
       }
       a {
         position: absolute;
         bottom: 20px;
+        font-size: 16px;
 
       }
 
       p {
         font-size: $td-font-size-base;
+        margin-top: 15px;
       }
 
     }
@@ -65,27 +79,9 @@
           width: 100%;
         }
       }
-      p {
-        position: absolute;
-        bottom: 70px;
-
-      }
-
-      .td-point-border {
-        position: absolute;
-        font-size: 43px;
-        bottom: 134px;
-
-      }
-      h1 {
-        margin-bottom: 0px;
-        position: relative;
-      }
-
       img {
         width: 100%;
       }
-
     }
 
   }
