@@ -1,6 +1,5 @@
 .td-side-navigation {
-
-  & > ul {
+  & > ul.generic-menu-list {
     list-style-type: none;
     border-left: $td-panel-border-left;
     display: block;
