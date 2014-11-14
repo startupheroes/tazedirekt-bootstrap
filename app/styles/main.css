@@ -6175,7 +6175,7 @@ h3, h4, h5, h6 {
 .tab-content > .tab-pane {
   padding-top: 10px; }
 
-.nav ul li a:hover, .nav ul li a:active {
+.nav li a:hover, .nav li a:active {
   text-decoration: underline;
   background-color: transparent; }
 

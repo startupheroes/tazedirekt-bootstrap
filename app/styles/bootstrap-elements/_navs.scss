@@ -27,17 +27,13 @@
 
 .nav {
 
-  ul {
+  li {
 
-    li {
+    a {
 
-      a {
-
-        &:hover, &:active {
-          text-decoration: underline;
-          background-color: transparent;
-
-        }
+      &:hover, &:active {
+        text-decoration: underline;
+        background-color: transparent;
 
       }
 
