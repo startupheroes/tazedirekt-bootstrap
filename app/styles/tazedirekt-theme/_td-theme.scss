@@ -121,6 +121,22 @@ body {
 
 }
 
+
+
+@font-face {
+  font-family: 'preloextrabold';
+  src: url('#{$td-custom-font-path}/preloslab_extrabold-webfont.eot');
+  src: url('#{$td-custom-font-path}/preloslab_extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/preloslab_extrabold-webfont.woff2') format('woff2'),
+  url('#{$td-custom-font-path}/preloslab_extrabold-webfont.woff') format('woff'),
+  url('#{$td-custom-font-path}/preloslab_extrabold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
 .td-bg-light-gray {
   @include background-color($td-light-gray);
 }
