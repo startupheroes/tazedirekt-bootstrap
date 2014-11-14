@@ -6400,9 +6400,11 @@ nav ul li a:hover, nav ul li a:active {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
     padding-left: 15px;
-    padding-top: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 49px;
     color: #524840;
-    padding-bottom: 14px;
+    padding-bottom: 13px;
     cursor: pointer;
     font-family: proxima_novalight, Helvetica, Arial, sans-serif;
     font-size: 16px;

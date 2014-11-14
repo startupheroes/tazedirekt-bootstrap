@@ -1,6 +1,6 @@
 .td-side-navigation {
 
-  &>ul {
+  & > ul {
     list-style-type: none;
     border-left: $td-panel-border-left;
     display: block;
@@ -8,13 +8,13 @@
     @include border-all-side-radius($td-border-radius-base);
     position: relative;
 
-    &>li {
+    & > li {
       background-color: $solid-white;
       border-bottom: $td-table-td-border;
       padding-left: 15px;
-      padding-top: 15px;
+      @include padding-vertical(0px);
+      line-height: 49px;
       color: $td-navigation-text-color;
-      padding-bottom: 14px;
       cursor: pointer;
       font-family: $td-proxima-nova-light;
       font-size: $td-font-size-medium;
@@ -32,7 +32,7 @@
 
       }
 
-      &>div.dismissible-menu {
+      & > div.dismissible-menu {
         display: none;
         z-index: 2;
         position: absolute;
