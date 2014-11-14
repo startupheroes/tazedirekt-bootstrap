@@ -12,7 +12,8 @@
       background-color: $solid-white;
       border-bottom: $td-table-td-border;
       padding-left: 15px;
-      @include padding-vertical(0px);
+      padding-bottom: 0px;
+      padding-top:2px;
       line-height: 49px;
       color: $td-navigation-text-color;
       cursor: pointer;
