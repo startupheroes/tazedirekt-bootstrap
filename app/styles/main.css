@@ -6373,7 +6373,7 @@ h3, h4, h5, h6 {
   border-bottom-left-radius: 2px;
   border-top-left-radius: 2px; }
 
-.td-side-navigation ul {
+.td-side-navigation > ul {
   list-style-type: none;
   border-left: 4px solid #62a60a;
   display: block;
@@ -6382,7 +6382,7 @@ h3, h4, h5, h6 {
   -moz-border-radius: 2px;
   border-radius: 2px;
   position: relative; }
-  .td-side-navigation ul li {
+  .td-side-navigation > ul > li {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
     padding-left: 15px;
@@ -6392,13 +6392,13 @@ h3, h4, h5, h6 {
     cursor: pointer;
     font-size: 16px;
     width: 100%; }
-    .td-side-navigation ul li:hover, .td-side-navigation ul li:active, .td-side-navigation ul li.active {
+    .td-side-navigation > ul > li:hover, .td-side-navigation > ul > li:active, .td-side-navigation > ul > li.active {
       background-color: #62a60a;
       color: #fff;
       width: 105%; }
-      .td-side-navigation ul li:hover div, .td-side-navigation ul li:active div, .td-side-navigation ul li.active div {
+      .td-side-navigation > ul > li:hover div, .td-side-navigation > ul > li:active div, .td-side-navigation > ul > li.active div {
         display: block; }
-    .td-side-navigation ul li > div {
+    .td-side-navigation > ul > li > div.dismissible-menu {
       display: none;
       z-index: 2;
       position: absolute;
@@ -6416,7 +6416,7 @@ h3, h4, h5, h6 {
       border-bottom-left-radius: 2px;
       box-shadow: 2px 3.464px 9px 0px rgba(0, 0, 0, 0.31);
       font-size: 14px; }
-    .td-side-navigation ul li:after {
+    .td-side-navigation > ul > li:after {
       content: "\f105";
       color: #62a60a;
       position: absolute;

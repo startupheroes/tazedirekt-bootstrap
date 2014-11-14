@@ -1,6 +1,6 @@
 .td-side-navigation {
 
-  ul {
+  &>ul {
     list-style-type: none;
     border-left: $td-panel-border-left;
     display: block;
@@ -8,7 +8,7 @@
     @include border-all-side-radius($td-border-radius-base);
     position: relative;
 
-    li {
+    &>li {
       background-color: $solid-white;
       border-bottom: $td-table-td-border;
       padding-left: 15px;
@@ -31,7 +31,7 @@
 
       }
 
-      &>div {
+      &>div.dismissible-menu {
         display: none;
         z-index: 2;
         position: absolute;
