@@ -71,7 +71,7 @@
   }
 
   .carousel-inner {
-    border: 8px solid $solid-white;
+    border: 10px solid $solid-white;
     @include border-all-side-radius($td-border-radius-base);
     .item {
       a {
