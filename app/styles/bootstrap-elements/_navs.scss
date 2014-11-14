@@ -33,7 +33,12 @@ nav {
 
       a {
         background-color: transparent;
-        text-decoration: underline;
+
+        &:hover, &:active {
+          text-decoration: underline;
+
+        }
+
       }
 
     }
