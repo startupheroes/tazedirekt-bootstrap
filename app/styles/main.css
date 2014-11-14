@@ -5726,7 +5726,9 @@ nav a {
     position: relative; }
   .td-search-box .form-control {
     background-color: #fff;
-    color: #90857d; }
+    color: #90857d;
+    font-family: proxima_novalight, Helvetica, Arial, sans-serif;
+    font-size: 16px; }
   .td-search-box a {
     position: absolute;
     right: 1px;
@@ -6396,6 +6398,7 @@ h3, h4, h5, h6 {
     color: #524840;
     padding-bottom: 14px;
     cursor: pointer;
+    font-family: proxima_novalight, Helvetica, Arial, sans-serif;
     font-size: 16px;
     width: 100%; }
     .td-side-navigation > ul > li:hover, .td-side-navigation > ul > li:active, .td-side-navigation > ul > li.active {
