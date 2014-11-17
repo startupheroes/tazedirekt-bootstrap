@@ -1,0 +1,5 @@
+@mixin td-box-shadow-shadow($angle, $position, $blur, $d, $opacity) {
+  -webkit-box-shadow: $angle $position $blur $d rgba(50, 50, 50, $opacity);
+  -moz-box-shadow: $angle $position $blur $d rgba(50, 50, 50, $opacity);
+  box-shadow: $angle $position $blur $d rgba(50, 50, 50, $opacity);
+}
