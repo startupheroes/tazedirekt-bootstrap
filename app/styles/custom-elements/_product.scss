@@ -71,6 +71,40 @@
       display: block;
       width: 100%;
     }
+
+    .product-info-wrapper {
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      width: 100%;
+      text-align: center;
+
+      .discount {
+        width: 40px;
+        height: 40px;
+        background-color: #ee6646;
+        @include border-all-side-radius($td-border-radius-base);
+        border-bottom-right-radius: 20px;
+        color: $solid-white;
+        display: block;
+        padding-top: 3px;
+        font-family: $td-prelo-semi-bold;
+        @include td-box-shadow-shadow(1px, 0px, 9px, 0px, 0.3);
+
+        span:first-child {
+          font-size: 12px;
+          line-height: 14px;
+        }
+
+        span:last-child {
+          font-size: 17px;
+          line-height: 20px;
+
+        }
+      }
+
+    }
+
     .product-status {
       position: absolute;
       display: none;
