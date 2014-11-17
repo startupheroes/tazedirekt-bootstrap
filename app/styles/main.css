@@ -5728,7 +5728,8 @@ nav a {
     background-color: #fff;
     color: #90857d;
     font-family: proxima_novalight, Helvetica, Arial, sans-serif;
-    font-size: 16px; }
+    font-size: 16px;
+    height: 40px; }
   .td-search-box a {
     position: absolute;
     right: 1px;
