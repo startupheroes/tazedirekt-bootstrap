@@ -6463,7 +6463,7 @@ h3, h4, h5, h6 {
         display: block; }
     .td-side-navigation > ul.generic-menu-list > li > div.dismissible-menu {
       display: none;
-      z-index: 2;
+      z-index: 4;
       position: absolute;
       color: #524840;
       right: -560px;
