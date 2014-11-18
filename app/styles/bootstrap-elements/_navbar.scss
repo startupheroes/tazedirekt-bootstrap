@@ -7,6 +7,11 @@
 
 .td-navbar-toggle {
 
+  &.navbar-toggle{
+    float: left;
+  }
+
+
  .icon-bar {
     display: block;
     width: 22px;
