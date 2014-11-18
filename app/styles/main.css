@@ -6183,6 +6183,8 @@ h3, h4, h5, h6 {
   border-color: #fff;
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.14); }
 
+.td-navbar-toggle.navbar-toggle {
+  float: left; }
 .td-navbar-toggle .icon-bar {
   display: block;
   width: 22px;
