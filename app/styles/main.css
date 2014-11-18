@@ -6363,6 +6363,14 @@ h3, h4, h5, h6 {
     .product-box .product-action .td-minus {
       display: none; }
 
+@media (max-width: 550px) {
+  .product-box {
+    width: 145px; }
+    .product-box .product-details {
+      padding: 8px; }
+    .product-box .product-price .old-price {
+      padding-right: 0px;
+      padding-top: 14px; } }
 .td-switch-button {
   position: relative;
   width: 70px;

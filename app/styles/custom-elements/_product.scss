@@ -193,3 +193,27 @@
   }
 
 }
+
+//Mobile
+@media (max-width: 550px) {
+
+  .product-box {
+
+    width: 145px;
+
+    .product-details {
+
+      padding: 8px;
+
+    }
+
+    .product-price {
+      .old-price {
+        padding-right: 0px;
+        padding-top: 14px;
+      }
+    }
+
+  }
+
+}
