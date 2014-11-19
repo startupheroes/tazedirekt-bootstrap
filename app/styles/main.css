@@ -5911,7 +5911,8 @@ nav a {
     .table > tfoot > tr > th .total-price,
     .table > tfoot > tr > td .total-price {
       font-family: proxima_nova_rgbold, Helvetica, Arial, sans-serif;
-      font-size: 16px; }
+      font-size: 16px;
+      color: #5f544c; }
       .table > thead > tr > th .total-price span:last-child,
       .table > thead > tr > td .total-price span:last-child,
       .table > tbody > tr > th .total-price span:last-child,
