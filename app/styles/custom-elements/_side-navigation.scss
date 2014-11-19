@@ -1,4 +1,5 @@
 .td-side-navigation {
+
   & > ul.generic-menu-list {
     list-style-type: none;
     border-left: $td-panel-border-left;
@@ -12,7 +13,7 @@
       border-bottom: $td-table-td-border;
       padding-left: 15px;
       padding-bottom: 0px;
-      padding-top:2px;
+      padding-top: 2px;
       line-height: 49px;
       color: $td-navigation-text-color;
       cursor: pointer;
@@ -23,7 +24,6 @@
       &:hover, &:active, &.active {
         background-color: $td-light-gray;
         color: $solid-white;
-        width: 105%;
 
         div.dismissible-menu {
           display: block;
@@ -57,6 +57,75 @@
         right: 15px;
         font-family: FontAwesome;
         font-size: 15px;
+      }
+
+      //dropdown
+      .sublist {
+        margin-left: -20px;
+
+        .panel-heading {
+          background-color: #e7e5dd;
+          border-bottom: 1px solid #bab6a8;
+
+
+          &.opened{
+            border-bottom: none;
+          }
+
+          span {
+            i {
+              color: #524840;
+            }
+
+          }
+        }
+
+        .panel-group {
+          margin-bottom: 0;
+          border: none;
+          box-shadow: inset 0 0 10px #0f0;
+        }
+
+        .panel-body {
+          padding: 0px;
+          color: #524840;
+
+          ul {
+            padding: 0px;
+            list-style-type: none;
+
+            li {
+              background-color: #bfb7ac;
+              border-bottom: 1px solid #978e84;
+
+
+              &.active{
+                border-left: 4px solid #524840;
+              }
+
+
+              a {
+                display: block;
+                color: #524840;
+                @include padding-horizontal(15px);
+                line-height: 40px;
+
+                span {
+
+                  i {
+                    color: #524840;
+
+                  }
+
+                }
+
+              }
+
+            }
+
+          }
+
+        }
 
       }
 
@@ -64,4 +133,46 @@
 
   }
 
+}
+
+.td-side-navigation {
+  .dismissible-menu {
+    & > div {
+      width: 33.3%;
+      float: left;
+      height: 100%;
+      // generic wrapper
+      div {
+        padding: 20px;
+        ul {
+          padding: 0px;
+          li {
+            line-height: 23px;
+
+            list-style-type: none;
+            padding: 0px;
+            a {
+              font-family: $td-proxima-nova-light;
+              font-size: 14px;
+            }
+            a.title {
+              font-size: 22px;
+              color: $td-light-gray;
+              font-family: $td-prelo-book;
+            }
+          }
+        }
+      }
+      div.first, div.second {
+        border-bottom: $td-table-td-border;
+
+      }
+
+    }
+
+    & > div:nth-child(1), & > div:nth-child(2) {
+      border-right: $td-table-td-border;
+    }
+
+  }
 }
