@@ -5895,7 +5895,15 @@ nav a {
     .table > tfoot > tr > th a.go-cart,
     .table > tfoot > tr > td a.go-cart {
       font-family: prelobook, Helvetica, Arial, sans-serif;
-      color: #62a60a; }
+      color: #62a60a;
+      line-height: 48px; }
+    .table > thead > tr > th span.use-tazepara,
+    .table > thead > tr > td span.use-tazepara,
+    .table > tbody > tr > th span.use-tazepara,
+    .table > tbody > tr > td span.use-tazepara,
+    .table > tfoot > tr > th span.use-tazepara,
+    .table > tfoot > tr > td span.use-tazepara {
+      line-height: 42px; }
   .table > thead > tr.td-title td,
   .table > tbody > tr.td-title td,
   .table > tfoot > tr.td-title td {
