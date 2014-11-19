@@ -153,8 +153,6 @@
 
       & > a {
 
-
-
         &:hover {
           color: $solid-white;
 
@@ -163,12 +161,11 @@
 
     }
 
+    & > li.active {
 
-    li.active{
+     & > a {
 
-      >a{
-
-        &:after{
+        &:after {
           content: "\f107";
           color: $solid-white;
           position: absolute;
@@ -179,10 +176,9 @@
         }
       }
 
-      &:after{
+      &:after {
         display: none;
       }
-
 
     }
 
