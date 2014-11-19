@@ -5770,13 +5770,15 @@ nav a {
     font-weight: normal;
     cursor: pointer; }
 
-.form-group.voucher-group input {
-  font-family: proxima_novalight_italic;
-  width: 180px;
-  height: 25px;
-  font-size: 12px; }
-  .form-group.voucher-group input:focus {
-    font-family: proxima_nova_rgregular; }
+.form-group.voucher-group {
+  margin-bottom: 0px; }
+  .form-group.voucher-group input {
+    font-family: proxima_novalight_italic;
+    width: 180px;
+    height: 25px;
+    font-size: 12px; }
+    .form-group.voucher-group input:focus {
+      font-family: proxima_nova_rgregular; }
 
 .pagination {
   -webkit-border-radius: 2px;
