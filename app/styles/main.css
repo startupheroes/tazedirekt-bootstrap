@@ -5775,7 +5775,7 @@ nav a {
   display: inline-block; }
   .form-group.voucher-group input {
     font-family: proxima_novalight_italic, Helvetica, Arial, sans-serif;
-    width: 180px;
+    width: 140px;
     height: 28px;
     font-size: 12px; }
     .form-group.voucher-group input:focus {
@@ -5880,6 +5880,14 @@ nav a {
       padding-right: 10px;
       text-decoration: none;
       line-height: 20px; }
+    .table > thead > tr > th.no-padding,
+    .table > thead > tr > td.no-padding,
+    .table > tbody > tr > th.no-padding,
+    .table > tbody > tr > td.no-padding,
+    .table > tfoot > tr > th.no-padding,
+    .table > tfoot > tr > td.no-padding {
+      padding-top: 0px;
+      padding-bottom: 0px; }
     .table > thead > tr > th a.go-cart,
     .table > thead > tr > td a.go-cart,
     .table > tbody > tr > th a.go-cart,
