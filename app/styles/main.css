@@ -6496,10 +6496,14 @@ h3, h4, h5, h6 {
       .td-side-navigation > ul.generic-menu-list > li .sublist .panel-heading {
         background-color: #e7e5dd;
         border-bottom: 1px solid #bab6a8;
-        padding-top: 12px;
-        padding-bottom: 12px; }
+        padding-top: 0px;
+        padding-bottom: 0px; }
         .td-side-navigation > ul.generic-menu-list > li .sublist .panel-heading h4.panel-title {
           font-size: 14px; }
+          .td-side-navigation > ul.generic-menu-list > li .sublist .panel-heading h4.panel-title a {
+            display: block;
+            padding-top: 12px;
+            padding-bottom: 12px; }
           .td-side-navigation > ul.generic-menu-list > li .sublist .panel-heading h4.panel-title i {
             color: #524840; }
         .td-side-navigation > ul.generic-menu-list > li .sublist .panel-heading .td-dropdown-caret:last-child {

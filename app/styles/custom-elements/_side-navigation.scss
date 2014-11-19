@@ -73,10 +73,15 @@
         .panel-heading {
           background-color: #e7e5dd;
           border-bottom: 1px solid #bab6a8;
-          @include padding-vertical(12px);
+          @include padding-vertical(0px);
 
           h4.panel-title {
             font-size: 14px;
+
+            a {
+              display: block;
+              @include padding-vertical(12px);
+            }
 
             i {
               color: #524840;
