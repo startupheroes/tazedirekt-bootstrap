@@ -5874,6 +5874,10 @@ nav a {
   .table > tfoot > tr.td-th th {
     font-size: 16px;
     font-weight: 300; }
+  .table > thead td.border,
+  .table > tbody td.border,
+  .table > tfoot td.border {
+    border-bottom: 1px solid #ddd; }
 
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
