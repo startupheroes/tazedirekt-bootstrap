@@ -5774,12 +5774,12 @@ nav a {
   margin-bottom: 0px;
   display: inline-block; }
   .form-group.voucher-group input {
-    font-family: proxima_novalight_italic;
+    font-family: proxima_novalight_italic, Helvetica, Arial, sans-serif;
     width: 180px;
-    height: 25px;
+    height: 28px;
     font-size: 12px; }
     .form-group.voucher-group input:focus {
-      font-family: proxima_nova_rgregular; }
+      font-family: proxima_nova_rgregular, Helvetica, Arial, sans-serif; }
 
 .pagination {
   -webkit-border-radius: 2px;

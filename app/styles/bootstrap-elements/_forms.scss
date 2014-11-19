@@ -96,13 +96,13 @@
     display: inline-block;
 
     input {
-      font-family: proxima_novalight_italic;
+      font-family: $td-proxima-nova-italic;
       width: 180px;
-      height: 25px;
+      height: 28px;
       font-size: 12px;
 
       &:focus {
-        font-family: proxima_nova_rgregular;
+        font-family: $td-proxima-regular;
       }
 
     }
