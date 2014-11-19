@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31734ff-77e9-43d3-bff8-9d5c6ea44072" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/bootstrap-elements/_forms.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/bootstrap-elements/_tables.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_tables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tazedirekt-bootstrap.iws" />
@@ -60,20 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_tables.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_tables.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_tables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.708333" vertical-offset="7" max-vertical-offset="840">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.57915056" vertical-offset="0" max-vertical-offset="855">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_forms.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_forms.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_forms.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3597561" vertical-offset="1233" max-vertical-offset="1755">
+            <state vertical-scroll-proportion="-16.14" vertical-offset="603" max-vertical-offset="1755">
               <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
               <folding />
             </state>
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_dropdowns.scss" />
         <option value="$PROJECT_DIR$/app/styles/custom-elements/_side-navigation.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_tables.scss" />
         <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_forms.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_tables.scss" />
       </list>
     </option>
   </component>
@@ -1006,18 +1006,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_tables.scss">
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.708333" vertical-offset="7" max-vertical-offset="840">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state vertical-scroll-proportion="-16.14" vertical-offset="603" max-vertical-offset="1755">
+          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_forms.scss">
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_tables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3597561" vertical-offset="1233" max-vertical-offset="1755">
-          <caret line="94" column="23" selection-start-line="94" selection-start-column="23" selection-end-line="94" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.57915056" vertical-offset="0" max-vertical-offset="855">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding />
         </state>
       </provider>

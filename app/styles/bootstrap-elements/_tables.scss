@@ -18,6 +18,7 @@
         font-size: $td-table-content-font-size;
         padding: $td-table-cell-padding;
         border: $td-none;
+        @include padding-vertical(8px);
       }
       &.td-title {
         td {

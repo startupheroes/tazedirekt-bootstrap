@@ -5859,7 +5859,9 @@ nav a {
   .table > tfoot > tr > td {
     font-size: 14px;
     padding: 12px;
-    border: none; }
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px; }
   .table > thead > tr.td-title td,
   .table > tbody > tr.td-title td,
   .table > tfoot > tr.td-title td {
