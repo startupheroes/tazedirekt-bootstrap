@@ -6486,7 +6486,7 @@ h3, h4, h5, h6 {
       position: absolute;
       right: 15px;
       font-family: FontAwesome;
-      font-size: 15px; }
+      font-size: 18px; }
     .td-side-navigation > ul.generic-menu-list > li .sublist {
       margin-left: -20px;
       border: 1px solid #c0bcb3;
@@ -6535,6 +6535,15 @@ h3, h4, h5, h6 {
                 color: #524840; }
     .td-side-navigation > ul.generic-menu-list > li > a:hover {
       color: #fff; }
+  .td-side-navigation > ul.generic-menu-list li.active > a:after {
+    content: "\f107";
+    color: #fff;
+    position: absolute;
+    right: 15px;
+    font-family: FontAwesome;
+    font-size: 18px; }
+  .td-side-navigation > ul.generic-menu-list li.active:after {
+    display: none; }
 
 .td-side-navigation .dismissible-menu > div {
   width: 33.3%;

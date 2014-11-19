@@ -62,7 +62,7 @@
         position: absolute;
         right: 15px;
         font-family: FontAwesome;
-        font-size: 15px;
+        font-size: 18px;
       }
 
       //dropdown
@@ -153,11 +153,36 @@
 
       & > a {
 
+
+
         &:hover {
           color: $solid-white;
 
         }
       }
+
+    }
+
+
+    li.active{
+
+      >a{
+
+        &:after{
+          content: "\f107";
+          color: $solid-white;
+          position: absolute;
+          right: 15px;
+          font-family: FontAwesome;
+          font-size: 18px;
+
+        }
+      }
+
+      &:after{
+        display: none;
+      }
+
 
     }
 
