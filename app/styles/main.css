@@ -5897,13 +5897,28 @@ nav a {
       font-family: prelobook, Helvetica, Arial, sans-serif;
       color: #62a60a;
       line-height: 48px; }
-    .table > thead > tr > th span.use-tazepara,
-    .table > thead > tr > td span.use-tazepara,
-    .table > tbody > tr > th span.use-tazepara,
-    .table > tbody > tr > td span.use-tazepara,
-    .table > tfoot > tr > th span.use-tazepara,
-    .table > tfoot > tr > td span.use-tazepara {
+    .table > thead > tr > th span.spend-tazepara,
+    .table > thead > tr > td span.spend-tazepara,
+    .table > tbody > tr > th span.spend-tazepara,
+    .table > tbody > tr > td span.spend-tazepara,
+    .table > tfoot > tr > th span.spend-tazepara,
+    .table > tfoot > tr > td span.spend-tazepara {
       line-height: 42px; }
+    .table > thead > tr > th .total-price,
+    .table > thead > tr > td .total-price,
+    .table > tbody > tr > th .total-price,
+    .table > tbody > tr > td .total-price,
+    .table > tfoot > tr > th .total-price,
+    .table > tfoot > tr > td .total-price {
+      font-family: proxima_nova_rgbold, Helvetica, Arial, sans-serif;
+      font-size: 16px; }
+      .table > thead > tr > th .total-price span:last-child,
+      .table > thead > tr > td .total-price span:last-child,
+      .table > tbody > tr > th .total-price span:last-child,
+      .table > tbody > tr > td .total-price span:last-child,
+      .table > tfoot > tr > th .total-price span:last-child,
+      .table > tfoot > tr > td .total-price span:last-child {
+        color: #62a60a; }
   .table > thead > tr.td-title td,
   .table > tbody > tr.td-title td,
   .table > tfoot > tr.td-title td {

@@ -41,8 +41,22 @@
           line-height: 48px;
         }
 
-        span.spend-tazepara{
-        line-height: 42px;
+        span.spend-tazepara {
+          line-height: 42px;
+        }
+
+        .total-price {
+          font-family: $td-proxima-nova-rgbold;
+          font-size: 16px;
+          color: $td-dark-brown;
+          span:first-child {
+
+          }
+          span:last-child {
+            color: $td-light-gray;
+
+          }
+
         }
 
       }
