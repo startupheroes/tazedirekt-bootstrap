@@ -5771,7 +5771,8 @@ nav a {
     cursor: pointer; }
 
 .form-group.voucher-group {
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  display: inline-block; }
   .form-group.voucher-group input {
     font-family: proxima_novalight_italic;
     width: 180px;
