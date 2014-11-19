@@ -5838,30 +5838,38 @@ nav a {
   -moz-border-radius: 2px;
   border-radius: 2px; }
 
-.table.td-table-white {
-  background-color: #fff;
-  font-family: proxima_novalight, Helvetica, Arial, sans-serif;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px; }
-.table thead.td-table-header {
-  background-color: #62a60a;
-  color: #fff; }
-.table > thead > tr > th,
-.table > thead > tr > td,
-.table > tbody > tr > th,
-.table > tbody > tr > td,
-.table > tfoot > tr > th,
-.table > tfoot > tr > td {
-  font-size: 14px;
-  padding: 12px;
-  border: none; }
-.table > thead > tr.td-title td,
-.table > tbody > tr.td-title td,
-.table > tfoot > tr.td-title td {
-  color: #62a60a;
-  font-size: 18px;
-  border-bottom: 1px solid #ddd; }
+.table {
+  margin-bottom: 0; }
+  .table.td-table-white {
+    background-color: #fff;
+    font-family: proxima_novalight, Helvetica, Arial, sans-serif;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px; }
+  .table thead.td-table-header {
+    background-color: #62a60a;
+    color: #fff; }
+  .table > thead > tr > th,
+  .table > thead > tr > td,
+  .table > tbody > tr > th,
+  .table > tbody > tr > td,
+  .table > tfoot > tr > th,
+  .table > tfoot > tr > td {
+    font-size: 14px;
+    padding: 12px;
+    border: none; }
+  .table > thead > tr.td-title td,
+  .table > tbody > tr.td-title td,
+  .table > tfoot > tr.td-title td {
+    color: #62a60a;
+    font-family: prelobook, Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    border-bottom: 1px solid #ddd; }
+  .table > thead > tr.td-th th,
+  .table > tbody > tr.td-th th,
+  .table > tfoot > tr.td-th th {
+    font-size: 16px;
+    font-weight: 300; }
 
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {

@@ -1,4 +1,5 @@
 .table {
+  margin-bottom: 0;
   &.td-table-white {
     background-color: $solid-white;
     font-family: $td-proxima-nova-light;
@@ -21,13 +22,25 @@
       &.td-title {
         td {
           color: $td-light-gray;
-          font-size: $td-font-size-large;
+          font-family: $td-prelo-book;
+          font-size: 22px;
           border-bottom: $td-table-td-border;
         }
       }
+
+      &.td-th {
+
+        th {
+          font-size: 16px;
+          font-weight: 300;
+        }
+
+      }
+
     }
   }
 }
+
 .table-hover {
   > tbody > tr:hover {
     > td,
