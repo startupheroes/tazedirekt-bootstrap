@@ -6458,6 +6458,9 @@ h3, h4, h5, h6 {
     .td-side-navigation > ul.generic-menu-list > li:hover, .td-side-navigation > ul.generic-menu-list > li:active, .td-side-navigation > ul.generic-menu-list > li.active {
       background-color: #62a60a;
       color: #fff; }
+      .td-side-navigation > ul.generic-menu-list > li:hover > a, .td-side-navigation > ul.generic-menu-list > li:active > a, .td-side-navigation > ul.generic-menu-list > li.active > a {
+        color: #fff;
+        text-decoration: none; }
       .td-side-navigation > ul.generic-menu-list > li:hover div.dismissible-menu, .td-side-navigation > ul.generic-menu-list > li:active div.dismissible-menu, .td-side-navigation > ul.generic-menu-list > li.active div.dismissible-menu {
         display: block; }
     .td-side-navigation > ul.generic-menu-list > li > div.dismissible-menu {
@@ -6505,8 +6508,6 @@ h3, h4, h5, h6 {
             display: none; }
           .td-side-navigation > ul.generic-menu-list > li .sublist .panel-heading.opened .td-dropdown-caret:last-child {
             display: block; }
-        .td-side-navigation > ul.generic-menu-list > li .sublist .panel-heading span i {
-          color: #524840; }
       .td-side-navigation > ul.generic-menu-list > li .sublist .panel-group {
         margin-bottom: 0;
         border: none;
@@ -6530,6 +6531,8 @@ h3, h4, h5, h6 {
               line-height: 41px; }
               .td-side-navigation > ul.generic-menu-list > li .sublist .panel-body ul li a span i {
                 color: #524840; }
+    .td-side-navigation > ul.generic-menu-list > li > a:hover {
+      color: #fff; }
 
 .td-side-navigation .dismissible-menu > div {
   width: 33.3%;

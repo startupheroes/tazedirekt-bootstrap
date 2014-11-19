@@ -22,6 +22,12 @@
       width: 100%;
 
       &:hover, &:active, &.active {
+
+        >a {
+          color: $solid-white;
+          text-decoration: none;
+        }
+
         background-color: $td-light-gray;
         color: $solid-white;
 
@@ -69,11 +75,9 @@
           border-bottom: 1px solid #bab6a8;
           @include padding-vertical(12px);
 
-
-          h4.panel-title{
+          h4.panel-title {
             font-size: 14px;
           }
-
 
           .td-dropdown-caret:last-child {
             display: none;
@@ -93,12 +97,6 @@
 
           }
 
-          span {
-            i {
-              color: #524840;
-            }
-
-          }
         }
 
         .panel-group {
@@ -146,6 +144,14 @@
 
         }
 
+      }
+
+      & > a {
+
+        &:hover {
+          color: $solid-white;
+
+        }
       }
 
     }
