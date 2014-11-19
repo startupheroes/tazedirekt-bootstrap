@@ -23,7 +23,7 @@
 
       &:hover, &:active, &.active {
 
-        >a {
+        > a {
           color: $solid-white;
           text-decoration: none;
         }
@@ -77,6 +77,11 @@
 
           h4.panel-title {
             font-size: 14px;
+
+            i {
+              color: #524840;
+            }
+
           }
 
           .td-dropdown-caret:last-child {

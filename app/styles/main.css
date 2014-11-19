@@ -6500,6 +6500,8 @@ h3, h4, h5, h6 {
         padding-bottom: 12px; }
         .td-side-navigation > ul.generic-menu-list > li .sublist .panel-heading h4.panel-title {
           font-size: 14px; }
+          .td-side-navigation > ul.generic-menu-list > li .sublist .panel-heading h4.panel-title i {
+            color: #524840; }
         .td-side-navigation > ul.generic-menu-list > li .sublist .panel-heading .td-dropdown-caret:last-child {
           display: none; }
         .td-side-navigation > ul.generic-menu-list > li .sublist .panel-heading.opened {
