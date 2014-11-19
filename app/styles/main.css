@@ -5862,6 +5862,23 @@ nav a {
     border: none;
     padding-top: 8px;
     padding-bottom: 8px; }
+    .table > thead > tr > th a.delete,
+    .table > thead > tr > td a.delete,
+    .table > tbody > tr > th a.delete,
+    .table > tbody > tr > td a.delete,
+    .table > tfoot > tr > th a.delete,
+    .table > tfoot > tr > td a.delete {
+      display: inline-block;
+      width: 30px;
+      background-color: #dcd9cf;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      font-size: 12px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+      line-height: 20px; }
   .table > thead > tr.td-title td,
   .table > tbody > tr.td-title td,
   .table > tfoot > tr.td-title td {

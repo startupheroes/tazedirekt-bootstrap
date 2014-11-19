@@ -20,8 +20,16 @@
         border: $td-none;
         @include padding-vertical(8px);
 
-
-
+        a.delete {
+          display: inline-block;
+          width: 30px;
+          background-color: #dcd9cf;
+          @include border-all-side-radius($td-border-radius-base);
+          font-size: 12px;
+          @include padding-horizontal(10px);
+          text-decoration: none;
+          line-height: 20px;
+        }
 
       }
       &.td-title {
@@ -43,7 +51,7 @@
       }
 
     }
-    tr.border{
+    tr.border {
       border-bottom: $td-table-td-border;
     }
   }
