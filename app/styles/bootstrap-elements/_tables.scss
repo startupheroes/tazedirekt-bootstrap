@@ -19,6 +19,10 @@
         padding: $td-table-cell-padding;
         border: $td-none;
         @include padding-vertical(8px);
+
+
+
+
       }
       &.td-title {
         td {
@@ -39,7 +43,7 @@
       }
 
     }
-    td.border{
+    tr.border{
       border-bottom: $td-table-td-border;
     }
   }
