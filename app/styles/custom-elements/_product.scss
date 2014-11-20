@@ -66,10 +66,13 @@
   .product-top {
     position: relative;
     height: 105px;
+    overflow: hidden;
+
 
     img {
-      display: block;
-      width: 100%;
+      height: 110px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .product-info-wrapper {
@@ -128,13 +131,20 @@
 
   }
 
+  span:first-child {
+    height: 36px;
+    overflow: hidden;
+    padding-right: 0;
+  }
+
+
   .product-price {
 
     .old-price {
       font-size: 14px;
       font-family: $td-proxima-regular;
       float: left;
-      padding: 12px 10px 12px 10px;
+      padding: 12px 0px 12px 10px;
       color: $td-text-disabled;
       text-decoration: line-through;
 
