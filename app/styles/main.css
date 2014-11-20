@@ -6403,6 +6403,8 @@ h3, h4, h5, h6 {
     height: 36px;
     overflow: hidden;
     padding-right: 0; }
+  .product-box .product-price > div {
+    min-height: 46px; }
   .product-box .product-price .old-price {
     font-size: 14px;
     font-family: proxima_nova_rgregular, Helvetica, Arial, sans-serif;
