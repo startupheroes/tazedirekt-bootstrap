@@ -1,13 +1,13 @@
 .nav-tabs {
-  border-bottom: 4px solid $td-light-gray;
+  border-bottom: 4px solid $td-yellow;
 
   li {
     &.active {
-      border-bottom: 1px solid $td-light-gray;
+      border-bottom: 1px solid $td-yellow;
       @include border-top-radius($td-border-radius-base);
       & > a, & > a:hover, & > a:active {
-
-        background-color: $td-light-gray;
+        font-family: $td-prelo-book;
+        background-color: $td-yellow;
         color: $solid-white;
 
       }

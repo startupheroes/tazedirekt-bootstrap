@@ -5904,21 +5904,21 @@ nav a {
     .table > tfoot > tr > th span.spend-tazepara,
     .table > tfoot > tr > td span.spend-tazepara {
       line-height: 42px; }
-    .table > thead > tr > th .total-price,
-    .table > thead > tr > td .total-price,
-    .table > tbody > tr > th .total-price,
-    .table > tbody > tr > td .total-price,
-    .table > tfoot > tr > th .total-price,
-    .table > tfoot > tr > td .total-price {
+    .table > thead > tr > th.total-price,
+    .table > thead > tr > td.total-price,
+    .table > tbody > tr > th.total-price,
+    .table > tbody > tr > td.total-price,
+    .table > tfoot > tr > th.total-price,
+    .table > tfoot > tr > td.total-price {
       font-family: proxima_nova_rgbold, Helvetica, Arial, sans-serif;
       font-size: 16px;
       color: #5f544c; }
-      .table > thead > tr > th .total-price span:last-child,
-      .table > thead > tr > td .total-price span:last-child,
-      .table > tbody > tr > th .total-price span:last-child,
-      .table > tbody > tr > td .total-price span:last-child,
-      .table > tfoot > tr > th .total-price span:last-child,
-      .table > tfoot > tr > td .total-price span:last-child {
+      .table > thead > tr > th.total-price span:last-child,
+      .table > thead > tr > td.total-price span:last-child,
+      .table > tbody > tr > th.total-price span:last-child,
+      .table > tbody > tr > td.total-price span:last-child,
+      .table > tfoot > tr > th.total-price span:last-child,
+      .table > tfoot > tr > td.total-price span:last-child {
         color: #62a60a; }
   .table > thead > tr.td-title td,
   .table > tbody > tr.td-title td,
@@ -6236,13 +6236,14 @@ h3, h4, h5, h6 {
   border-bottom-left-radius: 2px; }
 
 .nav-tabs {
-  border-bottom: 4px solid #62a60a; }
+  border-bottom: 4px solid #f3ac00; }
   .nav-tabs li.active {
-    border-bottom: 1px solid #62a60a;
+    border-bottom: 1px solid #f3ac00;
     border-top-right-radius: 2px;
     border-top-left-radius: 2px; }
     .nav-tabs li.active > a, .nav-tabs li.active > a:hover, .nav-tabs li.active > a:active {
-      background-color: #62a60a;
+      font-family: prelobook, Helvetica, Arial, sans-serif;
+      background-color: #f3ac00;
       color: #fff; }
 
 .tab-content > .tab-pane {
