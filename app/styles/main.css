@@ -6357,6 +6357,7 @@ h3, h4, h5, h6 {
     height: 105px;
     overflow: hidden; }
     .product-box .product-top img {
+      display: block;
       height: 110px;
       margin-left: auto;
       margin-right: auto; }
