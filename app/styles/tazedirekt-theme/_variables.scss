@@ -2,8 +2,6 @@
 $td-custom-font-path: "../fonts/" !default;
 $td-custom-image-path: "../images/" !default;
 
-
-
 //== Colors
 //
 //## Gray and brand colors for use across Tazedirekt
@@ -55,6 +53,7 @@ $td-proxima-regular: proxima_nova_rgregular, $td-font-family-base !default;
 $td-proxima-nova-light: proxima_novalight, $td-font-family-base !default;
 $td-proxima-nova-italic: proxima_novalight_italic, $td-font-family-base !default;
 $td-prelo-semi-bold: prelosemibold, $td-font-family-base !default;
+$td-prelo-bold: prelobold, $td-font-family-base !default;
 $td-prelo-book: prelobook, $td-font-family-base !default;
 $td-prelo-black: prelo-black, $td-font-family-base !default;
 $td-prelo-light: prelolight, $td-font-family-base !default;
@@ -62,7 +61,6 @@ $td-proxima-nova-rgbold: proxima_nova_rgbold, $td-font-family-base !default;
 $td-proxima-nova-semi-bold: proxima_novasemibold, $td-font-family-base !default;
 $td-prelo-extra-light: preloextralight, $td-font-family-base !default;
 $td-prelo-extra-bold: preloextrabold, $td-font-family-base !default;
-
 
 $td-font-size-base: 13px !default;
 $td-font-size-large: ceil(($td-font-size-base * 1.35)) !default;
@@ -129,7 +127,6 @@ $td-input-error: $td-red !default;
 $td-input-background: #fff !default;
 $form-font-size: $td-font-size-normal !default;
 
-
 $td-primary-disabled-color: #b2e274 !default;
 $td-btn-lighter-delta: $td-delta-min !default;
 $td-btn-darker-delta: $td-delta-min !default;
@@ -156,7 +153,6 @@ $td-dropdown-link-color: $td-bold-link-color !default;
 //
 //##
 $td-modal-error: #f55656 !default;
-
 
 //** Padding applied to the modal body
 $td-modal-custom-font-size: 30px !default;
@@ -228,7 +224,7 @@ $td-switch-btn-delta: $td-delta-min !default;
 //
 //##
 $td-panel-border-left: 4px solid #62a60a !default;
-$td-navigation-text-color:#524840 !default;
+$td-navigation-text-color: #524840 !default;
 //== Thumbnails
 //
 //##

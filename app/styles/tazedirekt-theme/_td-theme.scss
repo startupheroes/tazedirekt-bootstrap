@@ -40,6 +40,17 @@ body {
 }
 
 @font-face {
+  font-family: 'prelobold';
+  src: url('#{$td-custom-font-path}/preloslab_bold-webfont.eot');
+  src: url('#{$td-custom-font-path}/preloslab_bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/preloslab_bold-webfont.woff2') format('woff2'),
+  url('#{$td-custom-font-path}/preloslab_bold-webfont.woff') format('woff'),
+  url('#{$td-custom-font-path}/preloslab_bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'prelosemibold';
   src: url('#{$td-custom-font-path}/preloslab_semibold-webfont.eot');
   src: url('#{$td-custom-font-path}/preloslab_semibold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -121,8 +132,6 @@ body {
 
 }
 
-
-
 @font-face {
   font-family: 'preloextrabold';
   src: url('#{$td-custom-font-path}/preloslab_extrabold-webfont.eot');
@@ -134,8 +143,6 @@ body {
   font-style: normal;
 
 }
-
-
 
 .td-bg-light-gray {
   @include background-color($td-light-gray);
