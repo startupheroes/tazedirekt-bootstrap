@@ -6402,6 +6402,7 @@ h3, h4, h5, h6 {
     color: #ddd6d0;
     text-decoration: line-through; }
   .product-box .product-price .new-price {
+    height: 46px;
     float: right;
     font-size: 16px;
     font-family: proxima_nova_rgbold, Helvetica, Arial, sans-serif;
