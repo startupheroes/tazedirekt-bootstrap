@@ -5803,9 +5803,10 @@ nav a {
       color: #5f544c;
       font-family: prelobook, Helvetica, Arial, sans-serif;
       width: 50px; }
-      .pagination > li > a:hover, .pagination > li > a:focus,
+      .pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > a.active,
       .pagination > li > span:hover,
-      .pagination > li > span:focus {
+      .pagination > li > span:focus,
+      .pagination > li > span.active {
         font-family: prelo-black, Helvetica, Arial, sans-serif;
         background-color: #fff;
         color: #62a60a; }
@@ -5815,10 +5816,6 @@ nav a {
       .pagination > li.disabled a:hover, .pagination > li.disabled a:active {
         background-color: #fff;
         color: #aca098; }
-    .pagination > li.first-holder, .pagination > li.last-holder {
-      width: 100px;
-      min-height: 38px;
-      background-color: #fff; }
 
 .td-image {
   border: 10px solid #fff; }
