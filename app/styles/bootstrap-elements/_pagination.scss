@@ -20,30 +20,6 @@
       }
 
     }
-    &:first-child {
-      > a,
-      > span {
-        margin-left: 0;
-        @include border-left-radius($td-border-radius-base);
-      }
-    }
-    &:last-child {
-      > a,
-      > span {
-        @include border-right-radius($td-border-radius-base);
-      }
-    }
-
-    &:first-child, &:last-child {
-      a {
-
-        background-color: $td-ash;
-        color: $solid-white;
-        &:hover, &:active {
-          background-color: darken($td-ash, 20%);
-        }
-      }
-    }
 
     &.disabled {
 
