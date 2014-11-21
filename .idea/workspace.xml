@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d31734ff-77e9-43d3-bff8-9d5c6ea44072" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/custom-elements/_product.scss" afterPath="$PROJECT_DIR$/app/styles/custom-elements/_product.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css.map" afterPath="$PROJECT_DIR$/app/styles/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -31,11 +32,11 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="99591" max-vertical-offset="99840">
-              <caret line="6650" column="0" selection-start-line="6650" selection-start-column="0" selection-end-line="6650" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="99636" max-vertical-offset="99885">
+              <caret line="6653" column="0" selection-start-line="6653" selection-start-column="0" selection-end-line="6653" selection-end-column="0" />
               <folding>
-                <marker date="1416567786000" expanded="true" signature="158045:158144" placeholder="{...}" />
-                <marker date="1416567786000" expanded="true" signature="175356:175499" placeholder="{...}" />
+                <marker date="1416567944000" expanded="true" signature="158045:158144" placeholder="{...}" />
+                <marker date="1416567944000" expanded="true" signature="175429:175572" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -67,8 +68,8 @@
       <file leaf-file-name="_product.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/styles/custom-elements/_product.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82244897" vertical-offset="1202" max-vertical-offset="3615">
-              <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.90816325" vertical-offset="1190" max-vertical-offset="3645">
+              <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -1008,11 +1009,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="99591" max-vertical-offset="99840">
-          <caret line="6650" column="0" selection-start-line="6650" selection-start-column="0" selection-end-line="6650" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="99636" max-vertical-offset="99885">
+          <caret line="6653" column="0" selection-start-line="6653" selection-start-column="0" selection-end-line="6653" selection-end-column="0" />
           <folding>
-            <marker date="1416567786000" expanded="true" signature="158045:158144" placeholder="{...}" />
-            <marker date="1416567786000" expanded="true" signature="175356:175499" placeholder="{...}" />
+            <marker date="1416567944000" expanded="true" signature="158045:158144" placeholder="{...}" />
+            <marker date="1416567944000" expanded="true" signature="175429:175572" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1053,8 +1054,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/custom-elements/_product.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82244897" vertical-offset="1202" max-vertical-offset="3615">
-          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.90816325" vertical-offset="1190" max-vertical-offset="3645">
+          <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -6377,7 +6377,13 @@ h3, h4, h5, h6 {
           line-height: 14px; }
         .product-box .product-top .product-info-wrapper .discount span:last-child {
           font-size: 17px;
-          line-height: 20px; }
+          line-height: 20px;
+          position: absolute;
+          width: 40px;
+          display: inline-block;
+          top: 17px;
+          left: 0;
+          text-align: center; }
     .product-box .product-top .product-status {
       position: absolute;
       display: none;

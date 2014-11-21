@@ -104,9 +104,11 @@
           font-size: 17px;
           line-height: 20px;
           position: absolute;
+          width: 40px;
+          display: inline-block;
           top: 17px;
-          left: 13px;
-
+          left: 0;
+          text-align: center;
         }
       }
 
