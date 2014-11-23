@@ -152,19 +152,21 @@
       font-size: 14px;
       font-family: $td-proxima-regular;
       float: left;
-      padding: 14px 0px 12px 10px;
+      padding: 0px 0px 0px 10px;
       color: $td-text-disabled;
       text-decoration: line-through;
+      line-height: 35px;
 
     }
 
     .new-price {
-      height: 46px;
       float: right;
       font-size: 16px;
       font-family: $td-proxima-nova-rgbold;
-      padding: 12px 10px 12px 10px;
+      padding: 0px 10px 0px 10px;
       color: $td-light-gray;
+      height: 35px;
+      line-height: 35px;
 
     }
 
@@ -221,7 +223,6 @@
     width: 145px;
 
     .product-details {
-
       padding: 8px;
 
     }
