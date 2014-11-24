@@ -6395,10 +6395,10 @@ h3, h4, h5, h6 {
     .product-box .product-details .product-owner {
       font-size: 12px;
       font-family: proxima_novalight_italic, Helvetica, Arial, sans-serif; }
-  .product-box span:first-child {
-    height: 36px;
-    overflow: hidden;
-    padding-right: 0; }
+    .product-box .product-details span:first-child {
+      height: 36px;
+      overflow: hidden;
+      padding-right: 0; }
   .product-box .product-price > div {
     min-height: 46px; }
   .product-box .product-price .old-price {
