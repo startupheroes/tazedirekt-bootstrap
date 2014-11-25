@@ -43,8 +43,8 @@
     border-bottom: 5px solid $td-ash;
   }
 
-  &.toast-hidden {
-    display: none;
+  &.toast-visible {
+    display: block;
   }
 
 }
