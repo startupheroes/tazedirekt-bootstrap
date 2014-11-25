@@ -6551,5 +6551,7 @@ h3, h4, h5, h6 {
     border-bottom: 5px solid #62a60a; }
   .toast-wrapper.toast-default {
     border-bottom: 5px solid #90857d; }
+  .toast-wrapper.toast-hidden {
+    display: none; }
 
 /*# sourceMappingURL=main.css.map */
