@@ -6517,4 +6517,35 @@ h3, h4, h5, h6 {
   border-bottom-left-radius: 2px;
   border-top-left-radius: 2px; }
 
+.toast-wrapper {
+  position: relative;
+  background-color: #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 13px;
+  padding: 20px;
+  padding-bottom: 15px;
+  width: 335px;
+  border-bottom: 5px solid #62a60a; }
+  .toast-wrapper > span {
+    display: inline-block;
+    color: #5f544c; }
+  .toast-wrapper .title {
+    font-family: proxima_nova_rgbold, Helvetica, Arial, sans-serif; }
+  .toast-wrapper .context {
+    font-family: proxima_nova_rgregular, Helvetica, Arial, sans-serif; }
+  .toast-wrapper a {
+    position: absolute;
+    display: inline-block;
+    line-height: 70px;
+    color: #5f544c;
+    font-size: 18px;
+    right: 0;
+    top: 0;
+    width: 70px;
+    height: 100%;
+    border-left: 1px solid #ddd;
+    padding-left: 26px; }
+
 /*# sourceMappingURL=main.css.map */

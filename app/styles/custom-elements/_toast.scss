@@ -1,0 +1,41 @@
+.toast-wrapper {
+  position: relative;
+  background-color: $solid-white;
+  @include border-all-side-radius($td-border-radius-base);
+  font-size: 13px;
+  padding: 20px;
+  padding-bottom: 15px;
+  width: 335px;
+  border-bottom: 5px solid $td-light-gray;
+
+  & > span {
+    display: inline-block;
+    color: $td-dark-brown;
+
+  }
+
+  .title {
+    font-family: $td-proxima-nova-rgbold;
+
+  }
+
+  .context {
+    font-family: $td-proxima-regular;
+  }
+
+  a {
+    position: absolute;
+    display: inline-block;
+    line-height: 70px;
+    color: $td-dark-brown;
+    font-size: 18px;
+    right: 0;
+    top: 0;
+    width: 70px;
+    height: 100%;
+    border-left: $td-table-td-border;
+    padding-left: 26px;
+
+  }
+
+}
