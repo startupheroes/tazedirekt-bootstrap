@@ -1,4 +1,5 @@
 .toast-wrapper {
+  display: none;
   position: relative;
   background-color: $solid-white;
   @include border-all-side-radius($td-border-radius-base);
@@ -6,17 +7,14 @@
   padding: 20px;
   padding-bottom: 15px;
   width: 335px;
-  border-bottom: 5px solid $td-light-gray;
 
   & > span {
     display: inline-block;
     color: $td-dark-brown;
-
   }
 
   .title {
     font-family: $td-proxima-nova-rgbold;
-
   }
 
   .context {
@@ -35,7 +33,14 @@
     height: 100%;
     border-left: $td-table-td-border;
     padding-left: 26px;
+  }
 
+  &.toast-success {
+    border-bottom: 5px solid $td-light-gray;
+  }
+
+  &.toast-default {
+    border-bottom: 5px solid $td-ash;
   }
 
 }

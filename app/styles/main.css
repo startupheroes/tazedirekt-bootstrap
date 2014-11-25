@@ -6518,6 +6518,7 @@ h3, h4, h5, h6 {
   border-top-left-radius: 2px; }
 
 .toast-wrapper {
+  display: none;
   position: relative;
   background-color: #fff;
   -webkit-border-radius: 2px;
@@ -6526,8 +6527,7 @@ h3, h4, h5, h6 {
   font-size: 13px;
   padding: 20px;
   padding-bottom: 15px;
-  width: 335px;
-  border-bottom: 5px solid #62a60a; }
+  width: 335px; }
   .toast-wrapper > span {
     display: inline-block;
     color: #5f544c; }
@@ -6547,5 +6547,9 @@ h3, h4, h5, h6 {
     height: 100%;
     border-left: 1px solid #ddd;
     padding-left: 26px; }
+  .toast-wrapper.toast-success {
+    border-bottom: 5px solid #62a60a; }
+  .toast-wrapper.toast-default {
+    border-bottom: 5px solid #90857d; }
 
 /*# sourceMappingURL=main.css.map */
