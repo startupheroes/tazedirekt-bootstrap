@@ -6414,7 +6414,7 @@ h3, h4, h5, h6 {
     float: right;
     font-size: 16px;
     font-family: proxima_nova_rgbold, Helvetica, Arial, sans-serif;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 0px;
     color: #62a60a;
     height: 35px;
     line-height: 35px; }
@@ -6453,8 +6453,7 @@ h3, h4, h5, h6 {
     .product-box .product-details {
       padding: 8px; }
     .product-box .product-price .old-price {
-      padding-right: 0px;
-      padding-top: 14px; } }
+      padding-right: 0px; } }
 .td-switch-button {
   position: relative;
   width: 70px;

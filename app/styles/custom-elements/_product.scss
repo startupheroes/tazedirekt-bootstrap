@@ -163,7 +163,7 @@
       float: right;
       font-size: 16px;
       font-family: $td-proxima-nova-rgbold;
-      padding: 0px 10px 0px 10px;
+      padding: 0px 10px 0px 0px;
       color: $td-light-gray;
       height: 35px;
       line-height: 35px;
@@ -230,7 +230,6 @@
     .product-price {
       .old-price {
         padding-right: 0px;
-        padding-top: 14px;
       }
     }
 
