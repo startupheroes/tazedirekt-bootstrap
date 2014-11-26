@@ -6393,6 +6393,7 @@ h3, h4, h5, h6 {
     padding: 10px;
     border-bottom: 1px solid rgba(144, 133, 125, 0.2); }
     .product-box .product-details .product-owner {
+      height: 17px;
       font-size: 12px;
       font-family: proxima_novalight_italic, Helvetica, Arial, sans-serif; }
     .product-box .product-details span:first-child {
@@ -6551,7 +6552,7 @@ h3, h4, h5, h6 {
     border-bottom: 5px solid #62a60a; }
   .toast-wrapper.toast-default {
     border-bottom: 5px solid #90857d; }
-  .toast-wrapper.toast-h {
+  .toast-wrapper.toast-visible {
     display: block; }
 
 /*# sourceMappingURL=main.css.map */
