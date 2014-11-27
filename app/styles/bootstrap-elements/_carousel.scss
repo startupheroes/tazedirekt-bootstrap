@@ -33,7 +33,7 @@
         position: absolute;
         bottom: 20px;
         font-size: 16px;
-
+        @include border-all-side-radius($td-border-radius-base);
       }
 
       p {

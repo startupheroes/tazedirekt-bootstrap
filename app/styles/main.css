@@ -5624,7 +5624,10 @@ nav a {
   .td-carousel .item .td-carousel-overlay a {
     position: absolute;
     bottom: 20px;
-    font-size: 16px; }
+    font-size: 16px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px; }
   .td-carousel .item .td-carousel-overlay p {
     font-size: 13px;
     margin-top: 15px; }
@@ -6393,9 +6396,10 @@ h3, h4, h5, h6 {
     padding: 10px;
     border-bottom: 1px solid rgba(144, 133, 125, 0.2); }
     .product-box .product-details .product-owner {
-      height: 17px;
-      font-size: 12px;
-      font-family: proxima_novalight_italic, Helvetica, Arial, sans-serif; }
+      height: 17px; }
+      .product-box .product-details .product-owner a {
+        font-size: 12px;
+        font-family: proxima_novalight_italic, Helvetica, Arial, sans-serif; }
     .product-box .product-details span:first-child {
       height: 36px;
       overflow: hidden;

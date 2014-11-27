@@ -131,8 +131,11 @@
 
     .product-owner {
       height: 17px;
-      font-size: 12px;
-      font-family: $td-proxima-nova-italic;
+      a {
+        font-size: 12px;
+        font-family: $td-proxima-nova-italic;
+      }
+
     }
     span:first-child {
       height: 36px;
