@@ -6399,7 +6399,8 @@ h3, h4, h5, h6 {
       height: 17px; }
       .product-box .product-details .product-owner a {
         font-size: 12px;
-        font-family: proxima_novalight_italic, Helvetica, Arial, sans-serif; }
+        font-family: proxima_novalight_italic, Helvetica, Arial, sans-serif;
+        color: #ddd6d0; }
     .product-box .product-details span:first-child {
       height: 36px;
       overflow: hidden;
