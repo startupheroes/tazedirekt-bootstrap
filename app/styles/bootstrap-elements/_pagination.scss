@@ -16,6 +16,7 @@
         font-family: $td-prelo-black;
         background-color: $solid-white;
         color: $td-light-gray;
+
       }
 
     }
@@ -29,7 +30,6 @@
         &:hover, &:active {
           background-color: $solid-white;
           color: lighten($td-dark-brown, 30%);
-
         }
 
       }

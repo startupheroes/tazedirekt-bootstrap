@@ -5811,7 +5811,7 @@ nav a {
       .pagination > li > span:hover,
       .pagination > li > span:focus,
       .pagination > li > span.active {
-        font-family: prelo-black, Helvetica, Arial, sans-serif;
+        font-family: preloblack, Helvetica, Arial, sans-serif;
         background-color: #fff;
         color: #62a60a; }
     .pagination > li.disabled a {
