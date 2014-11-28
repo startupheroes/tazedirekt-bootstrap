@@ -6507,7 +6507,8 @@ h3, h4, h5, h6 {
   text-align: center;
   font-size: 12px;
   display: inline-block;
-  float: left; }
+  float: left;
+  -webkit-appearance: none; }
 .td-counter a {
   display: inline-block;
   background-color: #dcd9cf;
