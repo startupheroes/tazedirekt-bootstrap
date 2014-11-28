@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31734ff-77e9-43d3-bff8-9d5c6ea44072" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/custom-elements/_counter.scss" afterPath="$PROJECT_DIR$/app/styles/custom-elements/_counter.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss" afterPath="$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css.map" afterPath="$PROJECT_DIR$/app/styles/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tazedirekt-bootstrap.iws" />
@@ -70,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_carousel.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_carousel.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1410">
-              <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.3319672" vertical-offset="603" max-vertical-offset="1410">
+              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -103,19 +104,19 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="97492" max-vertical-offset="98625">
-              <caret line="6510" column="1" selection-start-line="6510" selection-start-column="1" selection-end-line="6510" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="97522" max-vertical-offset="98640">
+              <caret line="6512" column="1" selection-start-line="6512" selection-start-column="1" selection-end-line="6512" selection-end-column="1" />
               <folding>
-                <marker date="1417175745000" expanded="true" signature="178462:178600" placeholder="{...}" />
+                <marker date="1417175773000" expanded="true" signature="178506:178645" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_counter.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_counter.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/custom-elements/_counter.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2626459" vertical-offset="0" max-vertical-offset="675">
+            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="675">
               <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding />
             </state>
@@ -176,11 +177,11 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/app/styles/custom-elements/_toast.scss" />
-        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss" />
         <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_pagination.scss" />
         <option value="$PROJECT_DIR$/app/styles/tazedirekt-theme/_variables.scss" />
         <option value="$PROJECT_DIR$/app/styles/custom-elements/_product.scss" />
         <option value="$PROJECT_DIR$/app/styles/custom-elements/_counter.scss" />
+        <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss" />
       </list>
     </option>
   </component>
@@ -1021,14 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1410">
-          <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_pagination.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="675">
@@ -1063,18 +1056,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="97492" max-vertical-offset="98625">
-          <caret line="6510" column="1" selection-start-line="6510" selection-start-column="1" selection-end-line="6510" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="97522" max-vertical-offset="98640">
+          <caret line="6512" column="1" selection-start-line="6512" selection-start-column="1" selection-end-line="6512" selection-end-column="1" />
           <folding>
-            <marker date="1417175745000" expanded="true" signature="178462:178600" placeholder="{...}" />
+            <marker date="1417175773000" expanded="true" signature="178506:178645" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/custom-elements/_counter.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2626459" vertical-offset="0" max-vertical-offset="675">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="675">
           <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3319672" vertical-offset="603" max-vertical-offset="1410">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
           <folding />
         </state>
       </provider>
