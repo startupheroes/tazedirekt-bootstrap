@@ -6509,6 +6509,7 @@ h3, h4, h5, h6 {
   display: inline-block;
   float: left;
   -webkit-appearance: none;
+  border: none;
   border-bottom: 1px solid #dcd9cf;
   border-top: 1px solid #dcd9cf; }
 .td-counter a {
