@@ -6309,7 +6309,7 @@ h3, h4, h5, h6 {
 
 .product-box {
   width: 160px;
-  border: 1px solid rgba(144, 133, 125, 0.2);
+  outline: 1px solid rgba(144, 133, 125, 0.2);
   background-color: #fff;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
