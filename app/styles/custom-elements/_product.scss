@@ -190,26 +190,32 @@
     color: $td-white;
     cursor: pointer;
 
-    .product-action-one {
-      width: 30%;
-      float: left;
-      font-size: 20px;
-      font-weight: 600;
-      text-align: center;
-      padding: 5px;
-      border-right: 1px solid rgba(0, 0, 0, 0.1);
-
-    }
     .product-action-two {
-      padding: 5px;
-      width: 70%;
+      position: relative;
+      width: 100%;
+      @include padding-horizontal(15px);
+      @include padding-vertical(5px);
       float: left;
+      text-align: right;
       font-family: $td-proxima-nova-light;
       font-size: 16px;
-      text-align: center;
       line-height: 27px;
       &:hover {
         background-color: darken($td-light-gray, 5%);
+      }
+
+      &:before {
+        position: absolute;
+        font-family: FontAwesome;
+        width: 50px;
+        height: 40px;
+        content: "\f067";
+        color:$solid-white;
+        left: 0;
+        top: 0;
+        @include padding-vertical(12px);
+        @include padding-horizontal(17px);
+
       }
 
     }
