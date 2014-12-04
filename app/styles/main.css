@@ -6450,7 +6450,7 @@ h3, h4, h5, h6 {
       .product-box .product-action .product-action-two:before {
         position: absolute;
         font-family: FontAwesome;
-        width: 50px;
+        width: 30%;
         height: 40px;
         line-height: 40px;
         content: "\f067";
@@ -6459,7 +6459,10 @@ h3, h4, h5, h6 {
         top: 0;
         padding-left: 17px;
         padding-right: 17px;
-        border-right: 1px solid #ddd; }
+        border-right: 1px solid #5a9a08; }
+      @media (max-width: 550px) {
+        .product-box .product-action .product-action-two:before {
+          padding-right: 9px; } }
     .product-box .product-action .td-plus {
       display: block; }
     .product-box .product-action .td-minus {

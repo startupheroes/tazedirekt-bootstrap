@@ -207,15 +207,21 @@
       &:before {
         position: absolute;
         font-family: FontAwesome;
-        width: 50px;
+        width: 30%;
         height: 40px;
         line-height: 40px;
         content: "\f067";
-        color:$solid-white;
+        color: $solid-white;
         left: 0;
         top: 0;
         @include padding-horizontal(17px);
         border-right: 1px solid #5a9a08;
+      }
+      @media (max-width: 550px) {
+
+        &:before {
+          padding-right: 9px;
+        }
 
       }
 
