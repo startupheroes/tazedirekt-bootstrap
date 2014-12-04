@@ -6452,14 +6452,14 @@ h3, h4, h5, h6 {
         font-family: FontAwesome;
         width: 50px;
         height: 40px;
+        line-height: 40px;
         content: "\f067";
         color: #fff;
         left: 0;
         top: 0;
-        padding-top: 12px;
-        padding-bottom: 12px;
         padding-left: 17px;
-        padding-right: 17px; }
+        padding-right: 17px;
+        border-right: 1px solid #ddd; }
     .product-box .product-action .td-plus {
       display: block; }
     .product-box .product-action .td-minus {
