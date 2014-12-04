@@ -217,12 +217,14 @@
         @include padding-horizontal(17px);
         border-right: 1px solid #5a9a08;
       }
-      @media (max-width: 550px) {
-        &:before {
-          padding-right: 9px;
-        }
-      }
 
+    }
+
+    @media (max-width: 550px) {
+      .product-action-two {
+
+        padding-right: 9px;
+      }
     }
 
     .td-plus {
