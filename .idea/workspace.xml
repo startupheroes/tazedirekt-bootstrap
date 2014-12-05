@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31734ff-77e9-43d3-bff8-9d5c6ea44072" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/custom-elements/_product.scss" afterPath="$PROJECT_DIR$/app/styles/custom-elements/_product.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/preloslab_medium-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/preloslab_medium-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/preloslab_medium-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/preloslab_medium-webfont.woff" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/fonts/PreloSlab_Medium.ttf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/tazedirekt-theme/_td-theme.scss" afterPath="$PROJECT_DIR$/app/styles/tazedirekt-theme/_td-theme.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/tazedirekt-theme/_variables.scss" afterPath="$PROJECT_DIR$/app/styles/tazedirekt-theme/_variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css.map" afterPath="$PROJECT_DIR$/app/styles/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="$PROJECT_DIR$/app/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -42,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/styles/tazedirekt-theme/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-27.38" vertical-offset="1106" max-vertical-offset="4095">
-              <caret line="165" column="2" selection-start-line="165" selection-start-column="2" selection-end-line="165" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.41189933" vertical-offset="660" max-vertical-offset="4110">
+              <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -65,8 +71,8 @@
       <file leaf-file-name="_td-theme.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/tazedirekt-theme/_td-theme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="14.208333" vertical-offset="1046" max-vertical-offset="3405">
-              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+            <state vertical-scroll-proportion="-6.16" vertical-offset="817" max-vertical-offset="3585">
+              <caret line="75" column="27" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -75,7 +81,7 @@
       <file leaf-file-name="_pagination.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_pagination.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6666667" vertical-offset="161" max-vertical-offset="675">
+            <state vertical-scroll-proportion="0.0" vertical-offset="161" max-vertical-offset="675">
               <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding />
             </state>
@@ -85,7 +91,7 @@
       <file leaf-file-name="_carousel.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.875" vertical-offset="168" max-vertical-offset="1410">
+            <state vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="1410">
               <caret line="35" column="62" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="62" />
               <folding />
             </state>
@@ -102,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_product.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_product.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/custom-elements/_product.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7075472" vertical-offset="3060" max-vertical-offset="4005">
-              <caret line="224" column="6" selection-start-line="224" selection-start-column="6" selection-end-line="224" selection-end-column="6" />
+            <state vertical-scroll-proportion="-10.625" vertical-offset="3105" max-vertical-offset="4005">
+              <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,8 +121,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1162" max-vertical-offset="1410">
-              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="862" max-vertical-offset="1110">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -178,7 +184,6 @@
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_tables.scss" />
         <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_navs.scss" />
-        <option value="$PROJECT_DIR$/app/styles/tazedirekt-theme/_td-theme.scss" />
         <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_dropdowns.scss" />
         <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_forms.scss" />
         <option value="$PROJECT_DIR$/app/styles/custom-elements/_side-navigation.scss" />
@@ -189,8 +194,9 @@
         <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_pagination.scss" />
         <option value="$PROJECT_DIR$/app/styles/custom-elements/_counter.scss" />
         <option value="$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss" />
-        <option value="$PROJECT_DIR$/app/styles/tazedirekt-theme/_variables.scss" />
         <option value="$PROJECT_DIR$/app/styles/custom-elements/_product.scss" />
+        <option value="$PROJECT_DIR$/app/styles/tazedirekt-theme/_td-theme.scss" />
+        <option value="$PROJECT_DIR$/app/styles/tazedirekt-theme/_variables.scss" />
       </list>
     </option>
   </component>
@@ -355,7 +361,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
+    <option name="x" value="-29" />
     <option name="y" value="23" />
     <option name="width" value="1370" />
     <option name="height" value="831" />
@@ -431,6 +437,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tazedirekt-theme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,8 +566,8 @@
       <recent name="$PROJECT_DIR$/app/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/images" />
       <recent name="$PROJECT_DIR$/app/fonts" />
+      <recent name="$PROJECT_DIR$/app/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/styles" />
       <recent name="$PROJECT_DIR$/app/styles/images" />
@@ -638,12 +666,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="23" width="1370" height="831" extended-state="0" />
+    <frame x="-29" y="23" width="1370" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270525" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34025204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928476" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854405" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1026,8 +1054,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1162" max-vertical-offset="1410">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="862" max-vertical-offset="1110">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1048,17 +1076,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/tazedirekt-theme/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.38" vertical-offset="1106" max-vertical-offset="4095">
-          <caret line="165" column="2" selection-start-line="165" selection-start-column="2" selection-end-line="165" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_carousel.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.875" vertical-offset="168" max-vertical-offset="1410">
+        <state vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="1410">
           <caret line="35" column="62" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="62" />
           <folding />
         </state>
@@ -1066,24 +1086,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/bootstrap-elements/_pagination.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667" vertical-offset="161" max-vertical-offset="675">
+        <state vertical-scroll-proportion="0.0" vertical-offset="161" max-vertical-offset="675">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/tazedirekt-theme/_td-theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="14.208333" vertical-offset="1046" max-vertical-offset="3405">
-          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/custom-elements/_product.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7075472" vertical-offset="3060" max-vertical-offset="4005">
-          <caret line="224" column="6" selection-start-line="224" selection-start-column="6" selection-end-line="224" selection-end-column="6" />
+        <state vertical-scroll-proportion="-10.625" vertical-offset="3105" max-vertical-offset="4005">
+          <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/tazedirekt-theme/_td-theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.16" vertical-offset="817" max-vertical-offset="3585">
+          <caret line="75" column="27" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/tazedirekt-theme/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41189933" vertical-offset="660" max-vertical-offset="4110">
+          <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
           <folding />
         </state>
       </provider>
