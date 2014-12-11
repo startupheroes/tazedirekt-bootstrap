@@ -5702,7 +5702,7 @@ nav a {
 .td-dropdown-caret {
   color: #62a60a;
   display: inline-block;
-  margin-left: 15px;
+  margin-left: 6px;
   font-size: 18px; }
   .td-dropdown-caret.fa-angle-up {
     display: none; }
