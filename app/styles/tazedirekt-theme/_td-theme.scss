@@ -227,8 +227,9 @@ body {
 }
 
 a {
-  font-family: $td-proxima-nova-light;
-  text-decoration: none;
+  font-family: $td-proxima-regular;
+  font-size: $td-font-size-normal;
+  text-decoration: underline;
 
   &.btn {
     font-family: $td-proxima-nova-light;
