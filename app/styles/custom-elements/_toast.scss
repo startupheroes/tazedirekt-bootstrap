@@ -1,7 +1,6 @@
 .toast-wrapper {
   display: none;
   position: relative;
-  background-color: $solid-white;
   @include border-all-side-radius($td-border-radius-base);
   font-size: 13px;
   padding: 20px;
@@ -10,38 +9,45 @@
 
   & > span {
     display: inline-block;
-    color: $td-dark-brown;
+    color: $solid-white;
     width: 100%;
-  }
-
-  .title {
-    font-family: $td-proxima-nova-rgbold;
   }
 
   .context {
     font-family: $td-proxima-regular;
+    font-size: 14px;
   }
 
   a {
     position: absolute;
     display: inline-block;
-    line-height: 70px;
-    color: $td-dark-brown;
+    line-height: 60px;
+    color: $solid-white;
     font-size: 18px;
     right: 0;
     top: 0;
-    width: 70px;
+    width: 55px;
     height: 100%;
-    border-left: $td-table-td-border;
-    padding-left: 26px;
+    border-left: 1px solid $td-toast-border;
+    padding-left: 20px;
   }
 
   &.toast-success {
-    border-bottom: 5px solid $td-light-gray;
+    border-bottom: 5px solid $td-toast-border;
+    background-color: $td-modal-error;
+
   }
 
   &.toast-default {
-    border-bottom: 5px solid $td-ash;
+    border-bottom: 5px solid $td-toast-default-border;
+    background-color: $td-toast-default-back;
+
+
+  a{
+    border-left: 1px solid $td-toast-default-border;
+
+  }
+
   }
 
   &.toast-visible {

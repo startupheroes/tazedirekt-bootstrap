@@ -104,6 +104,13 @@ $td-delta-medium: 15% !default;
 $td-delta-normal: 20% !default;
 $td-delta-max: 30% !default;
 
+//==Toast
+$td-toast-border: #ce4040 !default;
+$td-toast-default-back: #92877f !default;
+$td-toast-default-border: #776c64 !default;
+
+
+
 //== Links
 //
 $td-bold-link-color: #3f3e3a !default;
@@ -139,6 +146,12 @@ $td-btn-disabled-delta: $td-delta-medium !default;
 $td-btn-default-disabled: #d3e1be !default;
 $td-btn-link-disabled-color: $gray-light !default;
 
+//== Modals
+//
+//##
+$td-modal-error: #f55656 !default;
+
+
 //== Alerts
 //
 //## Define alert colors, border radius, and padding.
@@ -146,18 +159,17 @@ $td-success: #59c587 !default;
 $td-success-border: #4bab74 !default;
 $td-warning: #ece386 !default;
 $td-warning-border: #e3d86b !default;
-$td-danger: #f47c7d !default;
-$td-danger-border: #f55d5a !default;
+$td-danger: $td-modal-error !default;
+$td-danger-border: $td-modal-error !default;
+
+
 
 //== Dropdowns
 //
 //## Dropdown menu container and contents.
 $td-dropdown-link-color: $td-bold-link-color !default;
 
-//== Modals
-//
-//##
-$td-modal-error: #f55656 !default;
+
 
 //** Padding applied to the modal body
 $td-modal-custom-font-size: 30px !default;
