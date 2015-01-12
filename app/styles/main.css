@@ -5323,7 +5323,7 @@ body {
 a {
   font-family: proxima_nova_rgregular, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  text-decoration: underline; }
+  text-decoration: none; }
   a.btn {
     font-family: proxima_novalight, Helvetica, Arial, sans-serif; }
   a:hover, a:focus {
@@ -5331,6 +5331,9 @@ a {
   a:focus {
     outline: none;
     outline-offset: 0; }
+
+p a {
+  text-decoration: underline; }
 
 nav a {
   font-family: proxima_novalight, Helvetica, Arial, sans-serif; }

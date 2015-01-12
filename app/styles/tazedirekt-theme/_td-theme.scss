@@ -229,7 +229,7 @@ body {
 a {
   font-family: $td-proxima-regular;
   font-size: $td-font-size-normal;
-  text-decoration: underline;
+  text-decoration: none;
 
   &.btn {
     font-family: $td-proxima-nova-light;
@@ -242,6 +242,14 @@ a {
     outline: none;
     outline-offset: 0;
   }
+}
+
+p{
+
+  a{
+    text-decoration: underline;
+  }
+
 }
 
 nav a {
