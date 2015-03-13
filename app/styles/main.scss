@@ -3,7 +3,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 
 // bower:scss
 //bootstrap core libraries
-@import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
+@import '../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
 // utilities
 @import "utils/compass-config";
 @import 'utils/mixins';
