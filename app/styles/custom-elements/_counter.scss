@@ -13,7 +13,7 @@
 
   }
 
-  a {
+  button {
     display: inline-block;
     background-color: $td-counter-background-color;
     font-size: 12px;
@@ -26,14 +26,13 @@
       background-color:  $td-counter-background-hover-color;
       color: $td-white-text;
     }
-
   }
 
-  a.more {
+  button.more {
     @include border-right-radius(2px);
   }
 
-  a.less {
+  button.less {
     @include border-left-radius(2px);
   }
 
