@@ -84,7 +84,6 @@ body {
 
 }
 
-
 @font-face {
   font-family: 'preloblack';
   src: url('#{$td-custom-font-path}/preloslab_black-webfont.eot');
@@ -155,8 +154,6 @@ body {
 
 }
 
-
-
 @font-face {
   font-family: 'prelobook-italic';
   src: url('#{$td-custom-font-path}/preloslab_book_italic-webfont.eot');
@@ -168,7 +165,6 @@ body {
   font-style: normal;
 
 }
-
 
 @font-face {
   font-family: 'proxima_novaregular_italic';
@@ -182,9 +178,16 @@ body {
 
 }
 
-
-
-
+@font-face {
+  font-family: 'housescript';
+  src: url('#{$td-custom-font-path}/signpainter-housescript-webfont.eot');
+  src: url('#{$td-custom-font-path}/signpainter-housescript-webfont.eot?#iefix')
+  format('embedded-opentype'), url('#{$td-custom-font-path}/signpainter-housescript-webfont.woff2')
+  format('woff2'), url('#{$td-custom-font-path}/signpainter-housescript-webfont.woff') format('woff'),
+  url('#{$td-custom-font-path}/signpainter-housescript-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .td-bg-light-gray {
   @include background-color($td-light-gray);
@@ -244,9 +247,9 @@ a {
   }
 }
 
-p{
+p {
 
-  a{
+  a {
     text-decoration: underline;
   }
 
