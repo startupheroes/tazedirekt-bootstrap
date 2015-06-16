@@ -1,0 +1,57 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/" !default;
+
+
+// bower:scss
+//bootstrap core libraries
+@import '../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
+// utilities
+@import "utils/compass-config";
+@import 'utils/mixins';
+@import 'utils/utilities';
+@import 'utils/functions';
+//theme
+@import 'tazedirekt-theme/variables';
+@import 'tazedirekt-theme/td-theme';
+
+
+//elements
+@import 'bootstrap-elements/alerts';
+@import 'bootstrap-elements/badges';
+@import 'bootstrap-elements/buttons';
+@import 'bootstrap-elements/carousel';
+@import 'bootstrap-elements/dropdowns';
+@import 'bootstrap-elements/forms';
+@import 'bootstrap-elements/popovers';
+@import 'bootstrap-elements/pagination';
+@import 'bootstrap-elements/scaffolding';
+@import 'bootstrap-elements/tables';
+@import 'bootstrap-elements/modal';
+@import 'bootstrap-elements/tooltip';
+@import 'bootstrap-elements/labels';
+@import 'bootstrap-elements/type';
+@import 'bootstrap-elements/panels';
+@import 'bootstrap-elements/list-group';
+@import 'bootstrap-elements/navs';
+@import  'bootstrap-elements/navbar';
+
+
+//Custom elements
+@import 'custom-elements/select-box';
+@import 'custom-elements/product';
+@import 'custom-elements/switch';
+@import 'custom-elements/counter';
+@import 'custom-elements/toast';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
