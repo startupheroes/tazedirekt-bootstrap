@@ -7,33 +7,33 @@ body {
 
 @font-face {
   font-family: 'proxima_novalight';
-  src: url('#{$td-custom-font-path}/proximanova-light-webfont.eot');
-  src: url('#{$td-custom-font-path}/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/proximanova-light-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/proximanova-light-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/proximanova-light-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/proximanova-light-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/proximanova-light-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/proximanova-light-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/proximanova-light-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/proximanova-light-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'proxima_nova_rgregular';
-  src: url('#{$td-custom-font-path}/proximanova-reg-webfont.eot');
-  src: url('#{$td-custom-font-path}/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/proximanova-reg-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/proximanova-reg-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/proximanova-reg-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/proximanova-reg-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/proximanova-reg-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/proximanova-reg-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/proximanova-reg-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/proximanova-reg-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'proxima_novalight_italic';
-  src: url('#{$td-custom-font-path}/proximanova-lightitalic-webfont.eot');
-  src: url('#{$td-custom-font-path}/proximanova-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/proximanova-lightitalic-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/proximanova-lightitalic-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/proximanova-lightitalic-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/proximanova-lightitalic-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/proximanova-lightitalic-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/proximanova-lightitalic-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/proximanova-lightitalic-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/proximanova-lightitalic-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -41,44 +41,44 @@ body {
 
 @font-face {
   font-family: 'prelobold';
-  src: url('#{$td-custom-font-path}/preloslab_bold-webfont.eot');
-  src: url('#{$td-custom-font-path}/preloslab_bold-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/preloslab_bold-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/preloslab_bold-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/preloslab_bold-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/preloslab_bold-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/preloslab_bold-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/preloslab_bold-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/preloslab_bold-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/preloslab_bold-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'prelosemibold';
-  src: url('#{$td-custom-font-path}/preloslab_semibold-webfont.eot');
-  src: url('#{$td-custom-font-path}/preloslab_semibold-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/preloslab_semibold-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/preloslab_semibold-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/preloslab_semibold-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/preloslab_semibold-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/preloslab_semibold-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/preloslab_semibold-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/preloslab_semibold-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/preloslab_semibold-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'prelobook';
-  src: url('#{$td-custom-font-path}/preloslab_book-webfont.eot');
-  src: url('#{$td-custom-font-path}/preloslab_book-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/preloslab_book-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/preloslab_book-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/preloslab_book-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/preloslab_book-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/preloslab_book-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/preloslab_book-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/preloslab_book-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/preloslab_book-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'prelomedium';
-  src: url('#{$td-custom-font-path}/preloslab_medium-webfont.eot');
-  src: url('#{$td-custom-font-path}/preloslab_medium-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/preloslab_medium-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/preloslab_medium-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/preloslab_medium-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/preloslab_medium-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/preloslab_medium-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/preloslab_medium-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/preloslab_medium-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/preloslab_medium-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -86,11 +86,11 @@ body {
 
 @font-face {
   font-family: 'preloblack';
-  src: url('#{$td-custom-font-path}/preloslab_black-webfont.eot');
-  src: url('#{$td-custom-font-path}/preloslab_black-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/preloslab_black-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/preloslab_black-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/preloslab_black-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/preloslab_black-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/preloslab_black-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/preloslab_black-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/preloslab_black-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/preloslab_black-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -98,33 +98,33 @@ body {
 
 @font-face {
   font-family: 'prelolight';
-  src: url('#{$td-custom-font-path}/preloslab_light-webfont.eot');
-  src: url('#{$td-custom-font-path}/preloslab_light-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/preloslab_light-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/preloslab_light-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/preloslab_light-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/preloslab_light-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/preloslab_light-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/preloslab_light-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/preloslab_light-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/preloslab_light-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'proxima_nova_rgbold';
-  src: url('#{$td-custom-font-path}/proximanova-bold-webfont.eot');
-  src: url('#{$td-custom-font-path}/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/proximanova-bold-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/proximanova-bold-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/proximanova-bold-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/proximanova-bold-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/proximanova-bold-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/proximanova-bold-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/proximanova-bold-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/proximanova-bold-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'proxima_novasemibold';
-  src: url('#{$td-custom-font-path}/proximanova-sbold-webfont.eot');
-  src: url('#{$td-custom-font-path}/proximanova-sbold-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/proximanova-sbold-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/proximanova-sbold-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/proximanova-sbold-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/proximanova-sbold-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/proximanova-sbold-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/proximanova-sbold-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/proximanova-sbold-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/proximanova-sbold-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -132,11 +132,11 @@ body {
 
 @font-face {
   font-family: 'preloextralight';
-  src: url('#{$td-custom-font-path}/preloslab_extralight-webfont.eot');
-  src: url('#{$td-custom-font-path}/preloslab_extralight-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/preloslab_extralight-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/preloslab_extralight-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/preloslab_extralight-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/preloslab_extralight-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/preloslab_extralight-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/preloslab_extralight-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/preloslab_extralight-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/preloslab_extralight-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -144,11 +144,11 @@ body {
 
 @font-face {
   font-family: 'preloextrabold';
-  src: url('#{$td-custom-font-path}/preloslab_extrabold-webfont.eot');
-  src: url('#{$td-custom-font-path}/preloslab_extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/preloslab_extrabold-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/preloslab_extrabold-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/preloslab_extrabold-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/preloslab_extrabold-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/preloslab_extrabold-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/preloslab_extrabold-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/preloslab_extrabold-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/preloslab_extrabold-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -156,11 +156,11 @@ body {
 
 @font-face {
   font-family: 'prelobook-italic';
-  src: url('#{$td-custom-font-path}/preloslab_book_italic-webfont.eot');
-  src: url('#{$td-custom-font-path}/preloslab_book_italic-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/preloslab_book_italic-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/preloslab_book_italic-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/preloslab_book_italic-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/preloslab_book_italic-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/preloslab_book_italic-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/preloslab_book_italic-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/preloslab_book_italic-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/preloslab_book_italic-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -168,11 +168,11 @@ body {
 
 @font-face {
   font-family: 'proxima_novaregular_italic';
-  src: url('#{$td-custom-font-path}/proximanova-regitalic-webfont.eot');
-  src: url('#{$td-custom-font-path}/proximanova-regitalic-webfont.eot?#iefix') format('embedded-opentype'),
-  url('#{$td-custom-font-path}/proximanova-regitalic-webfont.woff2') format('woff2'),
-  url('#{$td-custom-font-path}/proximanova-regitalic-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/proximanova-regitalic-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/proximanova-regitalic-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/proximanova-regitalic-webfont.eot#iefix#{$td-font-version}') format('embedded-opentype'),
+  url('#{$td-custom-font-path}/proximanova-regitalic-webfont.woff2#{$td-font-version}') format('woff2'),
+  url('#{$td-custom-font-path}/proximanova-regitalic-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/proximanova-regitalic-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 
@@ -180,11 +180,11 @@ body {
 
 @font-face {
   font-family: 'housescript';
-  src: url('#{$td-custom-font-path}/signpainter-housescript-webfont.eot');
-  src: url('#{$td-custom-font-path}/signpainter-housescript-webfont.eot?#iefix')
-  format('embedded-opentype'), url('#{$td-custom-font-path}/signpainter-housescript-webfont.woff2')
-  format('woff2'), url('#{$td-custom-font-path}/signpainter-housescript-webfont.woff') format('woff'),
-  url('#{$td-custom-font-path}/signpainter-housescript-webfont.ttf') format('truetype');
+  src: url('#{$td-custom-font-path}/signpainter-housescript-webfont.eot#{$td-font-version}');
+  src: url('#{$td-custom-font-path}/signpainter-housescript-webfont.eot#iefix#{$td-font-version}')
+  format('embedded-opentype'), url('#{$td-custom-font-path}/signpainter-housescript-webfont.woff2#{$td-font-version}')
+  format('woff2'), url('#{$td-custom-font-path}/signpainter-housescript-webfont.woff#{$td-font-version}') format('woff'),
+  url('#{$td-custom-font-path}/signpainter-housescript-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
