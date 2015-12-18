@@ -177,7 +177,7 @@ body {
   font-style: normal;
 
 }
-
+/*
 @font-face {
   font-family: 'housescript';
   src: url('#{$td-custom-font-path}/signpainter-housescript-webfont.eot#{$td-font-version}');
@@ -187,6 +187,39 @@ body {
   url('#{$td-custom-font-path}/signpainter-housescript-webfont.ttf#{$td-font-version}') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+*/
+/* latin-ext */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amatic SC'), local('AmaticSC-Regular'), url('#{$td-custom-font-path}/6UByihrsVPWtZ99tNMIgMIX0hVgzZQUfRDuZrPvH3D8.woff2#{$td-font-version}') format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amatic SC'), local('AmaticSC-Regular'), url('#{$td-custom-font-path}/DPPfSFKxRTXvae2bKDzp5JBw1xU1rKptJj_0jans920.woff2#{$td-font-version}') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Amatic SC Bold'), local('AmaticSC-Bold'), url('#{$td-custom-font-path}/IDnkRTPGcrSVo50UyYNK74joYw3YTyktCCer_ilOlhE.woff2#{$td-font-version}') format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Amatic SC Bold'), local('AmaticSC-Bold'), url('#{$td-custom-font-path}/IDnkRTPGcrSVo50UyYNK7xampu5_7CjHW5spxoeN3Vs.woff2#{$td-font-version}') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
 .td-bg-light-gray {
